@@ -1,0 +1,6 @@
+{
+    "localhost": {
+        "env": "dev",
+        "file": "partner-config"
+    }
+}

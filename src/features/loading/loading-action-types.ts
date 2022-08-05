@@ -1,0 +1,2 @@
+const LOADING_NAMESPACE = "LOADING";
+export const APP_LOADED: string = `${LOADING_NAMESPACE}/APP_LOADED`;

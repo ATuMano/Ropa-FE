@@ -1,0 +1,115 @@
+{
+  "extends": [
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier",
+    "jsx-a11y",
+    "@typescript-eslint",
+    "import",
+    "jest"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "arrow-parens": 0,
+    "camelcase": 0,
+    "CssSyntaxError": 0,
+    "default-case": 2,
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "jest/no-disabled-tests": 2,
+    "jest/no-focused-tests": 2,
+    "jest/no-identical-title": 2,
+    "jsx-a11y/label-has-for": "off",
+    "linebreak-style": "off",
+    "max-lines": 2,
+    "new-cap": [
+      2,
+      {
+        "capIsNewExceptions": [
+          "Map",
+          "List"
+        ]
+      }
+    ],
+    "no-await-in-loop": 2,
+    "no-console": 0,
+    "no-duplicate-imports": 2,
+    "no-empty": 2,
+    "no-nested-ternary": 2,
+    "prefer-object-spread": 2,
+    "prefer-spread": 2,
+    "react/destructuring-assignment": "off",
+    /* 
+      NOTE:
+        disabled because of weird error:
+          Definition for rule 'react/jsx-filename-extension' was not found
+        It says that it cannot find this rule for some files even when it's on and clearly defined here.
+        Maybe it's a deps versions related issue? 
+    */
+    "react/jsx-filename-extension": "off",
+    "require-await": 2,
+    "semi": 2,
+    "spaced-comment": [
+      "error",
+      "always",
+      {
+        "markers": [
+          "/"
+        ]
+      }
+    ],
+    "vars-on-top": 2,
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.test.*",
+        "*.mock.*",
+        "*.spec.*"
+      ],
+      "rules": {
+        "max-lines": "off"
+      }
+    },
+    {
+      "files": [
+        "*.ts"
+      ],
+      "rules": {
+        "semi": "off"
+      }
+    }
+  ],
+  "settings": {
+    "import/extensions": [
+      ".ts",
+      ".tsx",
+      ".json"
+    ],
+    "import/resolver": {
+      "typescript": {}
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "name": "project-skeleton-fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@microsoft/applicationinsights-web": "2.5.8",
+    "husky": "4.2.3",
+    "i18next": "19.3.2",
+    "i18next-xhr-backend": "3.2.2",
+    "lodash": "4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-ga": "2.7.0",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "11.3.3",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "react-scripts": "5.0.0",
+    "redux": "4.0.5",
+    "redux-saga": "1.1.3",
+    "styled-components": "5.0.1",
+    "typescript": "4.0.3",
+    "web-vitals": "2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "shx rm -rf package && shx mkdir package && shx mkdir package/dist && shx cp -R build/* package/dist",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=jest-environment-jsdom",
+    "prettier": "prettier --write \"src/**/*.{ts,tsx,css,html}\"",
+    "lint": "npm run lint:eslint && npm run lint:prettier",
+    "lint:fix": "eslint --ext .ts,.tsx src/** --quiet --fix && prettier --write \"src/**/*.{ts,tsx,css,html}\"",
+    "lint:eslint": "eslint --ext .ts,.tsx src/** --quiet",
+    "lint:prettier": "npx run-script-os",
+    "lint:prettier:win32": "npx driveup && npm run lint:prettier:original",
+    "lint:prettier:darwin:linux": "npm run lint:prettier:original",
+    "lint:prettier:original": "prettier --loglevel=log --check ./src/**/*.ts*",
+    "lint:write": "prettier --loglevel=log --check ./src/**/*.ts* --write",
+    "test:ci": "npm run test:ci:unit-tests",
+    "test:ci:win32": "npx driveup && npm run test:ci:original",
+    "test:ci:darwin:linux": "npm run test:ci:original",
+    "test:ci:original": "npm run test:ci:unit-tests",
+    "test:ci:unit-tests": "cross-env CI=true react-scripts test --env=jest-environment-jsdom --runInBand --detectOpenHandles --forceExit --reporters=default --reporters=jest-junit --coverage --coverageDirectory=test/coverage",
+    "test:clearCache": "react-scripts test --clearCache",
+    "test:push": "npm run test:clearCache && npm run test:ci:unit-tests",
+    "refreshVSToken": "vsts-npm-auth -config .npmrc"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "8.11.4",
+    "@testing-library/jest-dom": "5.5.0",
+    "@testing-library/react": "10.4.9",
+    "@testing-library/user-event": "7.1.2",
+    "@types/jest": "25.2.3",
+    "@types/lodash": "4.14.177",
+    "@types/node": "12.0.0",
+    "@types/react": "16.9.0",
+    "@types/react-calendar": "3.0.1",
+    "@types/react-dom": "16.9.0",
+    "@types/react-helmet": "5.0.15",
+    "@types/react-redux": "7.1.7",
+    "@types/react-router-dom": "5.1.3",
+    "@types/redux-logger": "3.0.7",
+    "@types/styled-components": "5.0.1",
+    "@types/uuid": "7.0.3",
+    "@typescript-eslint/eslint-plugin": "5.14.0",
+    "@typescript-eslint/parser": "5.14.0",
+    "cross-env": "7.0.2",
+    "driveup": "1.0.1",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-jest": "23.8.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "jest-environment-jsdom": "27.5.1",
+    "jest-junit": "10.0.0",
+    "jest-mock-extended": "1.0.10",
+    "jest-watch-typeahead": "^0.6.5",
+    "prettier": "1.19.1",
+    "redux-devtools-extension": "2.13.8",
+    "redux-logger": "3.0.6",
+    "run-script-os": "1.1.1",
+    "shx": "0.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint && npm run test:ci:unit-tests"
+    }
+  },
+  "eslintIgnore": [
+    "*.css",
+    "*.svg"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!**/node_modules/**",
+      "!build/**",
+      "!**/__mocks__/**",
+      "!src/styles/*.{ts,tsx}",
+      "!src/serviceWorker.ts",
+      "!src/index.tsx",
+      "src/**/*.{ts,tsx}",
+      "utils/**/*.{ts}"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(rc-collapse|imask)/)"
+    ],
+    "coverageReporters": [
+      "cobertura",
+      "html",
+      "lcov",
+      "text"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
+  },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "outputDirectory": "test",
+    "outputName": "junit.xml",
+    "classNameTemplate": "{classname} - {title}",
+    "titleTemplate": "{classname} - {title}",
+    "ancestorSeparator": " > ",
+    "usePathForSuiteName": "true"
+  }
+}
