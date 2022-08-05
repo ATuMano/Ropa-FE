@@ -3,7 +3,7 @@ import { ConfigModel } from "./configuration-types";
 
 const configurationInitialState: ConfigModel = {
   partnerName: "Test",
-  theme: { ...defaultTheme}
+  theme: { ...defaultTheme }
 };
 
 export default configurationInitialState;
