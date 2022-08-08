@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@microsoft/applicationinsights-web": "2.5.8",
     "husky": "4.2.3",
     "i18next": "19.3.2",
