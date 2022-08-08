@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer tests should match snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    class="MuiBox-root MuiBox-root-1 sc-AxjAm bSNOkd"
+    data-testid="footer-main-container"
+  >
+    <div
+      class="MuiContainer-root sc-AxirZ ktnnZK MuiContainer-maxWidthLg"
+      data-testid="footer-content-container"
+    >
+      <div
+        class="MuiBox-root MuiBox-root-2 sc-AxhCb idZqcI"
+        data-testid="footer-links-container"
+      >
+        <p
+          class="MuiTypography-root sc-AxhUy gLOOJB MuiTypography-body2"
+        >
+          COMO FUNCIONA
+        </p>
+        <p
+          class="MuiTypography-root sc-AxhUy gLOOJB MuiTypography-body2"
+        >
+          Politicas de privacidad
+        </p>
+      </div>
+      <hr
+        class="MuiDivider-root sc-AxgMl koKxDy"
+      />
+      <p
+        class="MuiTypography-root sc-AxiKw jsOmMj MuiTypography-body2"
+      >
+        2022 Ropa a tu mano - Todos los derechos reservados
+      </p>
+    </div>
+  </footer>
+</DocumentFragment>
+`;

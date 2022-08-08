@@ -19,20 +19,21 @@ const Copyright = () => {
 const StickyFooter = () => {
   return (
     <FooterMainContainer
+      data-testid="footer-main-container"
       component="footer"
       sx={{
         px: 2,
         mt: "auto",
       }}
     >
-      <FooterContentContainer>
-        <FooterLinksContainer>
+      <FooterContentContainer data-testid="footer-content-container">
+        <FooterLinksContainer data-testid="footer-links-container">
           <FooterLink variant="body2">COMO FUNCIONA</FooterLink>
           <FooterLink variant="body2">Politicas de privacidad</FooterLink>
         </FooterLinksContainer>
 
         <FooterDivider variant="fullWidth" />
-        <Copyright />
+        <Copyright data-testid="footer-copyright" />
       </FooterContentContainer>
     </FooterMainContainer>
   );
