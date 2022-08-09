@@ -13,14 +13,16 @@ export interface CardItem {
 interface ImageCardProps {
   positionText?: AllowedPosition;
   card: CardItem;
+  onClick: () => void;
 }
 
 const ImageCard: React.FC<ImageCardProps> = ({
   positionText = "center",
   card,
+  onClick,
 }) => {
   return (
-    <CardItem>
+    <CardItem onClick={onClick}>
       <CardMedia component="img" height="100%" image={card.imageURL} />
       {card.text && (
         <TextOverlay positionText={positionText}>{card.text}</TextOverlay>

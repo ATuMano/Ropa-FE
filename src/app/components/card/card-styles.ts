@@ -24,4 +24,5 @@ export const CardItem = styled(Card)`
   margin: 1em;
   border-radius: unset !important;
   flex: 0 0 30%;
+  cursor: pointer;
 `;
