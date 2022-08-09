@@ -1,5 +1,6 @@
 import { Card } from "@material-ui/core";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+import { getCssForMobileView } from "styles/responsive";
 import { AllowedPosition } from "./card";
 
 const positionTop: { [key: string]: string } = {
@@ -14,15 +15,21 @@ export const TextOverlay = styled.div<{ positionText: AllowedPosition }>`
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
+`;
+
+const cardItemMobile = css`
+  flex-basis: 100%;
+  margin: 1em 0;
 `;
 
 export const CardItem = styled(Card)`
   position: relative;
-  height: 250px;
-  margin: 1em;
+  height: 300px;
   border-radius: unset !important;
   flex: 0 0 30%;
   cursor: pointer;
+  border: 1px solid #0bb3be;
+  ${getCssForMobileView(cardItemMobile)}
 `;
