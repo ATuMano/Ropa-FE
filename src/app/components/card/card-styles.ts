@@ -14,15 +14,15 @@ export const TextOverlay = styled.div<{ positionText: AllowedPosition }>`
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
 `;
 
 export const CardItem = styled(Card)`
   position: relative;
-  height: 250px;
-  margin: 1em;
+  height: 300px;
   border-radius: unset !important;
   flex: 0 0 30%;
   cursor: pointer;
+  border: 1px solid #0bb3be;
 `;
