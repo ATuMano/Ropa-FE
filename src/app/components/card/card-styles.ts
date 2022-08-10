@@ -28,7 +28,8 @@ export const CardItem = styled(Card)`
   position: relative;
   height: 300px;
   border-radius: unset !important;
-  flex: 0 0 30%;
+  flex: 0 0 32%;
+  margin: 0 0 10px 10px;
   cursor: pointer;
   border: 1px solid #0bb3be;
   ${getCssForMobileView(cardItemMobile)}
