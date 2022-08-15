@@ -2,8 +2,8 @@ import { Theme } from "styles";
 
 const defaultTheme: Theme = {
   textColor: "#333",
-  primaryColor: "#00008f",
-  secondaryColor: "#4976ba",
+  primaryColor: "#0BB3BE",
+  secondaryColor: "#0BB3BE",
   tertiaryColor: "#027180",
   lightColor: "#ffffff",
   darkColor: "#343c3d",
