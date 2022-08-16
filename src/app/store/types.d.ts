@@ -36,4 +36,5 @@ export interface State {
   isAppLoaded: boolean;
   configuration: ConfigModel;
   currentLanguage: string;
+  selectedCategory: string;
 }
