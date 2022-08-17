@@ -6,5 +6,5 @@ export const setSelectedCategory = (
   payload: string
 ): ActionStandard<string> => ({
   type: SELECTED_CATEGORY_ACTION,
-  payload,
+  payload
 });

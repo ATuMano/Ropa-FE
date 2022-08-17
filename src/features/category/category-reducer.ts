@@ -7,7 +7,7 @@ const categoryHandler: Mapping<Function> = {
   [SELECTED_CATEGORY_ACTION]: (
     _state: string,
     action: ActionStandard<string>
-  ) => action.payload,
+  ) => action.payload
 };
 
 export const categoryReducer = (

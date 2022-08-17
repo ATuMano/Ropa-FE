@@ -5,7 +5,7 @@ import {
   FooterDivider,
   FooterLink,
   FooterLinksContainer,
-  FooterMainContainer,
+  FooterMainContainer
 } from "./footer-styles";
 
 const Copyright = () => {
@@ -23,7 +23,7 @@ const StickyFooter = () => {
       component="footer"
       sx={{
         px: 2,
-        mt: "auto",
+        mt: "auto"
       }}
     >
       <FooterContentContainer data-testid="footer-content-container">
