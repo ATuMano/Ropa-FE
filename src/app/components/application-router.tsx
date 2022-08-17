@@ -3,6 +3,7 @@ import Layout from "app/pages/Layout/layout";
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Genders from "./genders/genders";
+import ProductDetail from "./product-detail/product-details";
 
 export const ApplicationRouter = () => {
   return (
@@ -13,6 +14,9 @@ export const ApplicationRouter = () => {
         </Route>
         <Route path="/genders" exact>
           <Genders />
+        </Route>
+        <Route path="/product/:productId" exact>
+          <ProductDetail />
         </Route>
       </Layout>
     </BrowserRouter>
