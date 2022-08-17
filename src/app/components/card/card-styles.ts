@@ -6,7 +6,7 @@ import { AllowedPosition } from "./card";
 const positionTop: { [key: string]: string } = {
   center: "50%",
   top: "20px",
-  bottom: "80%",
+  bottom: "80%"
 };
 
 export const TextOverlay = styled.div<{ positionText: AllowedPosition }>`

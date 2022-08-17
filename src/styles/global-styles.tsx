@@ -3,13 +3,9 @@ import styled, {
   GlobalStyleComponent,
   css
 } from "styled-components";
-import { Link } from "react-router-dom";
-
-import { ConfigModel } from "features/configuration/configuration-types";
 
 import { Theme } from "./types";
 import defaultTheme from "./default-theme";
-import { getCssForMobileView } from "./responsive";
 export const GlobalStyles: GlobalStyleComponent<
   { theme?: Theme },
   {}
@@ -35,105 +31,38 @@ ${({ theme }: { theme?: Theme }) => css`
   }
 `}`;
 
-export const getTheme = ({ theme }: ConfigModel): Theme => ({
-  ...defaultTheme,
-  ...theme
-});
-
-export const MainAppContainer = styled.div`
-  margin-top: 2em;
-
-  ${getCssForMobileView(css`
-    width: 100%;
-    margin: 0;
-  `)}
-`;
-
-export const ParagraphContainer = styled.div`
-  margin-bottom: 40px ${getCssForMobileView(css`
-      margin: 0;`)};
-`;
-
-export const Paragraph = styled.p`
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  color: ${({ theme }) => theme.textColor};
+export const MainButton = styled.button`
+  width: 153px;
+  height: 46px;
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 400;
-  text-align: justify;
-`;
-
-export const SectionName = styled.a`
-  font-weight: 700;
-  color: ${({ theme }) =>
-    theme.primaryColor === theme.headerBackgroundColor
-      ? theme.lightColor
-      : theme.primaryColor};
-  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  color: ${({ theme }) => theme.primaryColor};
+  background-color: ${({ theme }) => theme.lightColor};
   cursor: pointer;
-  text-decoration: none;
-  ${getCssForMobileView(css`
-    display: block;
-    width: 100%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    padding: 0px 15px 0px 5px;
-    font-weight: 700;
-    color: #00008f;
-  `)}
+  border: none;
+  &:hover {
+    color: ${({ theme }) => theme.lightColor};
+    border: 2px solid ${({ theme }) => theme.lightColor};
+    background-color: ${({ theme }) => theme.primaryColor};
+  }
 `;
 
-export const StyledHeaderLink = styled(Link)`
-  font-weight: 700;
-  color: ${({ theme }) =>
-    theme.primaryColor === theme.headerBackgroundColor
-      ? theme.lightColor
-      : theme.primaryColor};
-  display: block;
-  cursor: pointer;
-  text-decoration: none;
-  ${getCssForMobileView(css`
-    display: block;
-    width: 100%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    padding: 0px 15px 0px 5px;
-    font-weight: 700;
-    color: #00008f;
-  `)}
-`;
-
-export const BaseButtonLink = styled(Link)`
-  cursor: pointer;
-  text-decoration: none;
-`;
-
-export const BaseExternalButtonLink = styled.a`
-  cursor: pointer;
-  text-decoration: none;
-`;
-
-export const FieldDescription = styled.p`
+export const Text = styled.label`
   font-family: "Source Sans Pro";
   font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 18px;
-`;
-
-export const FieldError = styled.p`
-  font-size: 14px;
   font-weight: 600;
-  color: #c91432;
+  font-size: 30px;
+  line-height: 38px;
+  white-space: nowrap;
+  color: ${({ theme }) => theme.lightColor};
 `;
 
-export const BaseH3 = styled.h3`
-  font-family: PublicoHeadline;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  ${getCssForMobileView(css`
-    font-size: 32px;
-    line-height: 37px;
-  `)}
+export const TopSectionContainer = styled.div`
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  background-color: ${({ theme }) => theme.primaryColor};
 `;

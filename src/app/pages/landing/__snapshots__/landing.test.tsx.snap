@@ -3,27 +3,123 @@
 exports[`Landing tests should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="MuiBox-root MuiBox-root-1 sc-AxjAm ulEmE"
+    class="sc-AxiKw jnwjew"
+  >
+    <div
+      class="sc-AxhUy iKacuW"
+    >
+      <label
+        class="sc-AxirZ cEZXOn"
+      >
+        A donde quieres ir?
+      </label>
+      <div
+        class=" css-1ktriz-container"
+      >
+        <span
+          class="css-1f43avz-a11yText-A11yText"
+          id="react-select-2-live-region"
+        />
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          class="css-1f43avz-a11yText-A11yText"
+        />
+        <div
+          class=" css-1c5nzwc-control"
+        >
+          <div
+            class=" css-so14a7-ValueContainer"
+          >
+            <div
+              class=" css-ggeuks-placeholder"
+              id="react-select-2-placeholder"
+            >
+              Elige la ciudad
+            </div>
+            <div
+              class=" css-a2c4u8-Input"
+              data-value=""
+            >
+              <input
+                aria-autocomplete="list"
+                aria-describedby="react-select-2-placeholder"
+                aria-expanded="false"
+                aria-haspopup="true"
+                autocapitalize="none"
+                autocomplete="off"
+                autocorrect="off"
+                class=""
+                id="category"
+                role="combobox"
+                spellcheck="false"
+                style="opacity: 1; width: 100%; grid-area: 1 / 2; min-width: 2px; border: 0px; margin: 0px; outline: 0; padding: 0px;"
+                tabindex="0"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class=" css-1vsx5z8-IndicatorsContainer"
+          >
+            <div
+              aria-hidden="true"
+              class="sc-AxhCb aZtGQ"
+              data-testid="clear-selection"
+            >
+              <svg
+                fill="#0BB3BE"
+                height="12"
+                viewBox="0 0 20 12"
+                width="8"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M0.217152 2.15189L1.65198 0.717066L9.99999 9.06508L18.348 0.717066L19.7828 2.15189L10.0014 11.9333L0.217152 2.15189Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <input
+          name="category"
+          type="hidden"
+          value=""
+        />
+      </div>
+      <button
+        class="sc-AxjAm JdQpQ"
+      >
+        BUSCAR
+      </button>
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root-1 sc-AxheI hQCylW"
     data-testid="landing-imagen-container"
   >
     <div
-      class="MuiBox-root MuiBox-root-2 sc-AxirZ kQnIIt"
+      class="MuiBox-root MuiBox-root-2 sc-Axmtr fvjSIj"
       data-testid="landing-text-container"
     >
       <h4
-        class="MuiTypography-root sc-AxiKw jqnjlt MuiTypography-h4"
+        class="MuiTypography-root sc-AxmLO ccqxeK MuiTypography-h4"
         data-testid="landing-title"
       >
         Disfruta tus vacas
       </h4>
       <p
-        class="MuiTypography-root sc-AxiKw jqnjlt MuiTypography-body2 MuiTypography-paragraph"
+        class="MuiTypography-root sc-AxmLO ccqxeK MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-1"
       >
         Sabemos el estres de armar la valija. Es por eso que te solucionamos para que puedas enfocarte en disfrutar!
       </p>
       <p
-        class="MuiTypography-root sc-AxiKw jqnjlt MuiTypography-body2 MuiTypography-paragraph"
+        class="MuiTypography-root sc-AxmLO ccqxeK MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-2"
       >
         Preparate el pasaporte y el itinerario del viaje. Nosotros nos ocupamos de la ropa!

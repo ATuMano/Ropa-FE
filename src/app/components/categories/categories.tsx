@@ -9,16 +9,16 @@ const Categories = () => {
   const cards = [
     {
       text: "Femenino",
-      imageURL: "/assets/images/female.png",
+      imageURL: "/assets/images/female.png"
     },
     {
       text: "Masculino",
-      imageURL: "/assets/images/male.png",
+      imageURL: "/assets/images/male.png"
     },
     {
       text: "Niños",
-      imageURL: "/assets/images/children.png",
-    },
+      imageURL: "/assets/images/children.png"
+    }
   ];
 
   const handleOnClick = (card: CardItem) => {

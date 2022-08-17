@@ -19,7 +19,7 @@ interface ImageCardProps {
 const ImageCard: React.FC<ImageCardProps> = ({
   positionText = "center",
   card,
-  onClick,
+  onClick
 }) => {
   return (
     <CardItem onClick={onClick}>
@@ -29,7 +29,7 @@ const ImageCard: React.FC<ImageCardProps> = ({
       )}
       {!!card.buttons && (
         <CardActions>
-          {card.buttons.map((button) => (
+          {card.buttons.map(button => (
             <Button size="small">{button}</Button>
           ))}
         </CardActions>

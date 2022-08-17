@@ -14,6 +14,8 @@ import { actionWatcherMiddleware, triggeredActions } from "./triggered-actions";
 import rootReducer from "../app/store/reducers";
 import sagas from "../app/store/root-saga";
 import { State } from "app/store/types";
+import defaultTheme from "styles/default-theme";
+import { ThemeProvider } from "styled-components";
 
 const initialState: Partial<State> = {
   configuration: {
@@ -48,7 +50,9 @@ export const renderWithProviders = (
 
   const rendered = render(
     <Provider store={store}>
-      <Router>{Component}</Router>
+      <ThemeProvider theme={defaultTheme}>
+        <Router>{Component}</Router>
+      </ThemeProvider>
     </Provider>
   );
   return { ...rendered, store, screen };

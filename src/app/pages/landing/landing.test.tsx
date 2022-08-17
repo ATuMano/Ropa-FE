@@ -1,9 +1,9 @@
-import { render } from "@testing-library/react";
 import React from "react";
+import { renderWithProviders } from "utils/test-utils";
 import Landing from "./landing";
 
 describe("Landing tests", () => {
-  const renderLanding = () => render(<Landing />);
+  const renderLanding = () => renderWithProviders(<Landing />);
 
   it("should match snapshot", () => {
     const { asFragment } = renderLanding();
