@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProductContainer = styled.section`
   width: 80%;
-  margin: 0 auto;
+  margin: 2rem auto;
 `;
 
 export const ProductImagesContainer = styled.div`

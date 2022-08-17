@@ -1,10 +1,10 @@
-import { setSelectedCategory } from "features/category/category-actions";
+import { setSelectedGender } from "features/gender/gender-actions";
 import React from "react";
 import { useDispatch } from "react-redux";
 import ImageCard, { AllowedPosition, CardItem } from "../card/card";
-import { CardContainer } from "./categories-styles";
+import { CardContainer } from "./genders-styles";
 
-const Categories = () => {
+const Genders = () => {
   const dispatch = useDispatch();
   const cards = [
     {
@@ -22,7 +22,7 @@ const Categories = () => {
   ];
 
   const handleOnClick = (card: CardItem) => {
-    dispatch(setSelectedCategory(card.text));
+    dispatch(setSelectedGender(card.text));
   };
 
   return (
@@ -38,4 +38,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default Genders;
