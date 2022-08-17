@@ -7,7 +7,4 @@ export const LayoutContainer = styled(Box)`
   min-height: 100vh;
 `;
 
-export const MainContainer = styled(Box)`
-  max-width: 960px;
-  margin: 1em auto;
-`;
+export const MainContainer = styled(Box)``;

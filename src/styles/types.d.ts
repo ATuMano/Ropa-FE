@@ -23,6 +23,7 @@ export interface Theme {
   cookiesSecondaryColor: string;
   logoMargins: string;
   logoHeight: string;
+  grey500: string;
 }
 
 export interface FavIconReturnModel {
