@@ -8,12 +8,12 @@ export const StoresListContainer = styled(Box)`
   flex-direction: column;
 `;
 
-export const Card = styled(Box)`
+export const Card = styled(Box)<{ selected: boolean }>`
   display: flex;
   flex-direction: column;
   padding: 1rem 0 0.3rem;
   cursor: pointer;
-  background-color: white;
+  background-color: ${({ selected }) => (selected ? "#F0F0F0" : "white")};
   box-shadow: inset 0px -3px 0px #e5e5e5;
 `;
 

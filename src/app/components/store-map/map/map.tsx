@@ -1,5 +1,7 @@
 import React, { FC } from "react";
 import { Wrapper, Status } from "@googlemaps/react-wrapper";
+import { useDispatch } from "react-redux";
+import { setSelectedStore } from "features/selected-store/actions/selected-store-actions";
 
 const render = (status: Status) => {
   return <h1>{status}</h1>;
@@ -42,6 +44,8 @@ const MapWrapper: FC<{ markers: Store[] }> = ({ markers }) => {
             key={i}
             position={{ lat: store.coordinates[0], lng: store.coordinates[1] }}
             label={{ text: (i + 1).toString(), color: "white" }}
+            title={store.name}
+            storeID={store.__id__}
           />
         ))}
       </Map>
@@ -102,15 +106,22 @@ const Map: React.FC<MapProps> = ({
   );
 };
 
-const Marker: React.FC<google.maps.MarkerOptions> = (options) => {
-  const [marker, setMarker] = React.useState<google.maps.Marker>();
+interface MarkerProps {
+  storeID: string;
+  position: google.maps.LatLngLiteral;
+  label: google.maps.MarkerLabel;
+  title: string;
+  map?: google.maps.Map | null;
+}
 
+const Marker: React.FC<MarkerProps> = ({ storeID, ...options }) => {
+  const [marker, setMarker] = React.useState<google.maps.Marker>();
+  const dispatch = useDispatch();
   React.useEffect(() => {
     if (!marker) {
       setMarker(new google.maps.Marker());
     }
 
-    // remove marker from map on unmount
     return () => {
       if (marker) {
         marker.setMap(null);
@@ -121,6 +132,9 @@ const Marker: React.FC<google.maps.MarkerOptions> = (options) => {
   React.useEffect(() => {
     if (marker) {
       marker.setOptions({ ...options });
+      marker.addListener("click", () => {
+        dispatch(setSelectedStore(storeID));
+      });
     }
   }, [marker, options]);
 

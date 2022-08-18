@@ -11,7 +11,7 @@ const StoreList: FC<StoreListProps> = ({ stores }) => {
   const { country } = useSelector(selectFiltersTrip);
   return (
     <StoresListContainer>
-      <StoreListCard>{country}</StoreListCard>
+      <StoreListCard selected={false}>{country}</StoreListCard>
       {stores.map((storeItem, idx) => (
         <StoreCard key={storeItem.__id__} index={idx + 1} store={storeItem} />
       ))}
