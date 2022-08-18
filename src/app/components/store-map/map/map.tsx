@@ -41,6 +41,7 @@ const MapWrapper: FC<{ markers: Store[] }> = ({ markers }) => {
           <Marker
             key={i}
             position={{ lat: store.coordinates[0], lng: store.coordinates[1] }}
+            label={{ text: (i + 1).toString(), color: "white" }}
           />
         ))}
       </Map>
@@ -85,10 +86,6 @@ const Map: React.FC<MapProps> = ({
       if (onClick) {
         map.addListener("click", onClick);
       }
-
-      if (onIdle) {
-        map.addListener("idle", () => onIdle(map));
-      }
     }
   }, [map, onClick, onIdle]);
 
@@ -123,7 +120,7 @@ const Marker: React.FC<google.maps.MarkerOptions> = (options) => {
 
   React.useEffect(() => {
     if (marker) {
-      marker.setOptions(options);
+      marker.setOptions({ ...options });
     }
   }, [marker, options]);
 
