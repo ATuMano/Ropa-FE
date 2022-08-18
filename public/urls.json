@@ -2,5 +2,9 @@
     "localhost": {
         "env": "dev",
         "file": "partner-config"
+    },
+    "ropa-a-tu-mano": {
+        "env": "dev",
+        "file": "partner-config"
     }
 }

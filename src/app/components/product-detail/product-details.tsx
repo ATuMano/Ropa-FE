@@ -8,7 +8,7 @@ import {
   ProductTitle,
   ProductInfoContainer,
   ProductTable,
-  SelectContainer,
+  SelectContainer
 } from "./product-detail-styles";
 import { ActionTypes, Option, SelectActions } from "../select/select-types";
 import { MultiValue } from "react-select";
@@ -37,8 +37,8 @@ const fakeProduct = {
   images: [
     "/assets/images/male.png",
     "/assets/images/male.png",
-    "/assets/images/male.png",
-  ],
+    "/assets/images/male.png"
+  ]
 } as Product;
 
 const ProductDetail = () => {
@@ -51,7 +51,7 @@ const ProductDetail = () => {
 
   const onSelectValue = (selectedOption: Option | MultiValue<Option>) => {
     const values = Array.isArray(selectedOption)
-      ? selectedOption.map((item) => item.value)
+      ? selectedOption.map(item => item.value)
       : [(selectedOption as Option | null)?.value];
     setSelectedSize(values.toString());
   };
@@ -68,7 +68,7 @@ const ProductDetail = () => {
   };
 
   const getSizeOptions = () => {
-    return fakeProduct.sizes.map((size) => ({ label: size, value: size }));
+    return fakeProduct.sizes.map(size => ({ label: size, value: size }));
   };
 
   const getSelectedValue = () => {
@@ -78,7 +78,7 @@ const ProductDetail = () => {
   return (
     <ProductContainer>
       <ProductImagesContainer>
-        {fakeProduct.images.map((image) => (
+        {fakeProduct.images.map(image => (
           <ProductImage src={image} />
         ))}
       </ProductImagesContainer>
