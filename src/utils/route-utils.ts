@@ -18,7 +18,7 @@ export const assignToUrl = (newLocation: string): void => {
 
 export const getURLKey = (): string => {
   const { hostname } = getLocation();
-  return hostname;
+  return hostname.split('.')[0];
 };
 
 export const useQueryParam = (history: any): URLSearchParams =>

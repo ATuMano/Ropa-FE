@@ -7,8 +7,12 @@ export const getURLsFile = async (): Promise<URLSConfig> =>
 export const getConfigFileByBrandURL = async (
   urls: URLSConfig,
   brandUrl: string
-): Promise<ConfigModel> =>
-  await (await fetch(`/config/${urls[brandUrl].file}.json`)).json();
+): Promise<ConfigModel> => {
+  const matchedUrl = Object.keys(urls).filter((url) =>
+    brandUrl.toLocaleLowerCase().startsWith(url)
+  )[0];
+  return await (await fetch(`/config/${urls[matchedUrl].file}.json`)).json();
+};
 
 export const getConfigFileByURL = async (
   brandUrl: string

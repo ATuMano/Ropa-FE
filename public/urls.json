@@ -3,11 +3,7 @@
         "env": "dev",
         "file": "partner-config"
     },
-    "ropa-a-tu-mano.web.app": {
-        "env": "dev",
-        "file": "partner-config"
-    },
-    "ropa-a-tu-mano.firebaseapp.com": {
+    "ropa-a-tu-mano": {
         "env": "dev",
         "file": "partner-config"
     }
