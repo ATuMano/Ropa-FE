@@ -8,7 +8,7 @@ export const getConfigFileByBrandURL = async (
   urls: URLSConfig,
   brandUrl: string
 ): Promise<ConfigModel> => {
-  const matchedUrl = Object.keys(urls).filter((url) =>
+  const matchedUrl = Object.keys(urls).filter(url =>
     brandUrl.toLocaleLowerCase().startsWith(url)
   )[0];
   return await (await fetch(`/config/${urls[matchedUrl].file}.json`)).json();
