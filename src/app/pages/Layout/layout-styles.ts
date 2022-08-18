@@ -7,4 +7,6 @@ export const LayoutContainer = styled(Box)`
   min-height: 100vh;
 `;
 
-export const MainContainer = styled(Box)``;
+export const MainContainer = styled(Box)`
+  padding: 1em;
+`;
