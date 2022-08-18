@@ -2,5 +2,13 @@
     "localhost": {
         "env": "dev",
         "file": "partner-config"
+    },
+    "ropa-a-tu-mano.web.app": {
+        "env": "dev",
+        "file": "partner-config"
+    },
+    "ropa-a-tu-mano.firebaseapp.com": {
+        "env": "dev",
+        "file": "partner-config"
     }
 }

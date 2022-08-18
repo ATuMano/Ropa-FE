@@ -27,7 +27,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "shx rm -rf package && shx mkdir package && shx mkdir package/dist && shx cp -R build/* package/dist",
     "eject": "react-scripts eject",
     "test": "react-scripts test --env=jest-environment-jsdom",
     "prettier": "prettier --write \"src/**/*.{ts,tsx,css,html}\"",
