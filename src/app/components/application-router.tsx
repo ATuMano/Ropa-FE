@@ -4,6 +4,7 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Genders from "./genders/genders";
 import ProductDetail from "./product-detail/product-details";
+import StoreMap from "./store-map/store-map";
 
 export const ApplicationRouter = () => {
   return (
@@ -17,6 +18,9 @@ export const ApplicationRouter = () => {
         </Route>
         <Route path="/product/:productId" exact>
           <ProductDetail />
+        </Route>
+        <Route path="/map" exact>
+          <StoreMap />
         </Route>
       </Layout>
     </BrowserRouter>

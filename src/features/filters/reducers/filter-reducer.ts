@@ -6,31 +6,31 @@ import {
   CLEAR_FILTERS,
   UPDATE_COUNTRY,
   UPDATE_START_DATE,
-  UPDATE_END_DATE
+  UPDATE_END_DATE,
 } from "../actions/filter-action-types";
 import { FilterTrip } from "../filters.types";
 
 const initialFilter: FilterTrip = {
-  country: "",
+  country: "Barcelona",
   start_trip: "",
-  end_trip: ""
+  end_trip: "",
 };
 
 const filterHandler: Mapping<Function> = {
   [UPDATE_COUNTRY]: (state: FilterTrip, action: ActionStandard<string>) => ({
     ...state,
-    [FilterTripNames.COUNTRY]: action.payload
+    [FilterTripNames.COUNTRY]: action.payload,
   }),
   [UPDATE_START_DATE]: (state: FilterTrip, action: ActionStandard<string>) => ({
     ...state,
-    [FilterTripNames.START_DATE]: action.payload
+    [FilterTripNames.START_DATE]: action.payload,
   }),
   [UPDATE_END_DATE]: (state: FilterTrip, action: ActionStandard<number>) => ({
     ...state,
-    [FilterTripNames.END_DATE]: action.payload
+    [FilterTripNames.END_DATE]: action.payload,
   }),
   [CLEAR_FILTERS]: (_state: FilterTrip, _action: ActionStandard<FilterTrip>) =>
-    initialFilter
+    initialFilter,
 };
 
 export const filtersReducer = (
