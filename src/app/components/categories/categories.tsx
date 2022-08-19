@@ -12,7 +12,6 @@ const Categories = () => {
   const dispatch = useDispatch();
   const history = useHistory();
   const gender = useSelector(selectSelectedGender);
-
   const categories = database.Genders.filter(g => g.name === gender)[0]
     .Categories;
   const cards = categories?.map(c => ({ imageURL: c.photo, text: c.name }))!;
