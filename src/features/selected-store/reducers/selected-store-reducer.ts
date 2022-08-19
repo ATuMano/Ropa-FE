@@ -4,8 +4,10 @@ import { handle } from "utils/reducer-handler";
 import { SET_SELECTED_STORE } from "../actions/selected-store-actions";
 
 const selectedStoreHandler: Mapping<Function> = {
-  [SET_SELECTED_STORE]: (_state: string, action: ActionStandard<string>) =>
-    action.payload,
+  [SET_SELECTED_STORE]: (
+    _state: string,
+    action: ActionStandard<string | null>
+  ) => action.payload,
 };
 
 export const selectedStoreReducer = (

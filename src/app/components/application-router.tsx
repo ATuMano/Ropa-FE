@@ -6,6 +6,8 @@ import Genders from "./genders/genders";
 import ProductDetail from "./product-detail/product-details";
 import StoreMap from "./store-map/store-map";
 
+// TO DO map route should be removed from application router
+
 export const ApplicationRouter = () => {
   return (
     <BrowserRouter>
