@@ -36,21 +36,21 @@ const Genders = () => {
 
   return (
     <>
-    <TopSectionContainer>
-      <TitleContainer>
-        <Text>Define tu género</Text>
-        <MainButton onClick={goBack}>NUEVA BUSQUEDA</MainButton>
-      </TitleContainer>
-    </TopSectionContainer>
-    <CardContainer>
-      {cards.map((card: CardItem) => (
-        <ImageCard
-          card={card}
-          positionText={"top" as AllowedPosition}
-          onClick={() => handleOnClick(card)}
-        />
-      ))}
-    </CardContainer>
+      <TopSectionContainer>
+        <TitleContainer>
+          <Text>Define tu género</Text>
+          <MainButton onClick={goBack}>NUEVA BUSQUEDA</MainButton>
+        </TitleContainer>
+      </TopSectionContainer>
+      <CardContainer>
+        {cards.map((card: CardItem) => (
+          <ImageCard
+            card={card}
+            positionText={"top" as AllowedPosition}
+            onClick={() => handleOnClick(card)}
+          />
+        ))}
+      </CardContainer>
     </>
   );
 };

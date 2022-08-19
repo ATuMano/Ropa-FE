@@ -14,7 +14,11 @@ export const FiltersTrip = () => {
   const { country, start_trip, end_trip } = useSelector(selectFiltersTrip);
 
   const handleSearch = () => {
-    if(country && moment(start_trip, DATE_FORMAT, true).isValid() && moment(end_trip, DATE_FORMAT, true).isValid()) {
+    if (
+      country &&
+      moment(start_trip, DATE_FORMAT, true).isValid() &&
+      moment(end_trip, DATE_FORMAT, true).isValid()
+    ) {
       history.push("/genders");
     }
   };

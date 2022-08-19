@@ -1,19 +1,22 @@
 import { DATE_FORMAT, END_TRIP, START_TRIP } from "app/constants";
-import { updateEndDateTripFilter, updateStartDateTripFilter } from "features/filters/actions/filter-actions";
+import {
+  updateEndDateTripFilter,
+  updateStartDateTripFilter
+} from "features/filters/actions/filter-actions";
 import { FilterFields, FilterTrip } from "features/filters/filters.types";
 import { selectFiltersTrip } from "features/filters/selectors/filter-selector";
 import moment from "moment";
 import React from "react";
-import Datetime from 'react-datetime';
+import Datetime from "react-datetime";
 import "react-datetime/css/react-datetime.css";
 import { useDispatch, useSelector } from "react-redux";
 import styled from "styled-components";
-import 'moment/locale/es';
+import "moment/locale/es";
 
 type DateFilterProps = {
   fieldId: string;
-  placeholder: string
-}
+  placeholder: string;
+};
 
 const DateSelect = styled(Datetime)`
   .form-control {
@@ -38,8 +41,8 @@ const DateSelect = styled(Datetime)`
 `;
 
 const updateValue = {
-  [START_TRIP as string] : updateStartDateTripFilter,
-  [END_TRIP as string] : updateEndDateTripFilter
+  [START_TRIP as string]: updateStartDateTripFilter,
+  [END_TRIP as string]: updateEndDateTripFilter
 };
 
 const DateFilter = (props: DateFilterProps) => {
@@ -50,12 +53,16 @@ const DateFilter = (props: DateFilterProps) => {
   const clearValue = () => dispatch(updateValue[props.fieldId](""));
 
   const inputProps: any = {
-      placeholder: props.placeholder
+    placeholder: props.placeholder
   };
 
   const handleChange = (value: string | moment.Moment) => {
-    if(moment(value, DATE_FORMAT, true).isValid()) {
-      dispatch(updateValue[props.fieldId](moment.isMoment(value) ? moment(value).format(DATE_FORMAT) : value));
+    if (moment(value, DATE_FORMAT, true).isValid()) {
+      dispatch(
+        updateValue[props.fieldId](
+          moment.isMoment(value) ? moment(value).format(DATE_FORMAT) : value
+        )
+      );
     } else {
       clearValue();
     }
@@ -69,8 +76,7 @@ const DateFilter = (props: DateFilterProps) => {
       onChange={handleChange}
       dateFormat={DATE_FORMAT}
       closeOnSelect
-    >
-      </DateSelect>
+    ></DateSelect>
   );
 };
 

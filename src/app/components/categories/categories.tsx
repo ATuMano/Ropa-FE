@@ -13,8 +13,9 @@ const Categories = () => {
   const history = useHistory();
   const gender = useSelector(selectSelectedGender);
 
-  const categories = database.Genders.filter(g => g.name === gender)[0].Categories;
-  const cards = categories?.map(c => ({ imageURL: c.photo, text: c.name}))!;
+  const categories = database.Genders.filter(g => g.name === gender)[0]
+    .Categories;
+  const cards = categories?.map(c => ({ imageURL: c.photo, text: c.name }))!;
 
   const handleOnClick = (card: CardItem) => {
     dispatch(setSelectedCategory(card.text));
@@ -27,21 +28,21 @@ const Categories = () => {
 
   return (
     <>
-    <TopSectionContainer>
-      <TitleContainer>
-        <Text>Categorias</Text>
-        <MainButton onClick={goBack}>VOLVER AL ESTILO</MainButton>
-      </TitleContainer>
-    </TopSectionContainer>
-    <CardContainer>
-      {cards.map((card: CardItem) => (
-        <ImageCard
-          card={card}
-          positionText={"center" as AllowedPosition}
-          onClick={() => handleOnClick(card)}
-        />
-      ))}
-    </CardContainer>
+      <TopSectionContainer>
+        <TitleContainer>
+          <Text>Categorias</Text>
+          <MainButton onClick={goBack}>VOLVER AL ESTILO</MainButton>
+        </TitleContainer>
+      </TopSectionContainer>
+      <CardContainer>
+        {cards.map((card: CardItem) => (
+          <ImageCard
+            card={card}
+            positionText={"center" as AllowedPosition}
+            onClick={() => handleOnClick(card)}
+          />
+        ))}
+      </CardContainer>
     </>
   );
 };
