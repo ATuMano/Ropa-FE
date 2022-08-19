@@ -3,18 +3,6 @@ import { Wrapper, Status } from "@googlemaps/react-wrapper";
 import { useDispatch } from "react-redux";
 import { setSelectedStore } from "features/selected-store/actions/selected-store-actions";
 
-const svgMarker = {
-  path:
-    "M54.9869 50.1579C61.2611 45.6075 65.3332 38.273 65.3332 30C65.3332 16.1929 53.9911 5 39.9998 5C26.0086 5 14.6665 16.1929 14.6665 30C14.6665 38.273 18.7386 45.6075 25.0127 50.1579C29.7766 53.7004 36.4903 59.2871 38.0423 68.2769C38.2091 69.243 39.0195 69.9924 39.9998 69.9924C40.9802 69.9924 41.7906 69.243 41.9574 68.2769C43.5094 59.2871 50.223 53.7004 54.9869 50.1579Z",
-  fillColor: "#0BB3BE",
-  fillOpacity: 1,
-  strokeWeight: 0,
-  rotation: 0,
-  scale: 0.5,
-  labelOrigin: new google.maps.Point(40, 30),
-  anchor: new google.maps.Point(9, 35)
-};
-
 const render = (status: Status) => {
   return <h1>{status}</h1>;
 };
@@ -129,6 +117,17 @@ interface MarkerProps {
 const Marker: React.FC<MarkerProps> = ({ storeID, ...options }) => {
   const [marker, setMarker] = React.useState<google.maps.Marker>();
   const dispatch = useDispatch();
+  const svgMarker = {
+    path:
+      "M54.9869 50.1579C61.2611 45.6075 65.3332 38.273 65.3332 30C65.3332 16.1929 53.9911 5 39.9998 5C26.0086 5 14.6665 16.1929 14.6665 30C14.6665 38.273 18.7386 45.6075 25.0127 50.1579C29.7766 53.7004 36.4903 59.2871 38.0423 68.2769C38.2091 69.243 39.0195 69.9924 39.9998 69.9924C40.9802 69.9924 41.7906 69.243 41.9574 68.2769C43.5094 59.2871 50.223 53.7004 54.9869 50.1579Z",
+    fillColor: "#0BB3BE",
+    fillOpacity: 1,
+    strokeWeight: 0,
+    rotation: 0,
+    scale: 0.5,
+    labelOrigin: new google.maps.Point(40, 30),
+    anchor: new google.maps.Point(9, 35)
+  };
   React.useEffect(() => {
     if (!marker) {
       setMarker(new google.maps.Marker());
