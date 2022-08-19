@@ -3,11 +3,13 @@ import { configurationReducer } from "features/configuration/reducers/configurat
 import { genderReducer } from "features/gender/gender-reducer";
 import { filtersReducer } from "features/filters/reducers/filter-reducer";
 import { combineReducers } from "redux";
+import { categoryReducer } from "features/category/category-reducer";
 
 const reducers = combineReducers({
   isAppLoaded: appLoadedReducer,
   configuration: configurationReducer,
-  selectedCategory: genderReducer,
+  selectedGender: genderReducer,
+  selectedCategory: categoryReducer,
   filtersTrip: filtersReducer
 });
 
