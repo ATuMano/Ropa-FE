@@ -15,14 +15,7 @@ const MapWrapper: FC<{ markers: Store[] }> = ({ markers }) => {
     lng: firstMarkerLng
   });
 
-  const onClick = (e: google.maps.MapMouseEvent) => {
-    // avoid directly mutating state
-    console.log(e.latLng!);
-    // setClicks([...clicks, e.latLng!]);
-  };
-
   const onIdle = (m: google.maps.Map) => {
-    console.log("onIdle");
     setZoom(m.getZoom()!);
     setCenter(m.getCenter()!.toJSON());
   };
@@ -31,7 +24,6 @@ const MapWrapper: FC<{ markers: Store[] }> = ({ markers }) => {
     <Wrapper apiKey={"AIzaSyCGgGVPxRd-WDgUZHeNII9_8g56fSDuZIQ"} render={render}>
       <Map
         center={center}
-        onClick={onClick}
         onIdle={onIdle}
         zoom={zoom}
         style={{
