@@ -1,0 +1,2375 @@
+{
+  "Cities": [
+    {
+      "__id__": "GHJgp4iG7TH0illb5453",
+      "name": "Barcelona",
+      "Stores": [
+        {
+          "__id__": "16OONYTwawOfZVabXaYp",
+          "address": "C. del Pont del Treball Digne, 14, 08020 Barcelona",
+          "coordinates": "__GeoPoint__41.38815085772104###2.1677336656460415",
+          "name": "Sant Marti",
+          "phone": "+34 111 11 11 11"
+        },
+        {
+          "__id__": "GsSclcRLs6BoBmApit4F",
+          "address": "C. de Calàbria, 230, 08029 Barcelona",
+          "coordinates": "__GeoPoint__41.386649938872964###2.147824032132486",
+          "name": "Entença",
+          "phone": "+34 333 33 33 33"
+        },
+        {
+          "__id__": "VM0grwDlmffBbHrOHVqW",
+          "address": "C. de València, 385, 08013 Barcelona",
+          "coordinates": "__GeoPoint__41.402111955566085###2.1725686261979407",
+          "name": "Sagrada Familia",
+          "phone": "+34 222 22 22 22"
+        }
+      ]
+    },
+    {
+      "__id__": "I01I4tby94WxnXZ4GzrB",
+      "name": "Florencia",
+      "Stores": [
+        {
+          "__id__": "msyMDYlxzW4Kmz4UHlg1",
+          "address": "Via dei Neri, 65r, 50122 Firenze FI, Italy",
+          "coordinates": "__GeoPoint__43.76839719422838###11.257341207359449",
+          "name": "FLO Local 1",
+          "phone": "+39 111 11 11 11"
+        },
+        {
+          "__id__": "eTK94m8gSd8QEWf3g1vi",
+          "adress": "Piazza del Duomo, 50122 Firenze FI, Italy",
+          "coordinates": "__GeoPoint__43.77279489627547###11.25570665322184",
+          "name": "FLO Local 2",
+          "phone": "+39 222 22 22 22"
+        },
+        {
+          "__id__": "zUXvAbQHmbor5gku6Fng",
+          "address": "Via dei Serragli, 32r, 50124 Firenze FI, Italy",
+          "coordinates": "__GeoPoint__43.76771077266016###11.245678666508462",
+          "name": "FLO Local 3",
+          "phone": "+39 333 33 33 33"
+        }
+      ]
+    },
+    {
+      "__id__": "X4yIhQwxtTHbX82j3LIP",
+      "name": "Amsterdam",
+      "Stores": [
+        {
+          "__id__": "DaX8IJZ051A5iKztsMEe",
+          "address": "Oudekerksplein 23, 1012 GX Amsterdam, Netherlands",
+          "coordinates": "__GeoPoint__52.374366012482085###4.898171000194347",
+          "name": "AMS Local 2",
+          "phone": "+31 222 22 22 22"
+        },
+        {
+          "__id__": "Sgxtxt8z1zoEmblh5ejs",
+          "address": "Stadhouderskade 78, 1072 AE Amsterdam, Netherlands",
+          "coordinates": "__GeoPoint__52.35786086744371###4.89181592094136",
+          "name": "AMS Local 1",
+          "phone": "+31 111 11 11 11"
+        },
+        {
+          "__id__": "pOHSbDHwD8cN1oeY4K0n",
+          "address": "Singel, 1012 DH Amsterdam, Netherlands",
+          "coordinates": "__GeoPoint__52.36682204751731###4.891313053460436",
+          "name": "AMS Local 3",
+          "phone": "+31 333 33 33 33"
+        }
+      ]
+    },
+    {
+      "__id__": "b6JBEUKr0Id1FuTwkkN3",
+      "name": "Liverpool",
+      "Stores": [
+        {
+          "__id__": "9FdZaYpKJ66JldHOJG6j",
+          "address": "Britannia Vaults, Royal Albert Dock, Liverpool L3 4AD, United Kingdom",
+          "coordinates": "__GeoPoint__53.39933155494238###-2.9920453640281015",
+          "name": "Beatles Store",
+          "phone": "+44 333 33 33 33"
+        },
+        {
+          "__id__": "Y6sdkM5yQUzgfJZEQC1I",
+          "address": "251 Menlove Avenue, 251 Menlove Ave, Liverpool L25 7SA, United Kingdom",
+          "coordinates": "__GeoPoint__53.37722732573536###-2.881400467199984",
+          "name": "John L. Store",
+          "phone": "+44 111 11 11 11"
+        },
+        {
+          "__id__": "wttPy7B3FaF8Ib3n5Opx",
+          "address": "20 Forthlin Rd, Liverpool L18 9TN, United Kingdom",
+          "coordinates": "__GeoPoint__53.369673536724505###-2.897914489373658",
+          "name": "Paul M. Store",
+          "phone": "+44 222 22 22 22"
+        }
+      ]
+    },
+    {
+      "__id__": "s8gdiMClcM9gIjCzjMyY",
+      "name": "Londres",
+      "Stores": [
+        {
+          "__id__": "hDvIaklzA1ywTjko2E22",
+          "address": "174 Queen Victoria St, Greater, London EC4V 4EG, United Kingdom",
+          "coordinates": "__GeoPoint__51.51210911218346###-0.10371935495343518",
+          "name": "LON Store 1",
+          "phone": "+44 111 11 11 11"
+        },
+        {
+          "__id__": "sOpsy2SNxC77Hrw5Ju3J",
+          "address": "52 Victoria St, London SW1H 0NP, United Kingdom",
+          "coordinates": "__GeoPoint__51.49771830809918###-0.13559191863589706",
+          "name": "LON Store 2",
+          "phone": "+44 222 22 22 22"
+        },
+        {
+          "__id__": "zltoSA6NvajFJYLWGHLb",
+          "address": "221b Baker St, London NW1 6XE, United Kingdom",
+          "coordinates": "__GeoPoint__51.523758321894164###-0.15854070600603304",
+          "name": "Sherlock Store",
+          "phone": "+44 333 33 33 33"
+        }
+      ]
+    },
+    {
+      "__id__": "vYtqs7evk1N2XLas1R4o",
+      "name": "Roma",
+      "Stores": [
+        {
+          "__id__": "90PrKPjSRVf7jXQiBLQx",
+          "address": "Via dell'Archetto, 26, 00187 Roma RM, Italy",
+          "coordinates": "__GeoPoint__41.89936304166773###12.482854720298448",
+          "name": "ROM Local 1",
+          "phone": "+39 111 11 11 11"
+        },
+        {
+          "__id__": "FXmSQsiX9KzXvWCwDXiJ",
+          "address": "Via Ferruccio, 12/b/c, 00185 Roma RM, Italy",
+          "coordinates": "__GeoPoint__41.89382209826119###12.502270536040466",
+          "name": "ROM Local 2",
+          "phone": "+39 222 22 22 22"
+        },
+        {
+          "__id__": "hR1TDaJU7syjohK7cMB0",
+          "address": "Piazza di Santa Maria in Trastevere, 00153 Roma RM, Italy",
+          "coordinates": "__GeoPoint__41.889483066073396###12.470299361966132",
+          "name": "ROM Local 3",
+          "phone": "+39 333 33 33 33"
+        }
+      ]
+    }
+  ],
+  "Genders": [
+    {
+      "__id__": "8Kvm2piJdAEfUmMUiP4v",
+      "name": "Masculino",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/genders%2Fmale.png?alt=media&token=bcbca8fa-3867-4291-b988-2cfccaddb418",
+      "Categories": [
+        {
+          "__id__": "RMabQ73u31Dwql44VIpg",
+          "name": "Camisetas",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-1a.jpg?alt=media&token=557b6032-20a6-460b-a660-40b56eb81ebd",
+          "Products_summary": [
+            {
+              "__id__": "HFkP1mjyuq4x1Vdlm741",
+              "name": "CAMISETA ESTAMPADO ABSTRACTO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-5a.jpg?alt=media&token=32d43846-4787-499e-a147-669c1f7309b5"
+            },
+            {
+              "__id__": "YHAAUscUg2RZRWQDatWt",
+              "name": "CAMISETA RAYAS TEXTO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-9a.jpg?alt=media&token=78a8f8c5-a03e-4311-905a-413a983d2592"
+            },
+            {
+              "__id__": "a7Zbih4lY7GQznVM6vK5",
+              "name": "CAMISETA ESTAMPADO TRAZOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-4a.jpg?alt=media&token=5621f00a-741b-4ed6-a05b-92c91099b653"
+            },
+            {
+              "__id__": "iZVXM3Fs55aLsQyrX0oo",
+              "name": "CAMISETA FLUIDA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-7a.jpg?alt=media&token=173d801d-cd65-4b16-8e20-7b5c4e9bee16"
+            },
+            {
+              "__id__": "jnFCyA0aUtZTXFx2r4dh",
+              "name": "CAMISETA ESTAMPADO TIE DYE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-6a.jpg?alt=media&token=28a8909b-33c1-4639-9134-7b929cfe39f9"
+            },
+            {
+              "__id__": "lfqssOtMbKLxNq8nQXXd",
+              "name": "CAMISETA FLUIDA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-8a.jpg?alt=media&token=dfc7f8c1-d13e-48e4-bccb-e74ad447b9ad"
+            },
+            {
+              "__id__": "sy4GB1AwcpxZfUn9y8J5",
+              "name": "SUDADERA ESTAMPADO TEXTO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-2a.jpg?alt=media&token=c2b61e39-c13b-47c7-add9-a54f9c0a6445"
+            },
+            {
+              "__id__": "tBmvkjJauQKa0cgfe28k",
+              "name": "CAMISETA ESTAMPADO FLOR",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-3a.jpg?alt=media&token=87f75d93-7af1-4a41-9bd7-127b19fead7e"
+            },
+            {
+              "__id__": "x87t6oNkYHx8mC9of8R3",
+              "name": "CAMISETA ESTAMPADO GRAFFITI",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-1a.jpg?alt=media&token=557b6032-20a6-460b-a660-40b56eb81ebd"
+            }
+          ]
+        },
+        {
+          "__id__": "Fda0aDiBpO13qFjLyhcg",
+          "name": "Camisas",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-1a.jpg?alt=media&token=50ecbafd-989f-422d-b727-aa165e54bd8c",
+          "Products_summary": [
+            {
+              "__id__": "0gVFO6gsyhWHvR6hj23N",
+              "name": "CAMISA ESTRUCTURA LINO - ALGODÓN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-8a.jpg?alt=media&token=bd3c6e08-1a47-45c6-8cba-c256bde66d3b"
+            },
+            {
+              "__id__": "27FGlqeOfdkUgayIbjiy",
+              "name": "CAMISA ESTAMPADO RAYAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-1a.jpg?alt=media&token=50ecbafd-989f-422d-b727-aa165e54bd8c"
+            },
+            {
+              "__id__": "GsUH79s6c3BsXKtPkVDT",
+              "name": "CAMISA ESTAMPADO GEOMÉTRICO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-2a.jpg?alt=media&token=5cc92590-7b5e-4013-8e9c-f49f0c608967"
+            },
+            {
+              "__id__": "Nc3L1XCfTdakinN5WGkb",
+              "name": "CAMISA ESTAMPADO ABSTRACTO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-5a.jpg?alt=media&token=6abe63d3-c63b-47ff-8459-ba79c2c79158"
+            },
+            {
+              "__id__": "ZfIXA4hE69WdgiMrhbRU",
+              "name": "CAMISA GRÁFICOS SEBASTIAN CURI",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-6a.jpg?alt=media&token=416f1cdb-a8e2-477a-bb01-cc3da85f5d4d"
+            },
+            {
+              "__id__": "gNsEigmBDTRrumsmHvda",
+              "name": "CAMISA ESTRUCTURA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-3a.jpg?alt=media&token=7ccb28e3-12f6-470d-8cb8-70f4a2c425c9"
+            },
+            {
+              "__id__": "rZW97PQvEvbu3m7qDRI5",
+              "name": "CAMISA LLAMAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-9a.jpg?alt=media&token=a0782a13-c260-457c-aa55-2040074b08bb"
+            },
+            {
+              "__id__": "svnSJyAI2jRAMDlBTC3L",
+              "name": "CAMISA ESTAMPADO ONDAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-4a.jpg?alt=media&token=f73fe8b2-5272-4ade-b00a-f3b16af72a18"
+            },
+            {
+              "__id__": "xG00XQ7VxMAaOKYNzYe1",
+              "name": "CAMISA OXFORD",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-7a.jpg?alt=media&token=594f9d96-e316-4e86-92c3-8363165b8e9c"
+            }
+          ]
+        },
+        {
+          "__id__": "OCKrtnTFDClZsu24y9jI",
+          "name": "Polos",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-1a.jpg?alt=media&token=8145ae11-90b2-474b-a43c-d6be3f2fdd43",
+          "Products_summary": [
+            {
+              "__id__": "0VL3VcIAzIpNLplIE44m",
+              "name": "POLO PUNTO ESTRUCTURA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-9a.jpg?alt=media&token=779f079d-b666-406a-b6db-53b0849e13a1"
+            },
+            {
+              "__id__": "2n2RP0GlrEVEdpta6wJC",
+              "name": "POLO JACQUARD RAYAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-3a.jpg?alt=media&token=862d0c76-7291-43c4-a99e-a2cfeb904353"
+            },
+            {
+              "__id__": "4k4TunNEIy7a9aLCIwdh",
+              "name": "POLO ESTRUCTURA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-7a.jpg?alt=media&token=8a962a66-4224-4998-91d2-fceab36df729"
+            },
+            {
+              "__id__": "6IxdRA0cpVxqvrRd0BSj",
+              "name": "POLO ESTRUCTURA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-1a.jpg?alt=media&token=8145ae11-90b2-474b-a43c-d6be3f2fdd43"
+            },
+            {
+              "__id__": "CFohqjcZvwWXHIbFx7By",
+              "name": "POLO JACQUARD",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-5a.jpg?alt=media&token=cd0b0679-0203-4864-8674-a5706b1347bf"
+            },
+            {
+              "__id__": "LeG23W3dWu40g4xyL2CL",
+              "name": "POLO RAYAS PARCHE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-6a.jpg?alt=media&token=b3d43d34-d1e3-4a35-b900-08f5291eeecb"
+            },
+            {
+              "__id__": "Zjs1iJCBRoQKL63e2nxl",
+              "name": "POLO JACQUARD RAYAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-4a.jpg?alt=media&token=08651f4b-4291-4396-b67f-fea11199d4a1"
+            },
+            {
+              "__id__": "a14wzKXOuSktZ93DGQde",
+              "name": "POLO CUELLO COMBINADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-2a.jpg?alt=media&token=c93ee338-547f-457a-9893-b5d890969398"
+            },
+            {
+              "__id__": "dWAcvHgFoxs8jCZkISwK",
+              "name": "POLO PUNTO ESTRUCTURA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-8a.jpg?alt=media&token=bf549c2f-e02d-4c87-976e-f37f9f23abf6"
+            }
+          ]
+        },
+        {
+          "__id__": "kf0vj3xDyMsZKE3bYs64",
+          "name": "Pantalones",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-1a.jpg?alt=media&token=c1a3b389-1e6c-4876-808e-0ad0098e3a9b",
+          "Products_summary": [
+            {
+              "__id__": "17kGadJETiwfzRzTCxFj",
+              "name": "PANTALÓN TRAJE OJO DE PERDIZ",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-4a.jpg?alt=media&token=e9a99b55-2d1d-439f-9b12-6504a291567f"
+            },
+            {
+              "__id__": "6HlM8DOHRxpmDzfPE8I4",
+              "name": "PANTALÓN CARGO RELAXED FIT",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-1a.jpg?alt=media&token=c1a3b389-1e6c-4876-808e-0ad0098e3a9b"
+            },
+            {
+              "__id__": "8RTffLytBeQic3k0xdCf",
+              "name": "PANTALÓN CARGO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-2a.jpg?alt=media&token=2468c098-2b23-40dc-b1bd-59c4f626c185"
+            },
+            {
+              "__id__": "JbmxnuXXQiS5KgV1kFMd",
+              "name": "PANTALÓN TRAJE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-7a.jpg?alt=media&token=2e3e07bb-b93e-4847-8cfd-bd524b1b748a"
+            },
+            {
+              "__id__": "PUQg3MVH4NLaosrnvJCE",
+              "name": "PANTALÓN PATA DE GALLO TRAJE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-5a.jpg?alt=media&token=28d041e1-26de-47ab-a85b-f0b9134a4751"
+            },
+            {
+              "__id__": "XOA4d1gbvQhwH7IHteu8",
+              "name": "PANTALÓN TRAJE OJO DE PERDIZ",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-3a.jpg?alt=media&token=90e501e0-05d0-4e36-92c2-f2d069edf7f0"
+            },
+            {
+              "__id__": "YbO1FdQoQ98natK9mYUy",
+              "name": "PANTALÓN CINTURA JOGGER CONJUNTO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-9a.jpg?alt=media&token=aba68978-65d7-41a7-b65d-1dd313fb5b27"
+            },
+            {
+              "__id__": "uCUl4shULw3xRE06ucOI",
+              "name": "PANTALÓN PLIEGUES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-8a.jpg?alt=media&token=b8fc1a87-5051-4fc8-bd76-c9abdb6f436b"
+            },
+            {
+              "__id__": "zVfX6YjQ2KcRWssQVbMG",
+              "name": "PANTALÓN TRAJE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-6a.jpg?alt=media&token=21e59ecd-741a-4a98-ba77-28de95b6929e"
+            }
+          ]
+        },
+        {
+          "__id__": "cBibft9gtZ3Xh0AU4NK7",
+          "name": "Bermudas",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-1a.jpg?alt=media&token=8898d771-65bd-4b61-b72b-cc2dd6d30e26",
+          "Products_summary": [
+            {
+              "__id__": "2IGimvvnQxcnqlPbd8KQ",
+              "name": "BERMUDA CONFORT EASY CARE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-4a.jpg?alt=media&token=e39f1834-62e7-45de-bbbc-acf0eef5b816"
+            },
+            {
+              "__id__": "5F4UoRRCHTz3lWwHeJU6",
+              "name": "BERMUDA CONFORT EASY CARE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-5a.jpg?alt=media&token=752c9194-ffc5-4d53-8954-fe4561377a2a"
+            },
+            {
+              "__id__": "5VuvzLhy54PuUxeIypu8",
+              "name": "BERMUDA DENIM COLOR",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-3a.jpg?alt=media&token=6e3790fd-e515-478c-af40-eb0b27c0a0a4"
+            },
+            {
+              "__id__": "BDheMW0dFrB3LpxIeAQ8",
+              "name": "BERMUDA DENIM COLOR",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-2a.jpg?alt=media&token=7d25ad57-324c-48f1-a851-02a7630c4f7b"
+            },
+            {
+              "__id__": "CXmagbRLN3iIOKbmYj8f",
+              "name": "BERMUDA CHINO SLIM",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-9a.jpg?alt=media&token=ba2336f9-4aaa-4d3d-a2a5-6dc1f67f6c29"
+            },
+            {
+              "__id__": "FuuaQ9w5K24Rf8E1MGGd",
+              "name": "BERMUDA CONFORT EASY CARE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-6a.jpg?alt=media&token=f473820a-f199-4872-b2fa-55ef92c005f8"
+            },
+            {
+              "__id__": "ItbJZIIJmMWaBARAiL7J",
+              "name": "BERMUDA DENIM BÁSICA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-1a.jpg?alt=media&token=8898d771-65bd-4b61-b72b-cc2dd6d30e26"
+            },
+            {
+              "__id__": "hEhpMbpMzuKZm4BCYEnC",
+              "name": "BERMUDA TÉCNICA TRAJE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-7a.jpg?alt=media&token=d755757b-b9ed-4d40-a29c-a2fee45005a4"
+            },
+            {
+              "__id__": "hyyrHtrnlc6uwPkfnyrF",
+              "name": "BERMUDA ALGODÓN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-8a.jpg?alt=media&token=d017e82d-2a81-4e8a-af34-b5d23d0c13a1"
+            }
+          ]
+        },
+        {
+          "__id__": "nk242LqrixYRhJk4VHD7",
+          "name": "Trajes",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-1a.jpg?alt=media&token=db9758f3-5c07-45f0-957b-81cceb0c7ca9",
+          "Products_summary": [
+            {
+              "__id__": "8Sn5MglfQho9je4N1gO9",
+              "name": "TRAJE PLIEGUES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-6a.jpg?alt=media&token=48b96685-1306-4c36-b1b1-1237ac5b3bdf"
+            },
+            {
+              "__id__": "GIw1FmrQuYVJBTSWtIuP",
+              "name": "TRAJE OJO DE PERDIZ",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-3a.jpg?alt=media&token=86f871d7-3160-4d7a-a656-c5bfe7d4b59b"
+            },
+            {
+              "__id__": "GMTUZNAtAJk7F9dMOZO5",
+              "name": "TRAJE SLIM",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-9a.jpg?alt=media&token=56a217ed-f908-4e21-97d1-35b40c03f8b7"
+            },
+            {
+              "__id__": "H90rq0dr82wAJMGrTFX8",
+              "name": "TRAJE PATA DE GALLO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-4a.jpg?alt=media&token=692f4bd9-4d6c-4a97-a058-f8bf513c643d"
+            },
+            {
+              "__id__": "bVBB8kiV2dvMYR1FAkeD",
+              "name": "TRAJE PLIEGUES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-5a.jpg?alt=media&token=d8348cdd-e7e2-439f-8c7e-49849fed9b80"
+            },
+            {
+              "__id__": "opWw9BBd4ihp1Q99SwsU",
+              "name": "TRAJE OJO DE PERDIZ",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-1a.jpg?alt=media&token=db9758f3-5c07-45f0-957b-81cceb0c7ca9"
+            },
+            {
+              "__id__": "pbIOjGTPav0JdxTz6WFQ",
+              "name": "TRAJE OJO DE PERDIZ",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-2a.jpg?alt=media&token=b774423b-d6c4-450b-b23a-b356a5c58f56"
+            },
+            {
+              "__id__": "tt4oWM8tE2ACmoPGIM3u",
+              "name": "TRAJE JOIN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-7a.jpg?alt=media&token=aa09fa45-f34f-41ad-8aa7-9220328bf0e7"
+            },
+            {
+              "__id__": "v5UgAuMm60x6faSQpJcC",
+              "name": "TRAJE ESTRUCTURA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-8a.jpg?alt=media&token=04828ab2-db21-4b61-800d-8e3f8cbdfd1d"
+            }
+          ]
+        },
+        {
+          "__id__": "2DT0PO52aupRx47Cqlw2",
+          "name": "Zapatos",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-1a.jpg?alt=media&token=d2f715cb-e3ce-4f64-a04d-267d7ab10fa9",
+          "Products_summary": [
+            {
+              "__id__": "1lBXajJBy1itCQT1VK18",
+              "name": "MOCASÍN NÁUTICO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-7a.jpg?alt=media&token=4fd9acaa-7ccb-43fa-99cb-69f9129fc135"
+            },
+            {
+              "__id__": "AYS10AjfnVULCH9PRRc4",
+              "name": "MOCASÍN SPORT PIEL",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-8a.jpg?alt=media&token=45951069-e13a-4b03-b7ca-65f266e4796d"
+            },
+            {
+              "__id__": "QamJ5AnRGa73USy5YQ02",
+              "name": "ZAPATO PIEL PUNTERA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-1a.jpg?alt=media&token=d2f715cb-e3ce-4f64-a04d-267d7ab10fa9"
+            },
+            {
+              "__id__": "c1trTXer5MePMfLxJWkI",
+              "name": "MOCASÍN SPORT PIEL",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-9a.jpg?alt=media&token=ac3a25c9-b31b-482a-b755-09544a56898b"
+            },
+            {
+              "__id__": "d1r9y4Monhn8hGNeDt8p",
+              "name": "BAMBA MINIMAL CORDONES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-4a.jpg?alt=media&token=e22a6124-4cf2-429e-959d-fdfdf2de65d1"
+            },
+            {
+              "__id__": "eJf6alBy0hmo4FgUWtbs",
+              "name": "BAMBA MINIMAL CORDONES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-6a.jpg?alt=media&token=ba4a9d8d-566e-42c5-aafe-b170c889fd92"
+            },
+            {
+              "__id__": "fCVHHknrPEPNjCQ7rxty",
+              "name": "BAMBA MINIMAL CORDONES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-5a.jpg?alt=media&token=84a17b33-1e11-434f-a682-4f2a1e0f50b7"
+            },
+            {
+              "__id__": "i8KzYlf1rp41vllgQzrZ",
+              "name": "MOCASÍN PIEL SOFT",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-2a.jpg?alt=media&token=a4e6a383-1c3e-43c1-be46-06a1f996872a"
+            },
+            {
+              "__id__": "lLinhIGCBPrkwSaLImPt",
+              "name": "ZAPATO PIEL",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-3a.jpg?alt=media&token=3cb50ad8-c9a6-41c4-88df-5f9106df4878"
+            }
+          ]
+        },
+        {
+          "__id__": "NClA5m4Y1AdL1iI8PpDf",
+          "name": "Bolsos",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-1a.jpg?alt=media&token=85a84803-f8d3-4ab0-8f02-01b72e70abf3",
+          "Products_summary": [
+            {
+              "__id__": "CWTD1gzHr3ZPpsASZINA",
+              "name": "BOWLING NYLON SOFT RHUIGI",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-7a.jpg?alt=media&token=7edf92ce-497a-457a-ba57-ce6c2b785b76"
+            },
+            {
+              "__id__": "N19niUwe1zCTPAYoSRyI",
+              "name": "SHOPPER ALGODÓN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-9a.jpg?alt=media&token=97f6f6f9-095b-44b5-a590-8a43cad32805"
+            },
+            {
+              "__id__": "SQFJEXwykPfQCT2w84SJ",
+              "name": "MOCHILA ENGOMADA SOFT",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-6a.jpg?alt=media&token=f357bfaf-f9c7-48ca-870c-cd8d75fff773"
+            },
+            {
+              "__id__": "TEypy0fpFJ591dJw8Ndx",
+              "name": "MOCHILA MULTIBOLSILLOS NYLON",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-2a.jpg?alt=media&token=9d787c7c-7c37-467f-8586-a29b88fb858b"
+            },
+            {
+              "__id__": "Wip36Fkz60lzMDOvHnEa",
+              "name": "MOCHILA TEJIDO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-3a.jpg?alt=media&token=508eb38d-27b3-43cc-a0fb-b5e8657d0ecc"
+            },
+            {
+              "__id__": "XK7VWphd9FBUzKTkbqOn",
+              "name": "BOLSO BOWLING GRANULADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-5a.jpg?alt=media&token=a8982cd9-ab80-4da9-9b80-6134f2287630"
+            },
+            {
+              "__id__": "b4MCwHSRoMuVgZ7f0x0Y",
+              "name": "MOCHILA SOFT ACOLCHADA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-4a.jpg?alt=media&token=5837e131-7ecf-475a-bb0a-82bff59e5be0"
+            },
+            {
+              "__id__": "fxZyUalz0qBNpUD45mqv",
+              "name": "BOLSO SHOPPER PIÑATEX",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-8a.jpg?alt=media&token=36b1c4ec-bc09-49e5-ae2c-9d2833c2a2eb"
+            },
+            {
+              "__id__": "l2KthHFEy7mbzSM8SbBc",
+              "name": "MOCHILA SOLAPA COMBINADA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-1a.jpg?alt=media&token=85a84803-f8d3-4ab0-8f02-01b72e70abf3"
+            }
+          ]
+        },
+        {
+          "__id__": "at7k64eBUqNdWhNQuTfz",
+          "name": "Accesorios",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-1a.jpg?alt=media&token=6dea46d6-0d40-4345-9fbd-c77144a3863d",
+          "Products_summary": [
+            {
+              "__id__": "47JnE7d4PMvSNXqE9XTM",
+              "name": "CINTURÓN PIEL",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-7a.jpg?alt=media&token=df0a8b8a-ba1c-4d12-8949-75c2f87e103f"
+            },
+            {
+              "__id__": "5OtkIvFOF0wFcDvnbrFF",
+              "name": "GAFAS DE SOL MONTURA METÁLICA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-6a.jpg?alt=media&token=670d79c5-e9ff-479d-9b06-1993ba7ee664"
+            },
+            {
+              "__id__": "6mw6JhF7sX8Y0bzfDs9g",
+              "name": "GAFAS DE SOL MONTURA METÁLICA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-5a.jpg?alt=media&token=dd3a583b-3e77-4263-a8a1-9cb883ec445e"
+            },
+            {
+              "__id__": "891hQm5XZsLbns000DDM",
+              "name": "CINTURÓN PIEL",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-9.jpg?alt=media&token=f2b0d351-43aa-49b2-8939-d13efb672e32"
+            },
+            {
+              "__id__": "EQw3hwizxE85XyEnhG7T",
+              "name": "BOINA BÁSICA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-2a.jpg?alt=media&token=091d91bf-8847-4efd-83a8-687265857555"
+            },
+            {
+              "__id__": "KBKkljMs5nS9V8dSbHcz",
+              "name": "GORRA LAVADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-3a.jpg?alt=media&token=9f077032-feed-4241-ae1b-239aed4f2e2b"
+            },
+            {
+              "__id__": "O3HxmBK3Oqu9VsaTmsJ4",
+              "name": "GORRA PARCHE COMBINADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-1a.jpg?alt=media&token=6dea46d6-0d40-4345-9fbd-c77144a3863d"
+            },
+            {
+              "__id__": "tpsNuAl8wYkhjTl47tMM",
+              "name": "GAFAS DE SOL MONTURA METÁLICA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-4a.jpg?alt=media&token=d7fd16c2-9ce1-46ff-852f-1e18326827b3"
+            },
+            {
+              "__id__": "yDmVQ1ALwffTwot8l0Xe",
+              "name": "CINTURÓN SERRAJE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-8a.jpg?alt=media&token=f9bf267e-2817-42f7-b8f9-b5e6cfc04888"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__id__": "JyKiOnFOWl76RMaLvxfO",
+      "name": "Femenino",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/genders%2Ffemale.png?alt=media&token=c9a91be8-809e-4df6-84e4-94886550b478",
+      "Categories": [
+        {
+          "__id__": "cu4uw8xlMacuAK1DhG1y",
+          "name": "Camisetas",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-1a.jpg?alt=media&token=2e646544-fe92-4b8b-9fc9-b45b86979197",
+          "Products_summary": [
+            {
+              "__id__": "4IT0kQaTgGHivTOIffXy",
+              "name": "CAMISETA BORDADO CORDÓN CARA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-4a.jpg?alt=media&token=fc9606fa-424c-415b-8bfd-3d52486cb758"
+            },
+            {
+              "__id__": "BRwBTn46EMH24oeCLizL",
+              "name": "CAMISETA ALGODÓN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-7a.jpg?alt=media&token=d205a33f-d536-47b9-bea4-4584ce020adb"
+            },
+            {
+              "__id__": "EcKecSkSJ3bGqDilaowX",
+              "name": "TOP ASIMÉTRICO RIB",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-9a.jpg?alt=media&token=1f8acd80-9e8b-4432-92a5-b7a1b812ae63"
+            },
+            {
+              "__id__": "UkS5XvubXcQaWqKI3J9S",
+              "name": "CAMISETA PREMIUM ALGODÓN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-1a.jpg?alt=media&token=2e646544-fe92-4b8b-9fc9-b45b86979197"
+            },
+            {
+              "__id__": "Xb9mBnyU5UV7pM2pd1B6",
+              "name": "CAMISETA ALGODÓN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-8a.jpg?alt=media&token=a1b66232-ddbb-4d4f-96e4-4cd8acbd4735"
+            },
+            {
+              "__id__": "hOUwz3udgKYqru8WCzQr",
+              "name": "TOP OTTOMAN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-3a.jpg?alt=media&token=67bded70-8630-4257-9c0f-5457aeaee308"
+            },
+            {
+              "__id__": "kxzxL5St60eW0OmErMCb",
+              "name": "CAMISETA PREMIUM ALGODÓN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-2a.jpg?alt=media&token=c63fad5e-d412-49db-a923-efff931fc8b3"
+            },
+            {
+              "__id__": "lzNc7s4HKmNoNfSClYq1",
+              "name": "TOP MANGUITOS ENCAJE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-6a.jpg?alt=media&token=13b873eb-a3c4-4a78-a921-36d4fce8bb14"
+            },
+            {
+              "__id__": "z7iCdh7wZQq6OvWcAUfZ",
+              "name": "CAMISETA BORDADO CORDÓN CARA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-5a.jpg?alt=media&token=0234afcc-6879-45e2-b7be-8082bb59b0fd"
+            }
+          ]
+        },
+        {
+          "__id__": "yqgG5wNBX7bSEpTZYUl9",
+          "name": "Camisas",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-1a.jpg?alt=media&token=c20ea1b5-4bad-45d5-98a7-df35d4ebe888",
+          "Products_summary": [
+            {
+              "__id__": "4umwM6xgdAgApfHpFYnO",
+              "name": "BLUSA ESTAMPADA BORDADOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-4a.jpg?alt=media&token=102327ca-672b-4711-b773-52afa0a003c5"
+            },
+            {
+              "__id__": "AvCL5z4SEBzyVM7y94bg",
+              "name": "CAMISA SEMITRANSPARENTE BOLSILLOS PLASTRÓN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-7a.jpg?alt=media&token=8fa16073-eddd-4260-92bb-ebc1cc51257b"
+            },
+            {
+              "__id__": "CiaqaQWJBr49v0Wf7sfl",
+              "name": "BLUSA FLUIDA ESTAMPADA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-5a.jpg?alt=media&token=410954dd-04cc-43e5-9ee6-6ae8ff0236de"
+            },
+            {
+              "__id__": "Do03e0i8foWKTTubweyK",
+              "name": "CAMISA POPELÍN CROP",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-3a.jpg?alt=media&token=d071ee8e-3123-4b21-8985-0f3062d57004"
+            },
+            {
+              "__id__": "K5zf4nLJuyvNji1A7G3D",
+              "name": "BLUSA LUNARES ESCOTE FLUIDO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-6a.jpg?alt=media&token=7cedb102-f1bd-4c75-bf14-b51cf035891d"
+            },
+            {
+              "__id__": "Rc32WhvAoV5BSTQtqDWg",
+              "name": "CAMISA OXFORD",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-2a.jpg?alt=media&token=7a7085a5-94ac-4064-94af-3157d6d43448"
+            },
+            {
+              "__id__": "YEA8IRkOiBHl6xcW9sDc",
+              "name": "CAMISA ESTAMPADA ABALORIOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-9a.jpg?alt=media&token=87ed11e7-4229-4848-ba4c-fdb03e0abdfc"
+            },
+            {
+              "__id__": "ZBlhOu72NiRR3gVgosxN",
+              "name": "CAMISA OXFORD",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-1a.jpg?alt=media&token=c20ea1b5-4bad-45d5-98a7-df35d4ebe888"
+            },
+            {
+              "__id__": "n48VBrYjivTkQnOHu1XY",
+              "name": "CAMISA SATINADA ASIMÉTRICA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-8a.jpg?alt=media&token=6018600a-fcfc-486a-875d-565a4308c944"
+            }
+          ]
+        },
+        {
+          "__id__": "sj7xjiMNaEh3WcyLFL7t",
+          "name": "Vestidos",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-1a.jpg?alt=media&token=117b3577-7e73-44ce-8052-3527a5714a5a",
+          "Products_summary": [
+            {
+              "__id__": "Ag8dGz2Ke4xOSiREbCon",
+              "name": "KIMONO FLUIDO LUNARES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-9a.jpg?alt=media&token=a359fe1f-6c88-4d62-8f80-c55b26c87aae"
+            },
+            {
+              "__id__": "OAcGSLpF36RE2WFm4uHL",
+              "name": "\"VESTIDO HALTER SATINADO \"",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-4a.jpg?alt=media&token=808bbeda-2cb8-4e6d-b832-de1cd03ece9f"
+            },
+            {
+              "__id__": "OLH7NJFndXiLVMK4eTLT",
+              "name": "VESTIDO LARGO TIRANTES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-2a.jpg?alt=media&token=b9d17ffe-5568-4f68-9b07-49511c0da426"
+            },
+            {
+              "__id__": "PSmlhkqtpBPke5ZgDwVb",
+              "name": "VESTIDO COMBINADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-1a.jpg?alt=media&token=117b3577-7e73-44ce-8052-3527a5714a5a"
+            },
+            {
+              "__id__": "VWEHrLq7T6DAcPHgQscY",
+              "name": "KIMONO FLUIDO VOLANTES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-5a.jpg?alt=media&token=bfc95dc4-ab9b-4bf5-9e99-982a4916b3f4"
+            },
+            {
+              "__id__": "jjHfUVp9cKLwbsDcoi1I",
+              "name": "\"VESTIDO CON LINO CUT OUT \"",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-6a.jpg?alt=media&token=c35aaecd-1f04-4587-8bd0-e7707768dc40"
+            },
+            {
+              "__id__": "oOAlWvRAu3BjPbcX3AZJ",
+              "name": "VESTIDO MIDI RAYAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-3a.jpg?alt=media&token=c00aa9eb-bcc4-4d05-90c0-2711c1f28da9"
+            },
+            {
+              "__id__": "ye9ymtnbavq3htEMt9JZ",
+              "name": "VESTIDO LARGO PUNTO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-8a.jpg?alt=media&token=385bb744-c5ed-4866-9228-f4aba17f5a9c"
+            },
+            {
+              "__id__": "ylLo211cedRnYWpHQUHG",
+              "name": "VESTIDO CAMISERO LUNARES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-7a.jpg?alt=media&token=2bd7b396-a168-4cac-af6a-881608ec1b88"
+            }
+          ]
+        },
+        {
+          "__id__": "Jg5pH43sX2Ttht9sLPtW",
+          "name": "Pantalones",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-1a.jpg?alt=media&token=fc9dfacf-9c88-48fa-aeb4-7d1fae30c6e4",
+          "Products_summary": [
+            {
+              "__id__": "5Nsj44EDPlhRfJEUBaeQ",
+              "name": "PANTALÓN CARGO STRAIGHT",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-7a.jpg?alt=media&token=c553576b-fb71-4fe4-891f-efa83fd23aa7"
+            },
+            {
+              "__id__": "5mCDq4Pyhl07F6BIc9nd",
+              "name": "PANTALÓN LARGO SATINADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-3a.jpg?alt=media&token=896176fe-0209-4616-903f-41268f95bfdc"
+            },
+            {
+              "__id__": "W8BZHUHNo2y6Y6taYMry",
+              "name": "PANTALÓN FULL LENGTH",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-2a.jpg?alt=media&token=630f1602-f5c6-4aa2-adec-456c2ea97a05"
+            },
+            {
+              "__id__": "XcFOkzyZC4N2Qsz5gxHe",
+              "name": "PANTALÓN TIE DYE LIMITED EDITION",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-9a.jpg?alt=media&token=5d875229-2e46-4098-8025-fde12bb2a407"
+            },
+            {
+              "__id__": "axNu04Y18mqlAi6EF89y",
+              "name": "PANTALÓN CARGO COMBINADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-5a.jpg?alt=media&token=b9118fc6-4b6b-4006-ab83-afe6221960cb"
+            },
+            {
+              "__id__": "cFtw6jc1l4z0K6J7ugE5",
+              "name": "LEGGINGS ABERTURAS OTOMAN",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-4a.jpg?alt=media&token=3cf53393-a4cc-4ccc-94f8-68806e20cfbc"
+            },
+            {
+              "__id__": "fo6leZmSrozubuslIydB",
+              "name": "PANTALÓN CARGO STRAIGHT",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-1a.jpg?alt=media&token=fc9dfacf-9c88-48fa-aeb4-7d1fae30c6e4"
+            },
+            {
+              "__id__": "kZdy2e8Az6mO2LanMfJa",
+              "name": "PANTALÓN CARGO STRAIGHT",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-8a.jpg?alt=media&token=5f03f3bf-6da9-4098-8a52-2e98eb18992c"
+            },
+            {
+              "__id__": "wSulDpuWdQcJi51RotmX",
+              "name": "PANTALÓN PUNTO CON LINO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-6a.jpg?alt=media&token=7f01c559-9bde-49c6-b31d-b20b2aea3cbe"
+            }
+          ]
+        },
+        {
+          "__id__": "elE87dgD1TVs5RS948Gn",
+          "name": "Faldas",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-1a.jpg?alt=media&token=03330c1e-e71f-4cab-a7a9-1dbc75e999bf",
+          "Products_summary": [
+            {
+              "__id__": "8pRKC2b91v63adR2DNnc",
+              "name": "FALDA MIDI LAZADA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-8a.jpg?alt=media&token=8ff2b2ad-27fa-42cf-83ea-a23ba9dd340f"
+            },
+            {
+              "__id__": "FmvT6STcxQyTteFBZ5o5",
+              "name": "FALDA PANTALÓN SATINADA ABERTURAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-5a.jpg?alt=media&token=9f83aeb7-a0e1-4531-86b1-437966819956"
+            },
+            {
+              "__id__": "Iun4tW9ztURhO70RWXeS",
+              "name": "FALDA LARGA ESTAMPADA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-3a.jpg?alt=media&token=68fee1fb-13a2-4fc9-9846-414799fe185b"
+            },
+            {
+              "__id__": "MKyrDRo9ac6Fpt1u8VuA",
+              "name": "FALDA PUNTO BOTONES DORADOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-9a.jpg?alt=media&token=b139d72d-1cf0-4a79-8198-68ba42bedeba"
+            },
+            {
+              "__id__": "N5AQath5K3UKIZKFylfb",
+              "name": "FALDA MINI CUADRO VICHY",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-2a.jpg?alt=media&token=3d536b5c-cfd9-45ac-bf23-f987c22e10eb"
+            },
+            {
+              "__id__": "VFrlh2QZMjnO1hd5aV0R",
+              "name": "FALDA PANTALÓN SATINADA ABERTURAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-4a.jpg?alt=media&token=5ac0cc02-3559-4904-9f48-5bb7cb470030"
+            },
+            {
+              "__id__": "YxpWi98er2Wo34UEpjnc",
+              "name": "FALDA CORTA ESTAMPADA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-7a.jpg?alt=media&token=9b8ba8e9-4426-4a3a-b1f0-7dc338b3ae44"
+            },
+            {
+              "__id__": "cSKItzj6PBQSe7KraHm1",
+              "name": "FALDA PAREO ESTAMPADA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-1a.jpg?alt=media&token=03330c1e-e71f-4cab-a7a9-1dbc75e999bf"
+            },
+            {
+              "__id__": "fhdKwlRGgsl5tRnFEnyt",
+              "name": "FALDA PLISADA CINTURÓN EFECTO PIEL",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-6a.jpg?alt=media&token=aa26ee9f-f7bc-48aa-b73b-1dd79840c8c2"
+            }
+          ]
+        },
+        {
+          "__id__": "s0fwj2vPksRSH9Ebbzel",
+          "name": "Shorts",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-1a.jpg?alt=media&token=2f518a0a-cf0a-4b17-811f-333ad3a0f941",
+          "Products_summary": [
+            {
+              "__id__": "9uHjvvkVAVnpEhYvurgA",
+              "name": "BERMUDA CON LINO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-8a.jpg?alt=media&token=4e31ba2e-d4d6-4672-9425-fa23a01efedc"
+            },
+            {
+              "__id__": "ChQLnOuOeBxbyTCIwvRO",
+              "name": "SHORTS SATINADOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-6a.jpg?alt=media&token=ec4048f9-32ab-4f59-a260-3fe50274e6e3"
+            },
+            {
+              "__id__": "MEzCYYlKeG5EOEi0VvfD",
+              "name": "ZW THE HIGH WAIST SHORTS RHINESTONE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-1a.jpg?alt=media&token=2f518a0a-cf0a-4b17-811f-333ad3a0f941"
+            },
+            {
+              "__id__": "X7YHlGB12GqG8rnrKLuF",
+              "name": "SHORTS DENIM HIGH RISE ROTOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-7a.jpg?alt=media&token=2e016bf2-4fa8-4e23-bed7-fb177335d690"
+            },
+            {
+              "__id__": "XdPBQq5LhzpU8j1Sp2W5",
+              "name": "BERMUDA PLIEGUES CON LINO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-9a.jpg?alt=media&token=6419a10f-575a-4356-a87f-b88f4e3ffa3e"
+            },
+            {
+              "__id__": "ZX4jZPLr3S8wGocNRpmW",
+              "name": "SHORTS JACQUARD JOYA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-3a.jpg?alt=media&token=3eca5fa0-8510-491a-93fa-1b091b2c580f"
+            },
+            {
+              "__id__": "bvxotEMvAe1nfNWFn357",
+              "name": "SHORTS SATINADOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-5a.jpg?alt=media&token=06575d98-fe96-4b32-8569-23998ded4d45"
+            },
+            {
+              "__id__": "dL6l6JH43f0hxwbT5Rll",
+              "name": "SHORTS CROCHET",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-4a.jpg?alt=media&token=5de93567-739d-440a-be3f-a93d1745b3a4"
+            },
+            {
+              "__id__": "msxmag8IsQjricEQmBcv",
+              "name": "ZW THE HIGH WAIST SHORTS RHINESTONE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-2a.jpg?alt=media&token=842f7639-b388-41f6-99c5-53659c451801"
+            }
+          ]
+        },
+        {
+          "__id__": "wORNQZDgiCUL2EW9b3We",
+          "name": "Zapatos",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-1a.jpg?alt=media&token=62082147-5050-40a7-ae8c-7cda7f8f4568",
+          "Products_summary": [
+            {
+              "__id__": "2tF96HEncciz4e362nDT",
+              "name": "ZAPATO TACÓN DESTALONADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-7a.jpg?alt=media&token=da371f0a-6e63-4002-b30f-a2eadfa78ce3"
+            },
+            {
+              "__id__": "8UTUhBnzF6uWpBWl26fp",
+              "name": "SANDALIA PLANA PIEL TIRAS ALTAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-9a.jpg?alt=media&token=d01be920-f68b-44c4-aaa3-1379e9f3190f"
+            },
+            {
+              "__id__": "BcGVq5gQEvmfiJ2SJ65A",
+              "name": "SANDALIA TACÓN ALTO CON ATADO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-8a.jpg?alt=media&token=bda8eeda-aea2-45ec-b027-c2f0422164c4"
+            },
+            {
+              "__id__": "Na4L7Agj55zfWV36TBKk",
+              "name": "SANDALIA TACÓN PLUMAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-4a.jpg?alt=media&token=8feaf7dc-d9e3-4cef-8f2d-08c6e11b1c2e"
+            },
+            {
+              "__id__": "SyhBWXuv9IKpfRa5En22",
+              "name": "SANDALIA TACÓN PLATAFORMA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-1a.jpg?alt=media&token=62082147-5050-40a7-ae8c-7cda7f8f4568"
+            },
+            {
+              "__id__": "T2gkgJ1ZaSXUyNZMdo9c",
+              "name": "SALÓN ATADO FLOR",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-2a.jpg?alt=media&token=3dd0c4b4-2c47-4686-a293-784dd46accfe"
+            },
+            {
+              "__id__": "jxaimvLl7XNA1p5m1s3u",
+              "name": "\"SANDALIA PIEL TACÓN MEDIO ATADA FLORES \"",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-5a.jpg?alt=media&token=5e015c51-a414-4852-ba75-8b4ca9a505c6"
+            },
+            {
+              "__id__": "l30t1lR6P7nSZUQXt132",
+              "name": "SANDALIA TACÓN ALTO TIRAS BRILLOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-6a.jpg?alt=media&token=e426e197-a760-43f7-8123-a7afcd5ec4a8"
+            },
+            {
+              "__id__": "l9MYF6WMpbaY1zykjg5e",
+              "name": "SANDALIA PIEL TACÓN MEDIO ATADA FLORES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-3a.jpg?alt=media&token=8df158f9-6a31-4b18-86df-5fe106410dbb"
+            }
+          ]
+        },
+        {
+          "__id__": "XYMmUE3xeWvrke7KSJn0",
+          "name": "Bolsos",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-1a.jpg?alt=media&token=d4997312-a8de-447b-b582-2beab8e4fe41",
+          "Products_summary": [
+            {
+              "__id__": "1m2eJz6JiI7XZs3HgDse",
+              "name": "BOLSO MINI CITY CADENA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-2a.jpg?alt=media&token=715e68ba-708b-4472-87e9-689f985d5b91"
+            },
+            {
+              "__id__": "4kBGIH41vF65sfNAkRug",
+              "name": "BOLSO SHOPPER",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-1a.jpg?alt=media&token=d4997312-a8de-447b-b582-2beab8e4fe41"
+            },
+            {
+              "__id__": "6HNkwvc6nIMFVP660MKD",
+              "name": "MINI BOLSO ASA ABALORIOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-7a.jpg?alt=media&token=c12c4e1d-8354-40a8-ad04-512100fc99f2"
+            },
+            {
+              "__id__": "AU6jMH4EmvFV4V9K691N",
+              "name": "BOLSO DE HOMBRO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-8a.jpg?alt=media&token=876bb191-e202-442e-8726-a86349a9348a"
+            },
+            {
+              "__id__": "Iwqtkfq8C5nwi7cV8uNs",
+              "name": "MINI BOLSO ASA ABALORIOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-6a.jpg?alt=media&token=236479a2-946a-462d-bd63-4d4c5db4d2bd"
+            },
+            {
+              "__id__": "KtGRO18GQMCUZABewRaQ",
+              "name": "BOLSO MINI CITY CADENA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-4a.jpg?alt=media&token=1eb0f2d3-58e8-4df3-a6c3-2f5f937bf3a6"
+            },
+            {
+              "__id__": "UK73XKitV0wOKGwlA9Pw",
+              "name": "MOCHILA ESLABONES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-5a.jpg?alt=media&token=75f65a38-2c59-4a38-89ff-97dfd33433b7"
+            },
+            {
+              "__id__": "X672Bz8Moy38SA0h5X2Y",
+              "name": "BOLSO BANDOLERA PIEL",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-3a.jpg?alt=media&token=d46091b8-99af-464f-bc87-13abe3a4cab9"
+            },
+            {
+              "__id__": "rDO2CHnD0FAa0DSOrD4P",
+              "name": "BOLSO MINI CITY CADENA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-9a.jpg?alt=media&token=3330f7cd-7314-4c71-88f1-c6ce1ee38602"
+            }
+          ]
+        },
+        {
+          "__id__": "FuCqhXXTHiV4R8aSHkGq",
+          "name": "Accesorios",
+          "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-1a.jpg?alt=media&token=ae83044b-e4dd-46db-9641-c9d469b40be1",
+          "Products_summary": [
+            {
+              "__id__": "3Aigs55WIlWZXtpeQGnK",
+              "name": "PENDIENTES ARO RETORCIDO",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-9.jpg?alt=media&token=99334eda-ca7f-4fa0-aab0-bc6c16b6160e"
+            },
+            {
+              "__id__": "DzuVyaVPP7ibWr6jhTdE",
+              "name": "PACK COLLARES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-1a.jpg?alt=media&token=ae83044b-e4dd-46db-9641-c9d469b40be1"
+            },
+            {
+              "__id__": "UKe9FpZvnAtIAq2vN6f7",
+              "name": "\"CINTURÓN ELÁSTICO PIEDRAS RESINA \"",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-7a.jpg?alt=media&token=213a69e5-8ef1-49f5-81b6-742e6074dc00"
+            },
+            {
+              "__id__": "ccuVH5nDgA8dwi04fAyX",
+              "name": "PACK PENDIENTES AROS COLORES",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-6a.jpg?alt=media&token=3e109956-b847-4ce0-8da8-e47c0354c09a"
+            },
+            {
+              "__id__": "dpqEdIE3ZLHjpyiK4Vzn",
+              "name": "PACK COLLARES PALMERA",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-2a.jpg?alt=media&token=270ba741-a723-4759-955d-951eac402b61"
+            },
+            {
+              "__id__": "gjj20azJ7D9myp2xSsrQ",
+              "name": "\"PENDIENTES PALMERA \"",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-8a.jpg?alt=media&token=724899e6-33d5-41c0-9969-80af3b258464"
+            },
+            {
+              "__id__": "gpnihsjWMxq7FrD4dNX9",
+              "name": "CINTURÓN METÁLICO PIEDRAS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-4a.jpg?alt=media&token=8652d580-e3df-49c9-a295-e0ab61f5abc0"
+            },
+            {
+              "__id__": "hQT5nky9gApu2TJ5BjLZ",
+              "name": "PENDIENTES LARGOS ABALORIOS",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-5a.jpg?alt=media&token=ae246301-94bd-4ebd-bee6-d0335241d2c3"
+            },
+            {
+              "__id__": "kceQuev2NL8ej6UaqMqH",
+              "name": "CHOKER LOVE",
+              "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-3a.jpg?alt=media&token=5204c01b-de70-4383-adfc-0f359524565a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__id__": "j8gWJRp24YJPf74Y1GVg",
+      "name": "Niños",
+      "photo": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/genders%2Fchildren.png?alt=media&token=5369474d-12d1-46c9-9c05-4f658c6b4db3"
+    }
+  ],
+  "Products_details": {
+    "1m2eJz6JiI7XZs3HgDse": {
+      "brand": "ZARA",
+      "color": "beige",
+      "currency": "EUR",
+      "detail": "Bolso en formado mini city. Detalle de cadena en la parte superior. Corte con acabado efecto animal. Interior forrado con bolsillo. Cierre mediante cremallera. Asas de mano. Asa de hombro ajustable.",
+      "id": "1m2eJz6JiI7XZs3HgDse",
+      "name": "BOLSO MINI CITY CADENA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-2a.jpg?alt=media&token=715e68ba-708b-4472-87e9-689f985d5b91",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-2b.jpg?alt=media&token=87d615bb-c993-4855-ade6-f5540b6f3463",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-2c.jpg?alt=media&token=dc81dadc-05da-490d-9de0-f3f0fe79f84b",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "2tF96HEncciz4e362nDT": {
+      "brand": "ZARA",
+      "color": "fucsia\ufffd",
+      "currency": "EUR",
+      "detail": "Zapato de tac\ufffdn alto destalonado de tejido. Detalle de escote cuadrado. Acabado en punta.",
+      "id": "2tF96HEncciz4e362nDT",
+      "name": "ZAPATO TAC\ufffdN DESTALONADO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-7a.jpg?alt=media&token=da371f0a-6e63-4002-b30f-a2eadfa78ce3",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-7b.jpg?alt=media&token=914f12b5-45ce-472d-9926-3fafdeb26db6",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-7c.jpg?alt=media&token=c0970611-1085-4aaf-9945-4dc10ec0545f",
+      "price": "1,00",
+      "size": ["35", "36", "37", "38", "39", "40"]
+    },
+    "3Aigs55WIlWZXtpeQGnK": {
+      "brand": "ZARA",
+      "color": "dorado\ufffd",
+      "currency": "EUR",
+      "detail": "Pendientes de aro abierto retorcidos. Cierre con tuerca.",
+      "id": "3Aigs55WIlWZXtpeQGnK",
+      "name": "PENDIENTES ARO RETORCIDO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-9.jpg?alt=media&token=99334eda-ca7f-4fa0-aab0-bc6c16b6160e",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-9b.jpg?alt=media&token=5a3a739f-5ef6-4116-b2e1-34005525ca89",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-9c.jpg?alt=media&token=307cf25b-3ca6-41d2-910b-c7604ad83c88",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "4IT0kQaTgGHivTOIffXy": {
+      "brand": "ZARA",
+      "color": "chicle",
+      "currency": "EUR",
+      "detail": "Camiseta de cuello redondo y manga corta. Detalle de estampaci\ufffdn de chica en delantero con aplicaci\ufffdn de tejidos combinados a contraste.",
+      "id": "4IT0kQaTgGHivTOIffXy",
+      "name": "CAMISETA BORDADO CORD\ufffdN CARA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-4a.jpg?alt=media&token=fc9606fa-424c-415b-8bfd-3d52486cb758",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-4b.jpg?alt=media&token=1f258bbb-876d-4405-a9b7-7cb0730fb84a",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-4c.jpg?alt=media&token=376206e3-4186-4988-8d45-b1fa3f54c614",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "4kBGIH41vF65sfNAkRug": {
+      "brand": "ZARA",
+      "color": "amarillo mostaza",
+      "currency": "EUR",
+      "detail": "Bolso grande en formato shopper. Detalle de nudos en las asas. Tiradores en los laterales. Cierre mediante im\ufffdn.",
+      "id": "4kBGIH41vF65sfNAkRug",
+      "name": "BOLSO SHOPPER",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-1a.jpg?alt=media&token=d4997312-a8de-447b-b582-2beab8e4fe41",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-1b.jpg?alt=media&token=f9d34aeb-ed39-4abf-b4d3-0d4fe894ad88",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-1c.jpg?alt=media&token=f0bc674b-5dab-4e18-8dea-bbbb82969cd9",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "4umwM6xgdAgApfHpFYnO": {
+      "brand": "ZARA",
+      "color": "mostaza",
+      "currency": "EUR",
+      "detail": "Blusa estampada confeccionada en algod\ufffdn. Cuello redondo y escote pico. Manga larga abullonada acabada en pu\ufffdo con pliegues. Detalle de bordados combinados a contraste. Cierre frontal con botones.",
+      "id": "4umwM6xgdAgApfHpFYnO",
+      "name": "BLUSA ESTAMPADA BORDADOS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-4a.jpg?alt=media&token=102327ca-672b-4711-b773-52afa0a003c5",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-4b.jpg?alt=media&token=8acf597c-f90c-4ce7-ba4d-48cfc618c697",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-4c.jpg?alt=media&token=62b63e6e-927a-404f-881d-2f47fa712ff3",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "5Nsj44EDPlhRfJEUBaeQ": {
+      "brand": "ZARA",
+      "color": "negro",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn de tiro alto con bolsillos de plastr\ufffdn laterales, en pierna y falsos bolsillos con solapa en espalda. Cierre frontal con cremallera y bot\ufffdn met\ufffdlico",
+      "id": "5Nsj44EDPlhRfJEUBaeQ",
+      "name": "PANTAL\ufffdN CARGO STRAIGHT",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-7a.jpg?alt=media&token=c553576b-fb71-4fe4-891f-efa83fd23aa7",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-7b.jpg?alt=media&token=64caf4d4-5b1f-4e1d-906e-31ae88321ab8",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-7c.jpg?alt=media&token=9b122435-0e98-46ee-941c-f5095220500e",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "5mCDq4Pyhl07F6BIc9nd": {
+      "brand": "ZARA",
+      "color": "marr\ufffdn",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn largo satinado de tiro alto. Cintura con el\ufffdstico en espalda ajustable con cordones. Pierna recta.",
+      "id": "5mCDq4Pyhl07F6BIc9nd",
+      "name": "PANTAL\ufffdN LARGO SATINADO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-3a.jpg?alt=media&token=896176fe-0209-4616-903f-41268f95bfdc",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-3b.jpg?alt=media&token=7c65f362-178f-4712-838b-a28f23bd568f",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-3c.jpg?alt=media&token=68cab194-b347-40d1-82aa-716ab2421ee8",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "6HNkwvc6nIMFVP660MKD": {
+      "brand": "ZARA",
+      "color": "rojo fresa",
+      "currency": "EUR",
+      "detail": "Bolso formato mini. Interior forrado con bolsillo. Asa de mano con detalle de abalorios y asa funci\ufffdn bandolera ajustable y extra\ufffdble. Cierre mediante im\ufffdn.",
+      "id": "6HNkwvc6nIMFVP660MKD",
+      "name": "MINI BOLSO ASA ABALORIOS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-7a.jpg?alt=media&token=c12c4e1d-8354-40a8-ad04-512100fc99f2",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-7b.jpg?alt=media&token=55bb9d38-99f8-4193-8f55-fc2651dc8706",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-7c.jpg?alt=media&token=5abf16fe-9c6d-42e0-b3cc-43ac993c9eb8",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "8UTUhBnzF6uWpBWl26fp": {
+      "brand": "ZARA",
+      "color": "marr\ufffdn\ufffd",
+      "currency": "EUR",
+      "detail": "Zapato tipo sandalia plana con tiras altas. Cierre mediante cremallera en la parte posterior.",
+      "id": "8UTUhBnzF6uWpBWl26fp",
+      "name": "SANDALIA PLANA PIEL TIRAS ALTAS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-9a.jpg?alt=media&token=d01be920-f68b-44c4-aaa3-1379e9f3190f",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-9b.jpg?alt=media&token=d282d79a-9287-43c0-a8fe-0824bb342863",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-9c.jpg?alt=media&token=4e20e1dc-2253-474b-95c0-042f1e2dd1f5",
+      "price": "1,00",
+      "size": ["35", "36", "37", "38", "39", "40"]
+    },
+    "8pRKC2b91v63adR2DNnc": {
+      "brand": "ZARA",
+      "color": "negro\ufffd",
+      "currency": "EUR",
+      "detail": "Falda midi de tiro alto. Detalle de lazada en delantero y bajo con abertura. Cierre con cremallera lateral oculta en costura.",
+      "id": "8pRKC2b91v63adR2DNnc",
+      "name": "FALDA MIDI LAZADA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-8a.jpg?alt=media&token=8ff2b2ad-27fa-42cf-83ea-a23ba9dd340f",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-8b.jpg?alt=media&token=cc48997b-3d6c-4217-9a43-e6a0631f24b7",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-8c.jpg?alt=media&token=c50636ca-a832-4654-8467-5fbd1a73f359",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "9uHjvvkVAVnpEhYvurgA": {
+      "brand": "ZARA",
+      "color": "blanco roto",
+      "currency": "EUR",
+      "detail": "Bermuda confeccionada en tejido con mezcla de lino de tiro alto. Bolsillos laterales y falsos bolsillos de vivo en espalda. Detalle de pinzas. Cierre frontal con cremallera, bot\ufffdn interior y gancho met\ufffdlico.",
+      "id": "9uHjvvkVAVnpEhYvurgA",
+      "name": "BERMUDA CON LINO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-8a.jpg?alt=media&token=4e31ba2e-d4d6-4672-9425-fa23a01efedc",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-8b.jpg?alt=media&token=6ba63f75-d2f9-4f02-ab04-fa71ca753c87",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-8c.jpg?alt=media&token=78ead4e0-ed6f-4050-b611-e40e6374ff47",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "AU6jMH4EmvFV4V9K691N": {
+      "brand": "ZARA",
+      "color": "naranja\ufffd",
+      "currency": "EUR",
+      "detail": "Bolso de hombro con asa. Interior forrado con bolsillo. Solapa en forma geom\ufffdtrica. Cierre mediante im\ufffdn. Asa de hombro.",
+      "id": "AU6jMH4EmvFV4V9K691N",
+      "name": "BOLSO DE HOMBRO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-8a.jpg?alt=media&token=876bb191-e202-442e-8726-a86349a9348a",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-8b.jpg?alt=media&token=2ace8e2c-dcc3-4ed8-a88c-1039073fe5e6",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-8c.jpg?alt=media&token=0bdd80c5-7cf8-4507-8579-c3980f62d523",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "Ag8dGz2Ke4xOSiREbCon": {
+      "brand": "ZARA",
+      "color": "blanco / negro",
+      "currency": "EUR",
+      "detail": "Kimono de cuello redondo y manga larga acabada en l\ufffdnea evas\ufffd. Detalle de volantes en mismo tejido. Cierre frontal con lazadas.",
+      "id": "Ag8dGz2Ke4xOSiREbCon",
+      "name": "KIMONO FLUIDO LUNARES",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-9a.jpg?alt=media&token=a359fe1f-6c88-4d62-8f80-c55b26c87aae",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-9b.jpg?alt=media&token=c494af56-7c22-4701-a821-4925501dc6ea",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-9c.jpg?alt=media&token=e215b258-77c7-409c-834f-f734ad28d0d6",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "AvCL5z4SEBzyVM7y94bg": {
+      "brand": "ZARA",
+      "color": "negro",
+      "currency": "EUR",
+      "detail": "Camisa de cuello solapa con escote pico y manga larga. Bolsillos delanteros de plastr\ufffdn. Cierre frontal con botones forrados a tono.",
+      "id": "AvCL5z4SEBzyVM7y94bg",
+      "name": "CAMISA SEMITRANSPARENTE BOLSILLOS PLASTR\ufffdN",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-7a.jpg?alt=media&token=8fa16073-eddd-4260-92bb-ebc1cc51257b",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-7b.jpg?alt=media&token=e3ec98ea-f3f1-4537-bde6-bb4553d87984",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-7c.jpg?alt=media&token=1192e4d1-c5e0-4196-86c7-90399f9357c0",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "BRwBTn46EMH24oeCLizL": {
+      "brand": "ZARA",
+      "color": "tabaco",
+      "currency": "EUR",
+      "detail": "Camiseta confeccionada en algod\ufffdn de escote redondo y manga corta.",
+      "id": "BRwBTn46EMH24oeCLizL",
+      "name": "CAMISETA ALGOD\ufffdN",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-7a.jpg?alt=media&token=d205a33f-d536-47b9-bea4-4584ce020adb",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-7b.jpg?alt=media&token=6f408166-ed5d-4463-96be-0672e24b817d",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-7c.jpg?alt=media&token=5bba9649-ed6d-42b5-8e7f-724f292b0a6c",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "BcGVq5gQEvmfiJ2SJ65A": {
+      "brand": "ZARA",
+      "color": "oro\ufffd",
+      "currency": "EUR",
+      "detail": "Zapato tipo sandalia de tac\ufffdn alto. Tira fina en la parte delantera. Acabada en punta cuadrada. Cierre mediante atado con hebilla en el tobillo.",
+      "id": "BcGVq5gQEvmfiJ2SJ65A",
+      "name": "SANDALIA TAC\ufffdN ALTO CON ATADO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-8a.jpg?alt=media&token=bda8eeda-aea2-45ec-b027-c2f0422164c4",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-8b.jpg?alt=media&token=e89fcdba-5d85-45ca-aeb0-710050033bad",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-8c.jpg?alt=media&token=1896833c-5c0f-4350-a6cb-4969699778ec",
+      "price": "1,00",
+      "size": ["35", "36", "37", "38", "39", "40"]
+    },
+    "ChQLnOuOeBxbyTCIwvRO": {
+      "brand": "ZARA",
+      "color": "gris azul",
+      "currency": "EUR",
+      "detail": "Shorts satinados de tiro alto con cintura el\ufffdstica.",
+      "id": "ChQLnOuOeBxbyTCIwvRO",
+      "name": "SHORTS SATINADOS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-6a.jpg?alt=media&token=ec4048f9-32ab-4f59-a260-3fe50274e6e3",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-6b.jpg?alt=media&token=b7897169-6768-47a7-b58f-3be1e11783d1",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-6c.jpg?alt=media&token=600d848a-f32b-4a52-bc82-5aca6bcb0f55",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "CiaqaQWJBr49v0Wf7sfl": {
+      "brand": "ZARA",
+      "color": "verde",
+      "currency": "EUR",
+      "detail": "Blusa confeccionada en viscosa. Escote pico con solapa y manga por debajo del codo. Bajo asim\ufffdtrico con detalle de nudo en delantero.",
+      "id": "CiaqaQWJBr49v0Wf7sfl",
+      "name": "BLUSA FLUIDA ESTAMPADA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-5a.jpg?alt=media&token=410954dd-04cc-43e5-9ee6-6ae8ff0236de",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-5b.jpg?alt=media&token=322edbdf-4e09-4c1a-b6b3-71169691c1a5",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-5c.jpg?alt=media&token=a6cbcf79-4c59-4c61-abaa-3a26ee4de7bf",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "Do03e0i8foWKTTubweyK": {
+      "brand": "ZARA",
+      "color": "blanco",
+      "currency": "EUR",
+      "detail": "Camisa de cuello solapa y escote pico. Manga larga acabada en pu\ufffdo. Detalle de torsi\ufffdn en tejido. Cierre lateral con cremallera oculta en costura.",
+      "id": "Do03e0i8foWKTTubweyK",
+      "name": "CAMISA POPEL\ufffdN CROP",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-3a.jpg?alt=media&token=d071ee8e-3123-4b21-8985-0f3062d57004",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-3b.jpg?alt=media&token=230e5cdf-24b4-48ba-b469-c37b8ebc3536",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-3c.jpg?alt=media&token=d41bf34e-87f6-4cbe-980f-d5983d62719e",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "DzuVyaVPP7ibWr6jhTdE": {
+      "brand": "ZARA",
+      "color": "dorado\ufffd",
+      "currency": "EUR",
+      "detail": "Collar de eslabones met\ufffdlicos/cord\ufffdn met\ufffdlico/cadena de plana met\ufffdlica. Cierre con mosquet\ufffdn.",
+      "id": "DzuVyaVPP7ibWr6jhTdE",
+      "name": "PACK COLLARES",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-1a.jpg?alt=media&token=ae83044b-e4dd-46db-9641-c9d469b40be1",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-1b.jpg?alt=media&token=bd017882-5f6b-4efd-b253-1285ebc77ebe",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-1c.jpg?alt=media&token=fc2830c1-fe54-45e1-a21f-c3bab00edbd6",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "EcKecSkSJ3bGqDilaowX": {
+      "brand": "ZARA",
+      "color": "verde",
+      "currency": "EUR",
+      "detail": "Top de escote asim\ufffdtrico con tirante ancho. Detalle de abertura en tirante.",
+      "id": "EcKecSkSJ3bGqDilaowX",
+      "name": "TOP ASIM\ufffdTRICO RIB",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-9a.jpg?alt=media&token=1f8acd80-9e8b-4432-92a5-b7a1b812ae63",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-9b.jpg?alt=media&token=61b5fb89-36cf-4208-a893-ce38f3e917e5",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-9c.jpg?alt=media&token=b8b38a2c-801d-4063-9199-cb59aaeb0aa0",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "FmvT6STcxQyTteFBZ5o5": {
+      "brand": "ZARA",
+      "color": "crudo\ufffd",
+      "currency": "EUR",
+      "detail": "Falda pantal\ufffdn de tiro alto con aberturas delanteras. Cierre lateral con cremallera oculta en costura.",
+      "id": "FmvT6STcxQyTteFBZ5o5",
+      "name": "FALDA PANTAL\ufffdN SATINADA ABERTURAS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-5a.jpg?alt=media&token=9f83aeb7-a0e1-4531-86b1-437966819956",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-5b.jpg?alt=media&token=a0ec754f-e3d3-4fb6-9a8b-b59de5203e47",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-5c.jpg?alt=media&token=cd42ce09-5b75-4841-bb6a-9ffe99c8228e",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "Iun4tW9ztURhO70RWXeS": {
+      "brand": "ZARA",
+      "color": "multicolor\ufffd",
+      "currency": "EUR",
+      "detail": "Falda larga estampada de tiro alto y cintura el\ufffdstica ajustable con cordones. Bajo acabado en volante.",
+      "id": "Iun4tW9ztURhO70RWXeS",
+      "name": "FALDA LARGA ESTAMPADA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-3a.jpg?alt=media&token=68fee1fb-13a2-4fc9-9846-414799fe185b",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-3b.jpg?alt=media&token=d3405e49-13f0-49d5-be47-0158df3173e1",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-3c.jpg?alt=media&token=ed2abc7a-3c48-448a-a6e3-b48dfef02b8a",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "Iwqtkfq8C5nwi7cV8uNs": {
+      "brand": "ZARA",
+      "color": "negro\ufffd",
+      "currency": "EUR",
+      "detail": "Bolso formato mini. Interior forrado con bolsillo. Asa de mano con detalle de abalorios y asa funci\ufffdn bandolera ajustable y extra\ufffdble. Cierre mediante im\ufffdn.",
+      "id": "Iwqtkfq8C5nwi7cV8uNs",
+      "name": "MINI BOLSO ASA ABALORIOS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-6a.jpg?alt=media&token=236479a2-946a-462d-bd63-4d4c5db4d2bd",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-6b.jpg?alt=media&token=4e096dc8-5a16-4656-8824-abca18a95773",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-6c.jpg?alt=media&token=071461de-3ec7-4f79-b4b8-7068e61ca5cb",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "K5zf4nLJuyvNji1A7G3D": {
+      "brand": "ZARA",
+      "color": "blanco / negro",
+      "currency": "EUR",
+      "detail": "Blusa de cuello solapa con escote fluido y manga larga.",
+      "id": "K5zf4nLJuyvNji1A7G3D",
+      "name": "BLUSA LUNARES ESCOTE FLUIDO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-6a.jpg?alt=media&token=7cedb102-f1bd-4c75-bf14-b51cf035891d",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-6b.jpg?alt=media&token=5dff9b66-874b-489c-9bdc-c5ae0a2303b2",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-6c.jpg?alt=media&token=c778b7f1-a229-4958-8db7-d542f4f1c702",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "KtGRO18GQMCUZABewRaQ": {
+      "brand": "ZARA",
+      "color": "blanco\ufffd",
+      "currency": "EUR",
+      "detail": "Bolso mini city con detalle de cadena met\ufffdlica en la parte delantera. Interior forrado con bolsillo. Asa de mano y asa funci\ufffdn bandolera ajustable y extra\ufffdble. Cierre mediante im\ufffdn.",
+      "id": "KtGRO18GQMCUZABewRaQ",
+      "name": "BOLSO MINI CITY CADENA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-4a.jpg?alt=media&token=1eb0f2d3-58e8-4df3-a6c3-2f5f937bf3a6",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-4b.jpg?alt=media&token=e643419a-d403-4580-b1aa-9d33b5866c5c",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-4c.jpg?alt=media&token=80e6a476-0b5f-4dea-abf6-5541e1fb5f19",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "MEzCYYlKeG5EOEi0VvfD": {
+      "brand": "ZARA",
+      "color": "azul",
+      "currency": "EUR",
+      "detail": "Shorts de tiro alto con cinco bolsillos. Detalle de aplicaci\ufffdn de brillos en delantero. Bajo acabado deshilachado. Cierre frontal con cremallera y bot\ufffdn met\ufffdlico.",
+      "id": "MEzCYYlKeG5EOEi0VvfD",
+      "name": "ZW THE HIGH WAIST SHORTS RHINESTONE",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-1a.jpg?alt=media&token=2f518a0a-cf0a-4b17-811f-333ad3a0f941",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-1b.jpg?alt=media&token=c60fa32c-e0e3-4328-9991-349b0526331e",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-1c.jpg?alt=media&token=c158798d-79ea-4769-b052-002bf23b31b3",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "MKyrDRo9ac6Fpt1u8VuA": {
+      "brand": "ZARA",
+      "color": "rosa",
+      "currency": "EUR",
+      "detail": "Falda de tiro alto con cintura el\ufffdstica. Detalle de falsos bolsillos de vivo delanteros con botones dorados. Bajo en evas\ufffd.",
+      "id": "MKyrDRo9ac6Fpt1u8VuA",
+      "name": "FALDA PUNTO BOTONES DORADOS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-9a.jpg?alt=media&token=b139d72d-1cf0-4a79-8198-68ba42bedeba",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-9b.jpg?alt=media&token=0672c7fc-a93f-48c9-b3b8-423ad9e4d713",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-9c.jpg?alt=media&token=841840bd-e0e7-4a6d-bd15-d6f56d045397",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "N5AQath5K3UKIZKFylfb": {
+      "brand": "ZARA",
+      "color": "violeta",
+      "currency": "EUR",
+      "detail": "Falda mini de tiro alto. Cierre con cremallera oculta en costura.",
+      "id": "N5AQath5K3UKIZKFylfb",
+      "name": "FALDA MINI CUADRO VICHY",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-2a.jpg?alt=media&token=3d536b5c-cfd9-45ac-bf23-f987c22e10eb",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-2b.jpg?alt=media&token=9414e1a4-9171-4b7f-ae42-b8b5ba028836",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-2c.jpg?alt=media&token=b39b0d63-3b8c-4570-87bf-64423ebda543",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "Na4L7Agj55zfWV36TBKk": {
+      "brand": "ZARA",
+      "color": "lila\ufffd",
+      "currency": "EUR",
+      "detail": "Sandalia tipo mule con tac\ufffdn alto. Detalle de plumas en el corte.",
+      "id": "Na4L7Agj55zfWV36TBKk",
+      "name": "SANDALIA TAC\ufffdN PLUMAS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-4a.jpg?alt=media&token=8feaf7dc-d9e3-4cef-8f2d-08c6e11b1c2e",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-4b.jpg?alt=media&token=d3cdd1dc-f08a-49dc-9b09-6059d0e2c105",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-4c.jpg?alt=media&token=434218cf-208c-4ab6-8cdd-2715bdd5f445",
+      "price": "1,00",
+      "size": ["35", "36", "37", "38", "39", "40"]
+    },
+    "OAcGSLpF36RE2WFm4uHL": {
+      "brand": "ZARA",
+      "color": "azul",
+      "currency": "EUR",
+      "detail": "Vestido midi de cuello halter. Cierre en espalda con abertura y lazada en mismo tejido.\n",
+      "id": "OAcGSLpF36RE2WFm4uHL",
+      "name": "VESTIDO HALTER SATINADO\n",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-4a.jpg?alt=media&token=808bbeda-2cb8-4e6d-b832-de1cd03ece9f",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-4b.jpg?alt=media&token=d0fe0a1b-d542-4412-9549-aa1179f85315",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-4c.jpg?alt=media&token=32b6b0b6-4f3d-4d6d-bf0c-5ba5e52e35b7",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "OLH7NJFndXiLVMK4eTLT": {
+      "brand": "ZARA",
+      "color": "verde",
+      "currency": "EUR",
+      "detail": "Vestido largo de escote pico y tirantes finos. Detalle de tejido perforado.",
+      "id": "OLH7NJFndXiLVMK4eTLT",
+      "name": "VESTIDO LARGO TIRANTES",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-2a.jpg?alt=media&token=b9d17ffe-5568-4f68-9b07-49511c0da426",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-2b.jpg?alt=media&token=40af4629-9ec7-4357-8775-a5d9f497573e",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-2c.jpg?alt=media&token=ebeb5fbe-5b7f-4f05-930f-7632ef533e65",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "PSmlhkqtpBPke5ZgDwVb": {
+      "brand": "ZARA",
+      "color": "fucsia\ufffd",
+      "currency": "EUR",
+      "detail": "Vestido de escote redondo y tirantes finos. Detalle de combinaci\ufffdn de tejidos a tono.",
+      "id": "PSmlhkqtpBPke5ZgDwVb",
+      "name": "VESTIDO COMBINADO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-1a.jpg?alt=media&token=117b3577-7e73-44ce-8052-3527a5714a5a",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-1b.jpg?alt=media&token=8a34ca6a-c40e-4364-a898-d9fe9b8fd64c",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-1c.jpg?alt=media&token=8ebc6fa9-6d89-45f4-8bd6-b32529439d82",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "Rc32WhvAoV5BSTQtqDWg": {
+      "brand": "ZARA",
+      "color": "azul claro",
+      "currency": "EUR",
+      "detail": "Camisa de cuello solapa y manga larga. Bolsillo delantero de plastr\ufffdn. Bajo asim\ufffdtrico. Cierre frontal con botones.",
+      "id": "Rc32WhvAoV5BSTQtqDWg",
+      "name": "CAMISA OXFORD",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-2a.jpg?alt=media&token=7a7085a5-94ac-4064-94af-3157d6d43448",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-2b.jpg?alt=media&token=d9467019-4d80-4d93-ac0f-00f4a8138d85",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-2c.jpg?alt=media&token=95c0e19a-3af4-41c4-9b9d-33b04774e694",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "SyhBWXuv9IKpfRa5En22": {
+      "brand": "ZARA",
+      "color": "plata\ufffd",
+      "currency": "EUR",
+      "detail": "Zapato tipo sandalia de tac\ufffdn alto ancho con plataforma. Acabada en punta redondeada. Cierre mediante pulsera con hebilla al tobillo.",
+      "id": "SyhBWXuv9IKpfRa5En22",
+      "name": "SANDALIA TAC\ufffdN PLATAFORMA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-1a.jpg?alt=media&token=62082147-5050-40a7-ae8c-7cda7f8f4568",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-1b.jpg?alt=media&token=038bacbd-ecf2-4c66-88c0-253b3086ad33",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-1c.jpg?alt=media&token=eed58a99-90ef-419a-8165-c2c4ef0f5026",
+      "price": "1,00",
+      "size": ["35", "36", "37", "38", "39", "40"]
+    },
+    "T2gkgJ1ZaSXUyNZMdo9c": {
+      "brand": "ZARA",
+      "color": "negro\ufffd",
+      "currency": "EUR",
+      "detail": "Zapato con tac\ufffdn medio. Corte en tejido con estampado de lunares. Cierre mediante atado con flor extra\ufffdble. Tac\ufffdn medio fino. Acabado en punta.",
+      "id": "T2gkgJ1ZaSXUyNZMdo9c",
+      "name": "SAL\ufffdN ATADO FLOR",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-2a.jpg?alt=media&token=3dd0c4b4-2c47-4686-a293-784dd46accfe",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-2b.jpg?alt=media&token=91c48263-d940-4c73-894b-24d0f34fd587",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-7-zapato-2c.jpg?alt=media&token=737a8c64-79c6-4d0e-85f3-473fa212c099",
+      "price": "1,00",
+      "size": ["35", "36", "37", "38", "39", "40"]
+    },
+    "UK73XKitV0wOKGwlA9Pw": {
+      "brand": "ZARA",
+      "color": "beige\ufffd",
+      "currency": "EUR",
+      "detail": "Mochila con detalle de eslabones en la parte delantera. Asas de hombro ajustables. Asa de mano en cadena. Bolsillo frontal con cremallera. Cierre mediante cremallera. Interior forrado.",
+      "id": "UK73XKitV0wOKGwlA9Pw",
+      "name": "MOCHILA ESLABONES",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-5a.jpg?alt=media&token=75f65a38-2c59-4a38-89ff-97dfd33433b7",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-5b.jpg?alt=media&token=3129640a-1290-4f29-93ce-2f6d7b2d39d6",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-5c.jpg?alt=media&token=20bfbc8f-e1c4-481f-88b1-0e9648e30fb1",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "UKe9FpZvnAtIAq2vN6f7": {
+      "brand": "ZARA",
+      "color": "dorado\ufffd",
+      "currency": "EUR",
+      "detail": "Cintur\ufffdn met\ufffdlico el\ufffdstico con piedras de resina multicolor. Cierre con mosquet\ufffdn.",
+      "id": "UKe9FpZvnAtIAq2vN6f7",
+      "name": "CINTUR\ufffdN EL\ufffdSTICO PIEDRAS RESINA\n",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-7a.jpg?alt=media&token=213a69e5-8ef1-49f5-81b6-742e6074dc00",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-7b.jpg?alt=media&token=d9fdc057-0dfc-4bad-9b27-731306efa72b",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-7c.jpg?alt=media&token=bdb4e86e-eb9c-48ec-b562-63067a3c2cfd",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "UkS5XvubXcQaWqKI3J9S": {
+      "brand": "ZARA",
+      "color": "blanco / negro",
+      "currency": "EUR",
+      "detail": "Camiseta confeccionada en algod\ufffdn de primera calidad. Cuello redondo y manga corta.",
+      "id": "UkS5XvubXcQaWqKI3J9S",
+      "name": "CAMISETA PREMIUM ALGOD\ufffdN",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-1a.jpg?alt=media&token=2e646544-fe92-4b8b-9fc9-b45b86979197",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-1b.jpg?alt=media&token=6b16e772-7bcb-48f0-a621-87f538320483",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-1c.jpg?alt=media&token=3d22db9e-9d5c-4042-a14a-d2fba2164496",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "VFrlh2QZMjnO1hd5aV0R": {
+      "brand": "ZARA",
+      "color": "cebra\ufffd",
+      "currency": "EUR",
+      "detail": "Falda pantal\ufffdn de tiro alto con aberturas delanteras. Cierre lateral con cremallera oculta en costura.",
+      "id": "VFrlh2QZMjnO1hd5aV0R",
+      "name": "FALDA PANTAL\ufffdN SATINADA ABERTURAS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-4a.jpg?alt=media&token=5ac0cc02-3559-4904-9f48-5bb7cb470030",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-4b.jpg?alt=media&token=b3b9e5ba-5f72-4261-ad39-67548ea35744",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-4c.jpg?alt=media&token=b1bc5308-d286-47cd-a1c3-6dae2c197b68",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "VWEHrLq7T6DAcPHgQscY": {
+      "brand": "ZARA",
+      "color": "negro",
+      "currency": "EUR",
+      "detail": "Kimono largo semitransparente confeccionado en viscosa. Cuello redondo y manga larga. Acabados en volantes. Cierre frontal con lazadas en mismo tejido.\n",
+      "id": "VWEHrLq7T6DAcPHgQscY",
+      "name": "KIMONO FLUIDO VOLANTES",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-5a.jpg?alt=media&token=bfc95dc4-ab9b-4bf5-9e99-982a4916b3f4",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-5b.jpg?alt=media&token=dcca90ee-32c5-4a25-b071-0bd43e2e1814",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-3-vestido-5c.jpg?alt=media&token=c4c679e0-ee1e-4b3a-b50c-dc350b768ffe",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "W8BZHUHNo2y6Y6taYMry": {
+      "brand": "ZARA",
+      "color": "rosa pastel",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn de tiro alto con bolsillos laterales y falsos bolsillos de vivo en espalda. Detalle de pinzas marcadas en delantero. Cierre frontal con cremallera y bot\ufffdn.",
+      "id": "W8BZHUHNo2y6Y6taYMry",
+      "name": "PANTAL\ufffdN FULL LENGTH",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-2a.jpg?alt=media&token=630f1602-f5c6-4aa2-adec-456c2ea97a05",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-2b.jpg?alt=media&token=a62ee353-0b9c-4ff0-a361-3713826ecdda",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-2c.jpg?alt=media&token=5996a616-98c2-438d-b50b-009c54443588",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "X672Bz8Moy38SA0h5X2Y": {
+      "brand": "ZARA",
+      "color": "rosa",
+      "currency": "EUR",
+      "detail": "Bolso en formato bandolera mini de piel. Interior forrado con bolsillo. Cierre mediante bot\ufffdn en la solapa. Asa de hombro.",
+      "id": "X672Bz8Moy38SA0h5X2Y",
+      "name": "BOLSO BANDOLERA PIEL",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-3a.jpg?alt=media&token=d46091b8-99af-464f-bc87-13abe3a4cab9",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-3b.jpg?alt=media&token=9128dda3-d904-461d-b4a1-cdfdf3972ba1",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-3c.jpg?alt=media&token=e22711ca-64a7-400c-ad15-603e417926a9",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "X7YHlGB12GqG8rnrKLuF": {
+      "brand": "ZARA",
+      "color": "negro",
+      "currency": "EUR",
+      "detail": "Shorts de tiro alto con cinco bolsillos. Efecto lavado. Detalle de rotos y bajo acabado sin costura. Cierre frontal con cremallera y bot\ufffdn met\ufffdlico.",
+      "id": "X7YHlGB12GqG8rnrKLuF",
+      "name": "SHORTS DENIM HIGH RISE ROTOS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-7a.jpg?alt=media&token=2e016bf2-4fa8-4e23-bed7-fb177335d690",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-7b.jpg?alt=media&token=2ff48c20-fcd4-46c5-acf8-d32f9b9a2417",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-7c.jpg?alt=media&token=8284d904-3931-4074-b9e2-7caa1d35bede",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "Xb9mBnyU5UV7pM2pd1B6": {
+      "brand": "ZARA",
+      "color": "negro",
+      "currency": "EUR",
+      "detail": "Camiseta confeccionada en algod\ufffdn con cuello redondo y manga corta.",
+      "id": "Xb9mBnyU5UV7pM2pd1B6",
+      "name": "CAMISETA ALGOD\ufffdN",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-8a.jpg?alt=media&token=a1b66232-ddbb-4d4f-96e4-4cd8acbd4735",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-8b.jpg?alt=media&token=7ac9edd9-252a-465a-acf8-1a8e59cbc878",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-1-camiseta-8c.jpg?alt=media&token=921b0b89-abdf-4b85-9fd9-7665d6423d75",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "XcFOkzyZC4N2Qsz5gxHe": {
+      "brand": "ZARA",
+      "color": "celeste",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn de tiro alto y cintura el\ufffdstica ajustable con cordones. Detalle de bordados con aplicaci\ufffdn de lentejuelas.",
+      "id": "XcFOkzyZC4N2Qsz5gxHe",
+      "name": "PANTAL\ufffdN TIE DYE LIMITED EDITION",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-9a.jpg?alt=media&token=5d875229-2e46-4098-8025-fde12bb2a407",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-9b.jpg?alt=media&token=385023f7-b9e5-4d40-9e3a-1c2e3d9b0aeb",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-4-pantalones-9c.jpg?alt=media&token=ad763bed-4b90-4ce8-9201-40276eec3189",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "XdPBQq5LhzpU8j1Sp2W5": {
+      "brand": "ZARA",
+      "color": "khaki",
+      "currency": "EUR",
+      "detail": "Bermuda confeccionada con tejido en mezcla de lino y algod\ufffdn. Tiro alto con pinzas delanteras. Bolsillos frontales y falso bolsillo de solapa en espalda. Cierre frontal con cremallera, bot\ufffdn interior y gancho met\ufffdlico.",
+      "id": "XdPBQq5LhzpU8j1Sp2W5",
+      "name": "BERMUDA PLIEGUES CON LINO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-9a.jpg?alt=media&token=6419a10f-575a-4356-a87f-b88f4e3ffa3e",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-9b.jpg?alt=media&token=03d0aa26-ad4e-4156-b8e0-753e7d3c16df",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-6-short-9c.jpg?alt=media&token=babf24df-67d3-452b-ac39-535e9d5d2aac",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "YEA8IRkOiBHl6xcW9sDc": {
+      "brand": "ZARA",
+      "color": "verde",
+      "currency": "EUR",
+      "detail": "Camisa estampada de cuello solapa con aplicaci\ufffdn de abalorios a tono. Manga corta. Bajo asim\ufffdtrico con aberturas laterales. Cierre frontal con botones.",
+      "id": "YEA8IRkOiBHl6xcW9sDc",
+      "name": "CAMISA ESTAMPADA ABALORIOS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-9a.jpg?alt=media&token=87ed11e7-4229-4848-ba4c-fdb03e0abdfc",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-9b.jpg?alt=media&token=7f326afd-a2bd-49c5-bf42-7b736492b457",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-2-camisa-9c.jpg?alt=media&token=a4e3af3f-9ba0-4ef1-a95e-764d7ef8bd41",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "YxpWi98er2Wo34UEpjnc": {
+      "brand": "ZARA",
+      "color": "multicolor\ufffd",
+      "currency": "EUR",
+      "detail": "Falda corta estampada de tiro alto. Cierre con cremallera oculta en costura.",
+      "id": "YxpWi98er2Wo34UEpjnc",
+      "name": "FALDA CORTA ESTAMPADA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-7a.jpg?alt=media&token=9b8ba8e9-4426-4a3a-b1f0-7dc338b3ae44",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-7b.jpg?alt=media&token=fe157a5f-9581-48d9-828e-f6fca1b79d3a",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-5-falda-7c.jpg?alt=media&token=8417ac7c-1c3c-417c-9c4c-8444d3f6860c",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "0VL3VcIAzIpNLplIE44m": {
+      "brand": "ZARA",
+      "color": "MARINO",
+      "currency": "EUR",
+      "detail": "Polo de punto tejido en hilatura de algod\ufffdn. Cuello solapa y abertura frontal. Manga corta.",
+      "name": "POLO PUNTO ESTRUCTURA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-9a.jpg?alt=media&token=779f079d-b666-406a-b6db-53b0849e13a1",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-9b.jpg?alt=media&token=16a2f575-c2c3-4cf9-a1e9-5daa79552ef8",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-9c.jpg?alt=media&token=66c49174-8bda-47da-9d9b-562b276ff75c",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "0gVFO6gsyhWHvR6hj23N": {
+      "brand": "ZARA",
+      "color": "MANDARINA",
+      "currency": "EUR",
+      "detail": "Camisa relgular fit confeccionada en tejido con mezcla de lino. Cuello tira y manga larga acabada en pu\ufffdo con bot\ufffdn. Cierre frontal de botonadura.",
+      "name": "CAMISA ESTRUCTURA LINO - ALGOD\ufffdN",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-8a.jpg?alt=media&token=bd3c6e08-1a47-45c6-8cba-c256bde66d3b",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-8b.jpg?alt=media&token=6f5835ed-4f32-464b-b1c1-8bb29027bb54",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-8c.jpg?alt=media&token=5264f0ee-8208-45a0-9022-f076a0385c73",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "17kGadJETiwfzRzTCxFj": {
+      "brand": "ZARA",
+      "color": "BLANCO / MARINO",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn regular fit. Bolsillos frontales y detalle de bolsillos de vivo en espalda. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "PANTAL\ufffdN TRAJE OJO DE PERDIZ",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-4a.jpg?alt=media&token=e9a99b55-2d1d-439f-9b12-6504a291567f",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-4b.jpg?alt=media&token=34c0c1a8-f270-4f4d-af7a-3348fdf9c6fc",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-4c.jpg?alt=media&token=7427d5a4-89fa-487d-85b1-915f274a5e5f",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "1lBXajJBy1itCQT1VK18": {
+      "brand": "ZARA",
+      "color": "BEIGE",
+      "currency": "EUR",
+      "detail": "Mocas\ufffdn tipo na\ufffdtico. Detalle de pespunte en el corte y el empeine a modo de bord\ufffdn. Cordonera con cuatro pasados. Suela volumen color hueso con bandeleta.",
+      "name": "MOCAS\ufffdN N\ufffdUTICO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-7a.jpg?alt=media&token=4fd9acaa-7ccb-43fa-99cb-69f9129fc135",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-7b.jpg?alt=media&token=962877bf-433f-4035-817e-c09b2ef7b37b",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-7c.jpg?alt=media&token=7183946a-4c22-46ab-9ad7-f5dc9480af86",
+      "price": "1,00",
+      "size": ["38", "39", "40", "41", "42", "43", "44", "45", "46", "47"]
+    },
+    "27FGlqeOfdkUgayIbjiy": {
+      "brand": "ZARA",
+      "color": "RAYAS",
+      "currency": "EUR",
+      "detail": "Camisa slim fit de cuello italiano y manga corta. Cierre frontal de botonadura.",
+      "name": "CAMISA ESTAMPADO RAYAS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-1a.jpg?alt=media&token=50ecbafd-989f-422d-b727-aa165e54bd8c",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-1b.jpg?alt=media&token=40e2d015-a79b-496c-bb8c-6450e54356cc",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-1c.jpg?alt=media&token=cd5fd081-2de6-4e90-bd65-18f9fe2d18d1",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "2IGimvvnQxcnqlPbd8KQ": {
+      "brand": "ZARA",
+      "color": "VERDE AGUA",
+      "currency": "EUR",
+      "detail": "Bermuda confeccionada en tejido con alta elasticidad. Cintura el\ufffdstica ajustable con cord\ufffdn. Bolsillos frontales y detalle de bolsillos de vivo en espalda. Bajo acabado con vuelta.",
+      "name": "BERMUDA CONFORT EASY CARE",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-4a.jpg?alt=media&token=e39f1834-62e7-45de-bbbc-acf0eef5b816",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-4b.jpg?alt=media&token=74d04549-c483-4296-9a3e-8ac089d1edd6",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-4c.jpg?alt=media&token=97ee63f3-377d-4a2c-9700-c0acf0937b8b",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "2n2RP0GlrEVEdpta6wJC": {
+      "brand": "ZARA",
+      "color": "CRUDO / ROJO",
+      "currency": "EUR",
+      "detail": "Polo de cuello solapa con abertura frontal. Manga corta. Acabados en rib.",
+      "name": "POLO JACQUARD RAYAS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-3a.jpg?alt=media&token=862d0c76-7291-43c4-a99e-a2cfeb904353",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-3b.jpg?alt=media&token=c7af0c4c-8f1b-4d5f-9b01-7908ef1a81f7",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-3c.jpg?alt=media&token=5d82ee89-39d3-4306-b038-e6be2632493c",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "47JnE7d4PMvSNXqE9XTM": {
+      "brand": "ZARA",
+      "color": "MARRON",
+      "currency": "EUR",
+      "detail": "Cintur\ufffdn confeccionado en piel. Cierre con hebilla met\ufffdlica y pasador.",
+      "name": "CINTUR\ufffdN PIEL",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-7a.jpg?alt=media&token=df0a8b8a-ba1c-4d12-8949-75c2f87e103f",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-7b.jpg?alt=media&token=a5aff209-3efd-4df5-8e7b-9ee0ff6637f8",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-7b.jpg?alt=media&token=a5aff209-3efd-4df5-8e7b-9ee0ff6637f8",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "4k4TunNEIy7a9aLCIwdh": {
+      "brand": "ZARA",
+      "color": "VERDE",
+      "currency": "EUR",
+      "detail": "Polo de cuello solapa con cierre frontal de botonadura. Manga corta. Bajo con aberturas laterales.",
+      "name": "POLO ESTRUCTURA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-7a.jpg?alt=media&token=8a962a66-4224-4998-91d2-fceab36df729",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-7b.jpg?alt=media&token=af10c7cb-8b56-44c7-af17-9fe157a6efa3",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-7c.jpg?alt=media&token=a4612bcb-0930-4a6d-bb21-bb7fe30cc749",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "5F4UoRRCHTz3lWwHeJU6": {
+      "brand": "ZARA",
+      "color": "KHAKI",
+      "currency": "EUR",
+      "detail": "Bermuda confeccionada en tejido con alta elasticidad. Cintura el\ufffdstica ajustable con cord\ufffdn. Bolsillos frontales y detalle de bolsillos de vivo en espalda. Bajo acabado con vuelta.",
+      "name": "BERMUDA CONFORT EASY CARE",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-5a.jpg?alt=media&token=752c9194-ffc5-4d53-8954-fe4561377a2a",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-5b.jpg?alt=media&token=1205b686-a610-4b9d-a7c9-3221c1569b8d",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-5c.jpg?alt=media&token=f4ced39c-24e3-47ac-b935-902a424ce9ad",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "5OtkIvFOF0wFcDvnbrFF": {
+      "brand": "ZARA",
+      "color": "PLATA",
+      "currency": "EUR",
+      "detail": "Gafas de sol con montura met\ufffdlica cuadrada y lente polarizada. Almohadillas nasales regulables. Incluye funda.",
+      "name": "GAFAS DE SOL MONTURA MET\ufffdLICA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-6a.jpg?alt=media&token=670d79c5-e9ff-479d-9b06-1993ba7ee664",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-6b.jpg?alt=media&token=76676324-ac23-478f-9ee2-fbd3a8079ecb",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-6c.jpg?alt=media&token=a5978760-9dad-4f03-9210-33e4e47f97a4",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "5VuvzLhy54PuUxeIypu8": {
+      "brand": "ZARA",
+      "color": "KHAKI",
+      "currency": "EUR",
+      "detail": "Bermuda regular fit. Cinco bolsillos. Efecto lavado. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "BERMUDA DENIM COLOR",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-3a.jpg?alt=media&token=6e3790fd-e515-478c-af40-eb0b27c0a0a4",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-3b.jpg?alt=media&token=042eaf60-b7cd-473a-95d2-0a8f4da8217e",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-3c.jpg?alt=media&token=f4d0c043-bc21-4d5e-b761-9589530629dc",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "6HlM8DOHRxpmDzfPE8I4": {
+      "brand": "ZARA",
+      "color": "VERDE / AZUL",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn relaxed fit. Bolsillos frontales y detalle de bolsillos en espalda. Aplicaci\ufffdn de bolsillos plastr\ufffdn con solapa en perneras. Bajo acabado con vuelta. Largo cropped. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "PANTAL\ufffdN CARGO RELAXED FIT",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-1a.jpg?alt=media&token=c1a3b389-1e6c-4876-808e-0ad0098e3a9b",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-1b.jpg?alt=media&token=bdb1c691-b325-431d-9f69-e86458eb3191",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-1c.jpg?alt=media&token=75c1f06a-1b5c-4183-afc5-83c476f7bf12",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "6IxdRA0cpVxqvrRd0BSj": {
+      "brand": "ZARA",
+      "color": "GRIS MEDIO",
+      "currency": "EUR",
+      "detail": "Polo de cuello solapa con cierre frontal de botonadura y manga corta.",
+      "name": "POLO ESTRUCTURA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-1a.jpg?alt=media&token=8145ae11-90b2-474b-a43c-d6be3f2fdd43",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-1b.jpg?alt=media&token=6fa39f53-d253-4287-8bc3-f3372db9d722",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-1c.jpg?alt=media&token=3eff2885-d41f-43a1-8700-f6ac06cc5708",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "6mw6JhF7sX8Y0bzfDs9g": {
+      "brand": "ZARA",
+      "color": "NEGRO",
+      "currency": "EUR",
+      "detail": "Gafas de sol con montura met\ufffdlica cuadrada. Incluye funda.",
+      "name": "GAFAS DE SOL MONTURA MET\ufffdLICA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-5a.jpg?alt=media&token=dd3a583b-3e77-4263-a8a1-9cb883ec445e",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-5b.jpg?alt=media&token=302790ff-ee5b-42f1-b320-32d716340e80",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-5c.jpg?alt=media&token=8f94aa76-68ab-4ef3-9eb6-808f8c8a954a",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "891hQm5XZsLbns000DDM": {
+      "brand": "ZARA",
+      "color": "NEGRO",
+      "currency": "EUR",
+      "detail": "Cintur\ufffdn confeccionado en piel. Cierre con hebilla met\ufffdlica y pasador.",
+      "name": "CINTUR\ufffdN PIEL",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-9.jpg?alt=media&token=f2b0d351-43aa-49b2-8939-d13efb672e32",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-9b.jpg?alt=media&token=d988e6f7-f470-4687-bf79-cb0007e14e53",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-9b.jpg?alt=media&token=d988e6f7-f470-4687-bf79-cb0007e14e53",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "8RTffLytBeQic3k0xdCf": {
+      "brand": "ZARA",
+      "color": "NEGRO",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn de cintura el\ufffdstica ajustable. Bolsillos de vivo frontales y de vivo en espalda. Aplicaci\ufffdn de bolsillo plastr\ufffdn con solapa en pernera. Bajo acabado en pu\ufffdo de rib.",
+      "name": "PANTAL\ufffdN CARGO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-2a.jpg?alt=media&token=2468c098-2b23-40dc-b1bd-59c4f626c185",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-2b.jpg?alt=media&token=4a6b11dd-23eb-44f7-b562-f8e0c34557a6",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-2c.jpg?alt=media&token=912d08f2-11a4-4ed5-b71d-ebc704ba011d",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "8Sn5MglfQho9je4N1gO9": {
+      "brand": "ZARA",
+      "color": "ROSA EMPOLVADO",
+      "currency": "EUR",
+      "detail": "Blazer de cuello con solapas de muesca y manga larga acabada en pu\ufffdo con botones. Pantal\ufffdn de cintura con pliegues frontales. Bolsillos en delantero.",
+      "name": "TRAJE PLIEGUES",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-6a.jpg?alt=media&token=48b96685-1306-4c36-b1b1-1237ac5b3bdf",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-6b.jpg?alt=media&token=698d0648-0dfe-485b-b7e4-765173ba287d",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-6c.jpg?alt=media&token=f8b0083d-08d9-44fb-9cc3-82aebfdd6f89",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "AYS10AjfnVULCH9PRRc4": {
+      "brand": "ZARA",
+      "color": "AZUL MARINO",
+      "currency": "EUR",
+      "detail": "Mocas\ufffdn tipo sport. Corte en piel serraje. Detalle de borlas y bord\ufffdn en el empeine. Piso de goma tipo zapatilla.",
+      "name": "MOCAS\ufffdN SPORT PIEL",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-8a.jpg?alt=media&token=45951069-e13a-4b03-b7ca-65f266e4796d",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-8b.jpg?alt=media&token=0de7f021-d116-412e-8b79-da805b37e0d5",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-8c.jpg?alt=media&token=8ecdb1d5-2120-472e-bc09-78c4b94ed2ea",
+      "price": "1,00",
+      "size": ["38", "39", "40", "41", "42", "43", "44", "45", "46", "47"]
+    },
+    "BDheMW0dFrB3LpxIeAQ8": {
+      "brand": "ZARA",
+      "color": "ARENA",
+      "currency": "EUR",
+      "detail": "Bermuda regular fit. Cinco bolsillos. Efecto lavado. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "BERMUDA DENIM COLOR",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-2a.jpg?alt=media&token=7d25ad57-324c-48f1-a851-02a7630c4f7b",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-2b.jpg?alt=media&token=d50586ec-33c7-4019-b16f-65e75934c241",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-2c.jpg?alt=media&token=1a572544-2dfe-4f9b-b280-6d2ffc931f6a",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "CFohqjcZvwWXHIbFx7By": {
+      "brand": "ZARA",
+      "color": "VERDE GRIS",
+      "currency": "EUR",
+      "detail": "Polo de cuello solapa con abertura frontal. Manga corta. Bajo acabado con rib el\ufffdstico.",
+      "name": "POLO JACQUARD",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-5a.jpg?alt=media&token=cd0b0679-0203-4864-8674-a5706b1347bf",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-5b.jpg?alt=media&token=1452a49a-0a74-4ad1-87fd-d74fc2fc3387",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-5c.jpg?alt=media&token=6b5d6a82-f675-44cc-a2a3-9c656ed233e6",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "CWTD1gzHr3ZPpsASZINA": {
+      "brand": "ZARA",
+      "color": "GRIS TOPO",
+      "currency": "EUR",
+      "detail": "Bolso tipo bowling. Corte en nylon soft. Bolsillo principal con cierre de cremallera. En en interior cuenta con un bolsillo peque\ufffdo. Dispone de dos asas de mano.",
+      "name": "BOWLING NYLON SOFT RHUIGI",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-7a.jpg?alt=media&token=7edf92ce-497a-457a-ba57-ce6c2b785b76",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-7b.jpg?alt=media&token=f9ffe708-7ec7-40ef-a55b-4376520deb03",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-7c.jpg?alt=media&token=3353f5f5-2750-4209-876c-d4ff090f291e",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "CXmagbRLN3iIOKbmYj8f": {
+      "brand": "ZARA",
+      "color": "VERDE",
+      "currency": "EUR",
+      "detail": "Bermuda slim fit. Bolsillos frontales y detalle de bolsillos de vivo en espalda. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "BERMUDA CHINO SLIM",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-9a.jpg?alt=media&token=ba2336f9-4aaa-4d3d-a2a5-6dc1f67f6c29",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-9b.jpg?alt=media&token=24738a20-b84d-4b41-8b93-44f7ed9387c6",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-9c.jpg?alt=media&token=3a82a22a-5def-427b-8d18-88519df4ceff",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "EQw3hwizxE85XyEnhG7T": {
+      "brand": "ZARA",
+      "color": "MARINO LAVADO",
+      "currency": "EUR",
+      "detail": "Boina con visera confeccionada en tejido de algod\ufffdn.",
+      "name": "BOINA B\ufffdSICA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-2a.jpg?alt=media&token=091d91bf-8847-4efd-83a8-687265857555",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-2b.jpg?alt=media&token=dc8b3584-8c1c-4f3b-8c54-ff8bd06bb4ee",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-2c.jpg?alt=media&token=cd9a0a62-4167-4126-bc82-6208fe20aba6",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "FuuaQ9w5K24Rf8E1MGGd": {
+      "brand": "ZARA",
+      "color": "BEIGE",
+      "currency": "EUR",
+      "detail": "Bermuda confeccionada en tejido con alta elasticidad. Cintura el\ufffdstica ajustable con cord\ufffdn. Bolsillos frontales y detalle de bolsillos de vivo en espalda. Bajo acabado con vuelta.",
+      "name": "BERMUDA CONFORT EASY CARE",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-6a.jpg?alt=media&token=f473820a-f199-4872-b2fa-55ef92c005f8",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-6b.jpg?alt=media&token=e8c19396-0bd5-4320-936b-b064f3dff160",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-6c.jpg?alt=media&token=07a96253-f284-45d8-9be9-6aeb62714865",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "GIw1FmrQuYVJBTSWtIuP": {
+      "brand": "ZARA",
+      "color": "AZUL OSCURO",
+      "currency": "EUR",
+      "detail": "Blazer regular fit. Cuello con solapas de muesca y manga larga acabada en pu\ufffdo con bot\ufffdn. Pantal\ufffdn regular fit. Bolsillos frontales.",
+      "name": "TRAJE OJO DE PERDIZ",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-3a.jpg?alt=media&token=86f871d7-3160-4d7a-a656-c5bfe7d4b59b",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-3b.jpg?alt=media&token=20ade400-527b-482f-805f-28ac5b209000",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-3c.jpg?alt=media&token=1d68ca03-819a-4ae1-bce7-7bbf586adc18",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "GMTUZNAtAJk7F9dMOZO5": {
+      "brand": "ZARA",
+      "color": "MARINO",
+      "currency": "EUR",
+      "detail": "Blazer de cuello con solapas de muesca. Manga larga acabada en pu\ufffdo con detalle de botones. Pantal\ufffdn slim fit. Bolsillos frontales.",
+      "name": "TRAJE SLIM",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-9a.jpg?alt=media&token=56a217ed-f908-4e21-97d1-35b40c03f8b7",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-9b.jpg?alt=media&token=5466bf7f-9d71-44ea-ae9c-5251baf50490",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-9c.jpg?alt=media&token=b06048e6-7a34-4122-a248-047666fa5ba2",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "GsUH79s6c3BsXKtPkVDT": {
+      "brand": "ZARA",
+      "color": "BLANCO / NEGRO",
+      "currency": "EUR",
+      "detail": "Camisa slim fit de cuello italiano y manga corta. Cierre frontal de botonadura.",
+      "name": "CAMISA ESTAMPADO GEOM\ufffdTRICO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-2a.jpg?alt=media&token=5cc92590-7b5e-4013-8e9c-f49f0c608967",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-2b.jpg?alt=media&token=6fb7dea8-631b-4721-b0e7-a8d9d904e894",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-2c.jpg?alt=media&token=f024015a-2512-457b-9156-5a19cd6c185b",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "H90rq0dr82wAJMGrTFX8": {
+      "brand": "ZARA",
+      "color": "TOSTADO",
+      "currency": "EUR",
+      "detail": "Blazer de cuello con solapas de muesca y manga larga acabada en pu\ufffdo con botones. Pantal\ufffdn slim fit. Bolsillos en delantero.",
+      "name": "TRAJE PATA DE GALLO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-4a.jpg?alt=media&token=692f4bd9-4d6c-4a97-a058-f8bf513c643d",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-4b.jpg?alt=media&token=66a45629-662d-4197-ac74-9b06361230b7",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Ftrajes6%2Fhombre-6-traje-4c.jpg?alt=media&token=15521c3b-76d5-4fd5-a9d5-40697061820b",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "HFkP1mjyuq4x1Vdlm741": {
+      "brand": "ZARA",
+      "color": "NEGRO",
+      "currency": "EUR",
+      "detail": "Camiseta de cuello redondo y manga corta. Estampaci\ufffdn combinada a contraste en delantero.",
+      "name": "CAMISETA ESTAMPADO ABSTRACTO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-5a.jpg?alt=media&token=32d43846-4787-499e-a147-669c1f7309b5",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-5b.jpg?alt=media&token=07f64b99-9764-4691-bd6d-af5ab71cb2d6",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-5c.jpg?alt=media&token=64e0e3e3-3999-48bd-be31-df993fe6cb1c",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "ItbJZIIJmMWaBARAiL7J": {
+      "brand": "ZARA",
+      "color": "AZUL",
+      "currency": "EUR",
+      "detail": "Bermuda regular fit. Cinco bolsillos. Efecto lavado. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "BERMUDA DENIM B\ufffdSICA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-1a.jpg?alt=media&token=8898d771-65bd-4b61-b72b-cc2dd6d30e26",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-1b.jpg?alt=media&token=84c6a544-2f40-430b-9188-05726a907074",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbermudas5%2Fhombre-5-bermuda-1c.jpg?alt=media&token=78735072-1831-4880-984d-9e4466e92686",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "JbmxnuXXQiS5KgV1kFMd": {
+      "brand": "ZARA",
+      "color": "AZUL / ACERO",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn slim fit. Bolsillos frontales y detalle de bolsillos de doble vivo con bot\ufffdn en espalda. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "PANTAL\ufffdN TRAJE",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-7a.jpg?alt=media&token=2e3e07bb-b93e-4847-8cfd-bd524b1b748a",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-7b.jpg?alt=media&token=f88b120b-14a9-43a2-b44e-4bd3cd70becf",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-7c.jpg?alt=media&token=bf772ae2-2131-40a0-8ecc-4a164b83a5f2",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "KBKkljMs5nS9V8dSbHcz": {
+      "brand": "ZARA",
+      "color": "NARANJA",
+      "currency": "EUR",
+      "detail": "Gorra confeccionada en algod\ufffdn con efecto lavado. Ajuste en la parte posterior.",
+      "name": "GORRA LAVADO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-3a.jpg?alt=media&token=9f077032-feed-4241-ae1b-239aed4f2e2b",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-3b.jpg?alt=media&token=0b826ec2-6bb1-4e82-b13c-ca55d6f6d54b",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-3c.jpg?alt=media&token=027745d1-e36e-4445-a1d6-97c646b4b275",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "LeG23W3dWu40g4xyL2CL": {
+      "brand": "ZARA",
+      "color": "KHAKI",
+      "currency": "EUR",
+      "detail": "Polo de cuello solapa con cierre frontal de botones. Manga larga. Aplicaci\ufffdn frontal de parche combinado a contraste. Acabados en rib.",
+      "name": "POLO RAYAS PARCHE",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-6a.jpg?alt=media&token=b3d43d34-d1e3-4a35-b900-08f5291eeecb",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-6b.jpg?alt=media&token=ebab1230-e9ea-484a-9b79-56cf9e24a959",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-6c.jpg?alt=media&token=82861d21-2c8b-4de8-8b55-b79e6c9b4dea",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "N19niUwe1zCTPAYoSRyI": {
+      "brand": "ZARA",
+      "color": "VERDE CAQUI",
+      "currency": "EUR",
+      "detail": "Bolso formato shopper. Corte en tejido de algod\ufffdn. Bolsillo principal con un bolsillo peque\ufffdo en el interior. Bolsillo frontal con cierre cremallera. Cuenta con dos bolsillos en sendos laterales.",
+      "name": "SHOPPER ALGOD\ufffdN",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-9a.jpg?alt=media&token=97f6f6f9-095b-44b5-a590-8a43cad32805",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-9b.jpg?alt=media&token=e9ed93bb-9604-4862-9548-39201ee33e80",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-9c.jpg?alt=media&token=956a7f48-b438-4bf4-8777-2f64f1a4cd7d",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "Nc3L1XCfTdakinN5WGkb": {
+      "brand": "ZARA",
+      "color": "BLANCO / NEGRO",
+      "currency": "EUR",
+      "detail": "Camisa relaxed fit confeccionada en tejido de viscosa. Cuello bowling y manga corta. Cierre frontal de botonadura.",
+      "name": "CAMISA ESTAMPADO ABSTRACTO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-5a.jpg?alt=media&token=6abe63d3-c63b-47ff-8459-ba79c2c79158",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-5b.jpg?alt=media&token=3df51dcc-e5bf-432c-8006-c18430dd494a",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-5c.jpg?alt=media&token=d71edb6f-d19d-49ae-8bd5-d983c7e351b8",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "O3HxmBK3Oqu9VsaTmsJ4": {
+      "brand": "ZARA",
+      "color": "ROJO",
+      "currency": "EUR",
+      "detail": "Gorra con visera. Aplicaci\ufffdn de parche frontal combinado a contraste. Cierre ajustable.",
+      "name": "GORRA PARCHE COMBINADO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-1a.jpg?alt=media&token=6dea46d6-0d40-4345-9fbd-c77144a3863d",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-1b.jpg?alt=media&token=ed4961df-335c-4aea-88b6-bf2ec4beb95f",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-1c.jpg?alt=media&token=8499405f-3251-4a0d-bf06-9162a82b281c",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "PUQg3MVH4NLaosrnvJCE": {
+      "brand": "ZARA",
+      "color": "TOSTADO",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn slim fit. Bolsillos en delantero y detalle de bolsillos de vivo con bot\ufffdn en espalda. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "PANTAL\ufffdN PATA DE GALLO TRAJE",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-5a.jpg?alt=media&token=28d041e1-26de-47ab-a85b-f0b9134a4751",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-5b.jpg?alt=media&token=ad198907-98bc-41af-bd0b-28b0866c7b74",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-5c.jpg?alt=media&token=6c976fa1-6778-4d74-a3b8-e7a678be4906",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "QamJ5AnRGa73USy5YQ02": {
+      "brand": "ZARA",
+      "color": "MARRON",
+      "currency": "EUR",
+      "detail": "Zapato de piel tipo blucher. Disponible en varios colores. Detalle de perpuntes en el corte y el empeine. Cordonera con cinco pasados. Plantilla interior en piel. Estilo cl\ufffdsico/vestir.",
+      "name": "ZAPATO PIEL PUNTERA",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-1a.jpg?alt=media&token=d2f715cb-e3ce-4f64-a04d-267d7ab10fa9",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-1b.jpg?alt=media&token=846c50a7-faa5-4de9-861f-c08425fda1ca",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fzapatos7%2Fhombre-7-zapato-1c.jpg?alt=media&token=b8b84109-27a7-469f-b2a4-4d0d4f5be23b",
+      "price": "1,00",
+      "size": ["38", "39", "40", "41", "42", "43", "44", "45", "46", "47"]
+    },
+    "SQFJEXwykPfQCT2w84SJ": {
+      "brand": "ZARA",
+      "color": "VERDE AGUA",
+      "currency": "EUR",
+      "detail": "Mochila engomada. Corte soft. El compartimento principal se cierra mediante cremallera impermeable y en su interior dispone dos bolsillos, uno para dispositivos electr\ufffdnicos y port\ufffdtiles de hasta 13 pulgadas.",
+      "name": "MOCHILA ENGOMADA SOFT",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-6a.jpg?alt=media&token=f357bfaf-f9c7-48ca-870c-cd8d75fff773",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-6b.jpg?alt=media&token=36f6bf97-6f3a-4acd-8b9c-b81c857bb0e1",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-6c.jpg?alt=media&token=42832668-c8bf-4a04-9ff7-873d615c04c5",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "TEypy0fpFJ591dJw8Ndx": {
+      "brand": "ZARA",
+      "color": "NEGRO",
+      "currency": "EUR",
+      "detail": "Mochila multibolsillos. Corte liso en nylon. Cuenta con un bolsillo principal con cierre de cremallera; dispone de bolsillo interior para dispositivos electr\ufffdnicos de hasta 13 pulgadas.",
+      "name": "MOCHILA MULTIBOLSILLOS NYLON",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-2a.jpg?alt=media&token=9d787c7c-7c37-467f-8586-a29b88fb858b",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-2b.jpg?alt=media&token=593c4e3e-7285-45d2-814c-b5f4cf4d9731",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-2c.jpg?alt=media&token=75144690-8a05-4df6-811a-56834d4cf259",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "Wip36Fkz60lzMDOvHnEa": {
+      "brand": "ZARA",
+      "color": "NEGRO",
+      "currency": "EUR",
+      "detail": "Mochila en color negro. Corte de tejido t\ufffdcnico. Compartimento principal con cierre de cremallera con compartimento para dispositvos electronicos de hasta 13 pulgadas.",
+      "name": "MOCHILA TEJIDO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-3a.jpg?alt=media&token=508eb38d-27b3-43cc-a0fb-b5e8657d0ecc",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-3b.jpg?alt=media&token=bd925aa3-ed79-4660-b1f0-1634c5da802a",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-3c.jpg?alt=media&token=c866e39b-e9b2-4f0d-b001-d675e4857234",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "XK7VWphd9FBUzKTkbqOn": {
+      "brand": "ZARA",
+      "color": "MARRON",
+      "currency": "EUR",
+      "detail": "Bolso formato bowling. Corte granulado con detalle de bolsillo en el frente. El compartimento principal se cierra mediante cremallera y en su interior tiene cuatro bolsillos, uno de ellos con cierre mediante cremallera.",
+      "name": "BOLSO BOWLING GRANULADO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-5a.jpg?alt=media&token=a8982cd9-ab80-4da9-9b80-6134f2287630",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-5b.jpg?alt=media&token=b3288fb9-0ae7-43ba-bd44-d6d25a6073f3",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-5c.jpg?alt=media&token=5a69e165-b72e-468a-bbdc-87573f5c1c4b",
+      "price": "1,00",
+      "size": "N/A"
+    },
+    "XOA4d1gbvQhwH7IHteu8": {
+      "brand": "ZARA",
+      "color": "AZUL",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn regular fit. Bolsillos frontales y detalle de bolsillos de vivo en espalda. Cierre frontal con cremallera y bot\ufffdn.",
+      "name": "PANTAL\ufffdN TRAJE OJO DE PERDIZ",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-3a.jpg?alt=media&token=90e501e0-05d0-4e36-92c2-f2d069edf7f0",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-3b.jpg?alt=media&token=244a9b4f-4178-459b-9245-fb30c95cf45a",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-3c.jpg?alt=media&token=af20b227-d473-47f4-ac17-0933a24830df",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "YHAAUscUg2RZRWQDatWt": {
+      "brand": "ZARA",
+      "color": "BLANCO-NARANJA",
+      "currency": "EUR",
+      "detail": "Camiseta con cuello redondo y manga corta. Estampaci\ufffdn de texto combinado a contraste en pecho.",
+      "name": "CAMISETA RAYAS TEXTO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-9a.jpg?alt=media&token=78a8f8c5-a03e-4311-905a-413a983d2592",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-9b.jpg?alt=media&token=892afe73-18f9-443a-a010-0f411a92ce94",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-9c.jpg?alt=media&token=f2019bbb-da6f-4629-ae29-4b8418bcbe22",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "YbO1FdQoQ98natK9mYUy": {
+      "brand": "ZARA",
+      "color": "TOSTADO",
+      "currency": "EUR",
+      "detail": "Pantal\ufffdn de cintura el\ufffdstica ajustable con cord\ufffdn. Bolsillos frontales y detalle de bolsillos plastr\ufffdn en espalda.",
+      "name": "PANTAL\ufffdN CINTURA JOGGER CONJUNTO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-9a.jpg?alt=media&token=aba68978-65d7-41a7-b65d-1dd313fb5b27",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-9b.jpg?alt=media&token=0c038ad9-bf7f-4485-92d3-ec28c44326ba",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpantalones4%2Fhombre-4-pantalones-9c.jpg?alt=media&token=53842065-c8d7-464c-b9b8-276e8f73eac8",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "ZfIXA4hE69WdgiMrhbRU": {
+      "brand": "ZARA",
+      "color": "AMARILLO / BLANCO",
+      "currency": "EUR",
+      "detail": "Camisa amplia con cuello solapa y manga corta. Estampaci\ufffdn de gr\ufffdficos x Sebastian Curi en toda la prenda. Cierre frontal de botonadura.",
+      "name": "CAMISA GR\ufffdFICOS SEBASTIAN CURI",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-6a.jpg?alt=media&token=416f1cdb-a8e2-477a-bb01-cc3da85f5d4d",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-6b.jpg?alt=media&token=667aed22-6d6e-499e-9388-6284b4ddf036",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisa2%2Fhombre-2-camisa-6c.jpg?alt=media&token=9443436f-ebf2-40fc-a507-fefd77ea20d6",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "Zjs1iJCBRoQKL63e2nxl": {
+      "brand": "ZARA",
+      "color": "CRUDO / AZUL",
+      "currency": "EUR",
+      "detail": "Polo de cuello solapa con abertura frontal. Manga corta. Acabados en rib.",
+      "name": "POLO JACQUARD RAYAS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-4a.jpg?alt=media&token=08651f4b-4291-4396-b67f-fea11199d4a1",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-4b.jpg?alt=media&token=66f97f98-037b-4a69-85ef-f0ffee18dce9",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-4c.jpg?alt=media&token=7218ca02-351c-44dd-a341-6875608a71f8",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "a14wzKXOuSktZ93DGQde": {
+      "brand": "ZARA",
+      "color": "BLANCO ROTO",
+      "currency": "EUR",
+      "detail": "Polo de cuello solapa con cierre frontal de botonadura oculta. Manga corta.",
+      "name": "POLO CUELLO COMBINADO",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-2a.jpg?alt=media&token=c93ee338-547f-457a-9893-b5d890969398",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-2b.jpg?alt=media&token=31b17242-acb8-43de-964d-a7b2923d34d7",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fpolos3%2Fhombre-3-polo-2c.jpg?alt=media&token=4c0650b6-0aec-4645-b973-2ace1aa5c955",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    },
+    "a7Zbih4lY7GQznVM6vK5": {
+      "brand": "ZARA",
+      "color": "BLANCO ROTO",
+      "currency": "EUR",
+      "detail": "Camiseta de cuello redondo y manga corta.",
+      "name": "CAMISETA ESTAMPADO TRAZOS",
+      "photo1": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-4a.jpg?alt=media&token=5621f00a-741b-4ed6-a05b-92c91099b653",
+      "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-4b.jpg?alt=media&token=575534ee-055b-4a70-a1ff-f2a2e9c7043b",
+      "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fcamisetas1%2Fhombre-1-camiseta-4c.jpg?alt=media&token=904bd82c-c6cc-45cc-b0c7-22eed37ad6ef",
+      "price": "1,00",
+      "size": ["XS", "S", "M", "L", "XL", "XXL"]
+    }
+  }
+}

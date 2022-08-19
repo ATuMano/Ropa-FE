@@ -1,9 +1,13 @@
 export const imagesBaseURL = `${process.env.PUBLIC_URL}/assets/images/`;
 
+export const COUNTRY = "country";
+export const START_TRIP = "start_trip";
+export const END_TRIP = "end_trip";
+
 export const FilterTripNames = {
-  COUNTRY: "country",
-  START_DATE: "start_date",
-  END_DATE: "end_date"
+  COUNTRY: COUNTRY,
+  START_TRIP: START_TRIP,
+  END_TRIP: END_TRIP
 };
 
 export const COUNTRIES = [
@@ -32,3 +36,5 @@ export const COUNTRIES = [
     value: "Roma"
   }
 ];
+
+export const DATE_FORMAT = "DD/MM/YYYY";
