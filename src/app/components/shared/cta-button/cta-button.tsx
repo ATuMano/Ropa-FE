@@ -12,7 +12,7 @@ const CTAButton: FC<CtaButtonProps> = ({
   isMain,
   text,
   onClick,
-  disabled = false,
+  disabled = false
 }) => {
   return (
     <Button main={isMain} disabled={disabled} onClick={onClick}>

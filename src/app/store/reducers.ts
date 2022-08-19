@@ -10,7 +10,7 @@ const reducers = combineReducers({
   configuration: configurationReducer,
   selectedCategory: genderReducer,
   filtersTrip: filtersReducer,
-  selectedStoreId: selectedStoreReducer,
+  selectedStoreId: selectedStoreReducer
 });
 
 export default reducers;

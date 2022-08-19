@@ -9,7 +9,7 @@ import MapWrapper from "./map/map";
 import {
   ButtonsContainer,
   MapSection,
-  MapStoresContainer,
+  MapStoresContainer
 } from "./store-map-styles";
 import stores from "./stores.json";
 import StoreList from "./stores/store-list";

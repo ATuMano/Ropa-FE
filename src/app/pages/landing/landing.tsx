@@ -2,7 +2,7 @@ import React from "react";
 import {
   ImageContainer,
   LandingText,
-  LandingtextContainer,
+  LandingtextContainer
 } from "./landing-styles";
 
 const Landing = () => (

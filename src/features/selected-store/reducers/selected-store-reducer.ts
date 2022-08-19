@@ -7,7 +7,7 @@ const selectedStoreHandler: Mapping<Function> = {
   [SET_SELECTED_STORE]: (
     _state: string,
     action: ActionStandard<string | null>
-  ) => action.payload,
+  ) => action.payload
 };
 
 export const selectedStoreReducer = (

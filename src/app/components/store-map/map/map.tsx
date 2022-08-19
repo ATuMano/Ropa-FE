@@ -12,7 +12,7 @@ const MapWrapper: FC<{ markers: Store[] }> = ({ markers }) => {
   const [firstMarkerLat, firstMarkerLng] = markers[0].coordinates;
   const [center, setCenter] = React.useState<google.maps.LatLngLiteral>({
     lat: firstMarkerLat,
-    lng: firstMarkerLng,
+    lng: firstMarkerLng
   });
 
   const onClick = (e: google.maps.MapMouseEvent) => {
@@ -36,7 +36,7 @@ const MapWrapper: FC<{ markers: Store[] }> = ({ markers }) => {
         zoom={zoom}
         style={{
           flexGrow: "1",
-          height: "100%",
+          height: "100%"
         }}
       >
         {markers.map((store, i) => (
@@ -83,7 +83,7 @@ const Map: React.FC<MapProps> = ({
 
   React.useEffect(() => {
     if (map) {
-      ["click", "idle"].forEach((eventName) =>
+      ["click", "idle"].forEach(eventName =>
         google.maps.event.clearListeners(map, eventName)
       );
 
@@ -96,7 +96,7 @@ const Map: React.FC<MapProps> = ({
   return (
     <>
       <div ref={ref} style={style} />
-      {React.Children.map(children, (child) => {
+      {React.Children.map(children, child => {
         if (React.isValidElement(child)) {
           // set the map prop on the child component
           return React.cloneElement(child, { map });

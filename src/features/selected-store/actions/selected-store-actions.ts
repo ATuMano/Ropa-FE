@@ -5,5 +5,5 @@ export const setSelectedStore = (
   payload: string | null
 ): ActionStandard<string | null> => ({
   type: SET_SELECTED_STORE,
-  payload,
+  payload
 });

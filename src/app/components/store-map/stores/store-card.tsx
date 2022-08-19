@@ -10,7 +10,7 @@ import {
   CardRow,
   CardText,
   CardTitle,
-  IconContainer,
+  IconContainer
 } from "./stores-styles";
 
 const StoreCard: FC<{ store: Store; index: number }> = ({ store, index }) => {
