@@ -9,9 +9,11 @@ import { GlobalStyles } from "styles";
 import defaultTheme from "styles/default-theme";
 import { selectIsAppLoaded } from "features/loading/loading-selectors";
 import { BrowserTab } from "app/components/browser-tab/browser-tab";
+import { useFirebase } from "use-firebase";
 
 const App = () => {
   const dispatch = useDispatch();
+  useFirebase();
   const isAppLoaded = useSelector(selectIsAppLoaded);
   useEffect(() => {
     dispatch(initApp());

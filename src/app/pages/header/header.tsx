@@ -2,7 +2,9 @@ import React from "react";
 import { HeaderContainer } from "./header-styles";
 
 const Header = () => {
-  return <HeaderContainer />;
+  return (
+    <HeaderContainer />
+  );
 };
 
 export default Header;

@@ -42,7 +42,7 @@ const fakeProduct = {
 } as Product;
 
 const ProductDetail = () => {
-  const { productId } = useParams() as ProductDetailParams;
+  const { productId } = useParams() as unknown as ProductDetailParams;
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
 
   const onClearSelection = () => {
