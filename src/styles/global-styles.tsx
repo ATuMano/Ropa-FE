@@ -66,3 +66,11 @@ export const TopSectionContainer = styled.div`
   justify-content: center;
   background-color: ${({ theme }) => theme.primaryColor};
 `;
+
+export const HeaderContainer = styled.div`
+  display: flex;
+  width: 90%;
+  align-items: center;
+  gap: 5%;
+  padding: 32px;
+`;

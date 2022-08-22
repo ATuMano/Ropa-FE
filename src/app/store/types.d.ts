@@ -38,4 +38,5 @@ export interface State {
   currentLanguage: string;
   selectedGender: string;
   filtersTrip: FilterTrip;
+  selectedProduct: string;
 }
