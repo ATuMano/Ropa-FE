@@ -11,7 +11,7 @@ import {
 import { FilterTrip } from "../filters.types";
 
 const initialFilter: FilterTrip = {
-  country: "",
+  country: "Barcelona",
   start_trip: "",
   end_trip: ""
 };
