@@ -6,7 +6,7 @@ exports[`Landing tests should match snapshot 1`] = `
     class="sc-AxiKw jnwjew"
   >
     <div
-      class="sc-AxheI krxZoy"
+      class="sc-Axmtr bXMEfR"
     >
       <label
         class="sc-AxirZ cEZXOn"
@@ -66,7 +66,7 @@ exports[`Landing tests should match snapshot 1`] = `
           >
             <div
               aria-hidden="true"
-              class="sc-AxhUy kXmVSx"
+              class="sc-AxgMl qxsgD"
               data-testid="clear-selection"
             >
               <svg
@@ -92,7 +92,7 @@ exports[`Landing tests should match snapshot 1`] = `
         />
       </div>
       <div
-        class="rdt sc-AxgMl cFdjDG"
+        class="rdt sc-AxheI evapnc"
       >
         <input
           class="form-control"
@@ -378,7 +378,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     18
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="7"
                     data-value="19"
                     data-year="2022"
@@ -404,7 +404,7 @@ exports[`Landing tests should match snapshot 1`] = `
                 </tr>
                 <tr>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="7"
                     data-value="22"
                     data-year="2022"
@@ -524,7 +524,7 @@ exports[`Landing tests should match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="rdt sc-AxgMl cFdjDG"
+        class="rdt sc-AxheI evapnc"
       >
         <input
           class="form-control"
@@ -810,7 +810,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     18
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="7"
                     data-value="19"
                     data-year="2022"
@@ -836,7 +836,7 @@ exports[`Landing tests should match snapshot 1`] = `
                 </tr>
                 <tr>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="7"
                     data-value="22"
                     data-year="2022"
@@ -963,27 +963,27 @@ exports[`Landing tests should match snapshot 1`] = `
     </div>
   </div>
   <div
-    class="MuiBox-root MuiBox-root-1 sc-AxmLO ittLSM"
+    class="MuiBox-root MuiBox-root-1 sc-fzozJi kVhKml"
     data-testid="landing-imagen-container"
   >
     <div
-      class="MuiBox-root MuiBox-root-2 sc-fzozJi hBrvMb"
+      class="MuiBox-root MuiBox-root-2 sc-fzoLsD fCPqQd"
       data-testid="landing-text-container"
     >
       <h4
-        class="MuiTypography-root sc-fzoLsD cLCyEJ MuiTypography-h4"
+        class="MuiTypography-root sc-fzpans jgIRDp MuiTypography-h4"
         data-testid="landing-title"
       >
         Disfruta tus vacas
       </h4>
       <p
-        class="MuiTypography-root sc-fzoLsD cLCyEJ MuiTypography-body2 MuiTypography-paragraph"
+        class="MuiTypography-root sc-fzpans jgIRDp MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-1"
       >
         Sabemos el estres de armar la valija. Es por eso que te solucionamos para que puedas enfocarte en disfrutar!
       </p>
       <p
-        class="MuiTypography-root sc-fzoLsD cLCyEJ MuiTypography-body2 MuiTypography-paragraph"
+        class="MuiTypography-root sc-fzpans jgIRDp MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-2"
       >
         Preparate el pasaporte y el itinerario del viaje. Nosotros nos ocupamos de la ropa!

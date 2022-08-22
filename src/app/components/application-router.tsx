@@ -17,11 +17,11 @@ export const ApplicationRouter = () => {
         <Route path="/genders" exact>
           <Genders />
         </Route>
-        <Route path="/products" exact>
-          <Products />
-        </Route>
         <Route path="/categories" exact>
           <Categories />
+        </Route>
+        <Route path="/products" exact>
+          <Products />
         </Route>
         <Route path="/product/:productId" exact>
           <ProductDetail />

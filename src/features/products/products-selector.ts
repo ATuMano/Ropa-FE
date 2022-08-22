@@ -1,3 +1,4 @@
 import { State } from "app/store/types";
 
-export const selectSelectedProduct = (state: State) => state.selectedProduct;
+export const selectSelectedProductId = (state: State) =>
+  state.selectedProductId;

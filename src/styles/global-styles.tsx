@@ -6,6 +6,7 @@ import styled, {
 
 import { Theme } from "./types";
 import defaultTheme from "./default-theme";
+import { Box } from "@material-ui/core";
 export const GlobalStyles: GlobalStyleComponent<
   { theme?: Theme },
   {}
@@ -71,7 +72,10 @@ export const TitleContainer = styled.div`
   display: flex;
   width: 90%;
   align-items: center;
-  gap: 5%;
-  padding: 32px
+  padding: 32px;
   justify-content: space-between;
+`;
+
+export const MainSectionContainer = styled(Box)`
+  padding: 2em;
 `;
