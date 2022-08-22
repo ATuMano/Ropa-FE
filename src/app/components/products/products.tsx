@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { setSelectedProduct } from "features/products/products-actions";
 import ImageCard, { AllowedPosition, CardItem } from "../card/card";
 import { CardContainer } from "../genders/genders-styles";
-import { MainButton, TopSectionContainer, HeaderContainer, Text } from "styles";
+import { MainButton, TopSectionContainer, TitleContainer, Text } from "styles";
 
 const Products = () => {
     const dispatch = useDispatch();
@@ -54,10 +54,10 @@ const Products = () => {
     return (
         <>
             <TopSectionContainer>
-                <HeaderContainer>
+                <TitleContainer>
                     <Text>Productos</Text>
                     <MainButton>VOLVER A CATEGORIAS</MainButton>
-                </HeaderContainer>
+                </TitleContainer>
             </TopSectionContainer>
             <CardContainer>
                 {products.map((card: CardItem) => (

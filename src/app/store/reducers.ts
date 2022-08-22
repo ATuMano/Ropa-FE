@@ -11,6 +11,7 @@ const reducers = combineReducers({
   selectedCategory: genderReducer,
   filtersTrip: filtersReducer,
   selectedProduct: productReducer,
+  selectedGender: genderReducer,
 });
 
 export default reducers;

@@ -67,10 +67,11 @@ export const TopSectionContainer = styled.div`
   background-color: ${({ theme }) => theme.primaryColor};
 `;
 
-export const HeaderContainer = styled.div`
+export const TitleContainer = styled.div`
   display: flex;
   width: 90%;
   align-items: center;
   gap: 5%;
-  padding: 32px;
+  padding: 32px
+  justify-content: space-between;
 `;

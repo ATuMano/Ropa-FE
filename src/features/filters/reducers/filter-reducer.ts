@@ -23,11 +23,11 @@ const filterHandler: Mapping<Function> = {
   }),
   [UPDATE_START_DATE]: (state: FilterTrip, action: ActionStandard<string>) => ({
     ...state,
-    [FilterTripNames.START_DATE]: action.payload
+    [FilterTripNames.START_TRIP]: action.payload
   }),
   [UPDATE_END_DATE]: (state: FilterTrip, action: ActionStandard<number>) => ({
     ...state,
-    [FilterTripNames.END_DATE]: action.payload
+    [FilterTripNames.END_TRIP]: action.payload
   }),
   [CLEAR_FILTERS]: (_state: FilterTrip, _action: ActionStandard<FilterTrip>) =>
     initialFilter

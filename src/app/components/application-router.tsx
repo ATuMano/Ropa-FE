@@ -2,6 +2,7 @@ import Landing from "app/pages/landing/landing";
 import Layout from "app/pages/layout/layout";
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
+import Categories from "./categories/categories";
 import Genders from "./genders/genders";
 import Products from "./products/products";
 import ProductDetail from "./product-detail/product-details";
@@ -18,6 +19,9 @@ export const ApplicationRouter = () => {
         </Route>
         <Route path="/products" exact>
           <Products />
+        </Route>
+        <Route path="/categories" exact>
+          <Categories />
         </Route>
         <Route path="/product/:productId" exact>
           <ProductDetail />
