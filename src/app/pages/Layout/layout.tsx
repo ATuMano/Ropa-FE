@@ -1,7 +1,7 @@
 import React from "react";
 import StickyFooter from "../footer/footer";
 import Header from "../header/header";
-import { LayoutContainer, MainContainer } from "./layout-styles";
+import { LayoutContainer, MainContainer } from "../Layout/layout-styles";
 
 const Layout = ({ children }: any) => {
   return (
