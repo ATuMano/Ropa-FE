@@ -51,6 +51,25 @@ export const MainButton = styled.button`
   }
 `;
 
+export const nextButton = styled.button`
+  width: 153px;
+  height: 46px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: ${({ theme }) => theme.primaryColor};
+  background-color: ${({ theme }) => theme.lightColor};
+  cursor: pointer;
+  border: none;
+  &:hover {
+    color: ${({ theme }) => theme.lightColor};
+    border: 2px solid ${({ theme }) => theme.lightColor};
+    background-color: ${({ theme }) => theme.primaryColor};
+  }
+`;
+
 export const Text = styled.label`
   font-family: "Source Sans Pro";
   font-style: normal;

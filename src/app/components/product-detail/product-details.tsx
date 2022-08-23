@@ -1,6 +1,15 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { 
+  useParams,
+  useHistory,
+} from "react-router-dom";
 import { Select } from "../select/select";
+import {
+  TopSectionContainer,
+  TitleContainer,
+  MainButton,
+  Text,
+} from "styles";
 import {
   ProductContainer,
   ProductImagesContainer,
@@ -13,6 +22,7 @@ import {
 import { ActionTypes, Option, SelectActions } from "../select/select-types";
 import { MultiValue } from "react-select";
 import database from "ropa_ddbb.json";
+
 interface ProductDetailParams {
   productId: string;
 }
@@ -68,48 +78,62 @@ const ProductDetail = () => {
     return selectedSize ? { label: selectedSize, value: selectedSize } : null;
   };
 
+  const history = useHistory();
+
+  const handleGoBack = () => {
+    history.goBack();
+  };
+
   return (
-    <ProductContainer>
-      <ProductImagesContainer>
-        <ProductImage src={productDetail.photo1} />
-        <ProductImage src={productDetail.photo2} />
-        <ProductImage src={productDetail.photo3} />
-      </ProductImagesContainer>
-      <ProductTitle>
-        {productDetail.name} {productId}
-      </ProductTitle>
-      <ProductInfoContainer>
-        <ProductTable>
-          <tr>
-            <td>Descripción:</td>
-            <td>{productDetail.detail}</td>
-          </tr>
-          <tr>
-            <td>Marca:</td>
-            <td>{productDetail.brand}</td>
-          </tr>
-          <tr>
-            <td>Color:</td>
-            <td>{productDetail.color}</td>
-          </tr>
-          <tr>
-            <td>Color:</td>
-            <td>{productDetail.price}€ al día</td>
-          </tr>
-        </ProductTable>
-        <SelectContainer>
-          <Select
-            placeholder={"Elige tu talla"}
-            options={getSizeOptions()}
-            noOptionsMessage={() => "No se encuentra resultados"}
-            onChange={handleChange}
-            name="size"
-            inputId="size"
-            value={getSelectedValue()}
-          />
-        </SelectContainer>
-      </ProductInfoContainer>
-    </ProductContainer>
+    <>
+      <TopSectionContainer>
+        <TitleContainer>
+          <Text>Detalle Producto</Text>
+          <MainButton onClick={handleGoBack}>VOLVER A PRODUCTOS</MainButton>
+        </TitleContainer>
+      </TopSectionContainer>
+      <ProductContainer>
+        <ProductImagesContainer>
+          <ProductImage src={productDetail.photo1} />
+          <ProductImage src={productDetail.photo2} />
+          <ProductImage src={productDetail.photo3} />
+        </ProductImagesContainer>
+        <ProductTitle>
+          {productDetail.name}
+        </ProductTitle>
+        <ProductInfoContainer>
+          <ProductTable>
+            <tr>
+              <td>Descripción:</td>
+              <td>{productDetail.detail}</td>
+            </tr>
+            <tr>
+              <td>Marca:</td>
+              <td>{productDetail.brand}</td>
+            </tr>
+            <tr>
+              <td>Color:</td>
+              <td>{productDetail.color}</td>
+            </tr>
+            <tr>
+              <td>Precio:</td>
+              <td>{productDetail.price} {productDetail.currency} al día</td>
+            </tr>
+          </ProductTable>
+          <SelectContainer>
+            <Select
+              placeholder={"Elige tu talla"}
+              options={getSizeOptions()}
+              noOptionsMessage={() => "No se encuentra resultados"}
+              onChange={handleChange}
+              name="size"
+              inputId="size"
+              value={getSelectedValue()}
+            />
+          </SelectContainer>
+        </ProductInfoContainer>
+      </ProductContainer>
+    </>
   );
 };
 
