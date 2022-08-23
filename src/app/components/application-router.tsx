@@ -6,6 +6,9 @@ import Categories from "./categories/categories";
 import Genders from "./genders/genders";
 import Products from "./products/products";
 import ProductDetail from "./product-detail/product-details";
+import StoreMap from "./store-map/store-map";
+
+// TO DO map route should be removed from application router
 
 export const ApplicationRouter = () => {
   return (
@@ -25,6 +28,9 @@ export const ApplicationRouter = () => {
         </Route>
         <Route path="/product/:productId" exact>
           <ProductDetail />
+        </Route>
+        <Route path="/map" exact>
+          <StoreMap />
         </Route>
       </Layout>
     </BrowserRouter>

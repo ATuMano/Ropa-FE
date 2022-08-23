@@ -40,4 +40,5 @@ export interface State {
   selectedCategory: string;
   filtersTrip: FilterTrip;
   selectedProductId: string;
+  selectedStoreId: string;
 }

@@ -1,0 +1,194 @@
+{
+    "Barcelona": [
+        {
+            "__id__": "16OONYTwawOfZVabXaYp",
+            "address": "C. del Pont del Treball Digne, 14, 08020 Barcelona",
+            "coordinates": [
+                41.38815085772104,
+                2.1677336656460415
+            ],
+            "name": "Sant Marti",
+            "phone": "+34 111 11 11 11"
+        },
+        {
+            "__id__": "GsSclcRLs6BoBmApit4F",
+            "address": "C. de Calàbria, 230, 08029 Barcelona",
+            "coordinates": [
+                41.386649938872964,
+                2.147824032132486
+            ],
+            "name": "Entença",
+            "phone": "+34 333 33 33 33"
+        },
+        {
+            "__id__": "VM0grwDlmffBbHrOHVqW",
+            "address": "C. de València, 385, 08013 Barcelona",
+            "coordinates": [
+                41.402111955566085,
+                2.1725686261979407
+            ],
+            "name": "Sagrada Familia",
+            "phone": "+34 222 22 22 22"
+        }
+    ],
+    "Florencia": [
+        {
+            "__id__": "msyMDYlxzW4Kmz4UHlg1",
+            "address": "Via dei Neri, 65r, 50122 Firenze FI, Italy",
+            "coordinates": [
+                43.76839719422838,
+                11.257341207359449
+            ],
+            "name": "FLO Local 1",
+            "phone": "+39 111 11 11 11"
+        },
+        {
+            "__id__": "eTK94m8gSd8QEWf3g1vi",
+            "adress": "Piazza del Duomo, 50122 Firenze FI, Italy",
+            "coordinates": [
+                43.77279489627547,
+                11.25570665322184
+            ],
+            "name": "FLO Local 2",
+            "phone": "+39 222 22 22 22"
+        },
+        {
+            "__id__": "zUXvAbQHmbor5gku6Fng",
+            "address": "Via dei Serragli, 32r, 50124 Firenze FI, Italy",
+            "coordinates": [
+                43.76771077266016,
+                11.245678666508462
+            ],
+            "name": "FLO Local 3",
+            "phone": "+39 333 33 33 33"
+        }
+    ],
+    "Amsterdam": [
+        {
+            "__id__": "DaX8IJZ051A5iKztsMEe",
+            "address": "Oudekerksplein 23, 1012 GX Amsterdam, Netherlands",
+            "coordinates": [
+                52.374366012482085,
+                4.898171000194347
+            ],
+            "name": "AMS Local 2",
+            "phone": "+31 222 22 22 22"
+        },
+        {
+            "__id__": "Sgxtxt8z1zoEmblh5ejs",
+            "address": "Stadhouderskade 78, 1072 AE Amsterdam, Netherlands",
+            "coordinates": [
+                52.35786086744371,
+                4.89181592094136
+            ],
+            "name": "AMS Local 1",
+            "phone": "+31 111 11 11 11"
+        },
+        {
+            "__id__": "pOHSbDHwD8cN1oeY4K0n",
+            "address": "Singel, 1012 DH Amsterdam, Netherlands",
+            "coordinates": [
+                52.36682204751731,
+                4.891313053460436
+            ],
+            "name": "AMS Local 3",
+            "phone": "+31 333 33 33 33"
+        }
+    ],
+    "Liverpool": [
+        {
+            "__id__": "9FdZaYpKJ66JldHOJG6j",
+            "address": "Britannia Vaults, Royal Albert Dock, Liverpool L3 4AD, United Kingdom",
+            "coordinates": [
+                53.39933155494238,
+                -2.9920453640281015
+            ],
+            "name": "Beatles Store",
+            "phone": "+44 333 33 33 33"
+        },
+        {
+            "__id__": "Y6sdkM5yQUzgfJZEQC1I",
+            "address": "251 Menlove Avenue, 251 Menlove Ave, Liverpool L25 7SA, United Kingdom",
+            "coordinates": [
+                53.37722732573536,
+                -2.881400467199984
+            ],
+            "name": "John L. Store",
+            "phone": "+44 111 11 11 11"
+        },
+        {
+            "__id__": "wttPy7B3FaF8Ib3n5Opx",
+            "address": "20 Forthlin Rd, Liverpool L18 9TN, United Kingdom",
+            "coordinates": [
+                53.369673536724505,
+                -2.897914489373658
+            ],
+            "name": "Paul M. Store",
+            "phone": "+44 222 22 22 22"
+        }
+    ],
+    "Londres": [
+        {
+            "__id__": "hDvIaklzA1ywTjko2E22",
+            "address": "174 Queen Victoria St, Greater, London EC4V 4EG, United Kingdom",
+            "coordinates": [
+                51.51210911218346,
+                -0.10371935495343518
+            ],
+            "name": "LON Store 1",
+            "phone": "+44 111 11 11 11"
+        },
+        {
+            "__id__": "sOpsy2SNxC77Hrw5Ju3J",
+            "address": "52 Victoria St, London SW1H 0NP, United Kingdom",
+            "coordinates": [
+                51.49771830809918,
+                -0.13559191863589706
+            ],
+            "name": "LON Store 2",
+            "phone": "+44 222 22 22 22"
+        },
+        {
+            "__id__": "zltoSA6NvajFJYLWGHLb",
+            "address": "221b Baker St, London NW1 6XE, United Kingdom",
+            "coordinates": [
+                51.523758321894164,
+                -0.15854070600603304
+            ],
+            "name": "Sherlock Store",
+            "phone": "+44 333 33 33 33"
+        }
+    ],
+    "Roma": [
+        {
+            "__id__": "90PrKPjSRVf7jXQiBLQx",
+            "address": "Via dell'Archetto, 26, 00187 Roma RM, Italy",
+            "coordinates": [
+                41.89936304166773,
+                12.482854720298448
+            ],
+            "name": "ROM Local 1",
+            "phone": "+39 111 11 11 11"
+        },
+        {
+            "__id__": "FXmSQsiX9KzXvWCwDXiJ",
+            "address": "Via Ferruccio, 12/b/c, 00185 Roma RM, Italy",
+            "coordinates": [
+                41.89382209826119,
+                12.502270536040466
+            ],
+            "name": "ROM Local 2",
+            "phone": "+39 222 22 22 22"
+        },
+        {
+            "__id__": "hR1TDaJU7syjohK7cMB0",
+            "address": "Piazza di Santa Maria in Trastevere, 00153 Roma RM, Italy",
+            "coordinates": [
+                41.889483066073396,
+                12.470299361966132
+            ],
+            "name": "ROM Local 3",
+            "phone": "+39 333 33 33 33"
+        }
+    ]
+}
