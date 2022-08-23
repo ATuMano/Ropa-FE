@@ -37,6 +37,8 @@ export interface State {
   configuration: ConfigModel;
   currentLanguage: string;
   selectedGender: string;
+  selectedCategory: string;
   filtersTrip: FilterTrip;
+  selectedProductId: string;
   selectedStoreId: string;
 }
