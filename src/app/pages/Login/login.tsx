@@ -1,4 +1,4 @@
-import { Button, Container, Divider, Link, TextField } from "@material-ui/core";
+import { Button, Divider, Link, TextField } from "@material-ui/core";
 import GoogleIcon from "app/components/icons/google-icon";
 import {
   getAuth,
@@ -8,7 +8,8 @@ import {
 } from "firebase/auth";
 import React, { FormEvent, FunctionComponent, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { FormContainer, LinkBox, MainButton, TitleLogin } from "./login-styles";
+import { AuthorizationContainer, MainButton, Title, FormBox } from "styles/global-styles";
+import { LinkBox } from "./login-styles";
 
 export interface ILoginProps {}
 
@@ -22,9 +23,9 @@ const Login: FunctionComponent<ILoginProps> = _props => {
     const email: string = event.currentTarget["email"].value;
     const password: string = event.currentTarget["password"].value;
     signInWithEmailAndPassword(auth, email, password)
-      .then(response => {
-        console.log(response.user.uid);
-        navigate("/");
+      .then((response) => {
+        console.log(response.user);
+        navigate(-1);
       })
       .catch(() => {
         setAuthing(false);
@@ -33,9 +34,9 @@ const Login: FunctionComponent<ILoginProps> = _props => {
   const signInWithGoogle = () => {
     setAuthing(true);
     signInWithPopup(auth, new GoogleAuthProvider())
-      .then(response => {
-        console.log(response.user.uid);
-        navigate("/");
+      .then((response) => {
+        console.log(response.user);
+        navigate(-1);
       })
       .catch(() => {
         setAuthing(false);
@@ -43,9 +44,9 @@ const Login: FunctionComponent<ILoginProps> = _props => {
   };
 
   return (
-    <Container maxWidth="sm">
-      <FormContainer component="form" onSubmit={signIn}>
-        <TitleLogin variant="h3">Inicio de session</TitleLogin>
+    <AuthorizationContainer maxWidth="sm">
+      <FormBox component="form" onSubmit={signIn}>
+        <Title variant="h3">Inicio de session</Title>
         <TextField
           required
           name="email"
@@ -75,8 +76,8 @@ const Login: FunctionComponent<ILoginProps> = _props => {
           <Link>¿Se te olvido tu contraseña?</Link>
           <Link href="/register">¿No tienes una cuenta? Registrese</Link>
         </LinkBox>
-      </FormContainer>
-    </Container>
+      </FormBox>
+    </AuthorizationContainer>
   );
 };
 

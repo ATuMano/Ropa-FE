@@ -14,6 +14,7 @@ export const AuthRoute: FunctionComponent<IAuthRouteProps> = ({ children }) => {
   onAuthStateChanged(auth, user => {
     if (user) {
       setLoading(false);
+      console.log(user);
     } else {
       console.log("unauthorized");
       navigate("/login");

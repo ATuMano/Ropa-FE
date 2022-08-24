@@ -1,11 +1,40 @@
-import { FiltersTrip } from "app/components/filters-trip/filter-trip";
-import React from "react";
-import { useLocation } from "react-router-dom";
+import { Button } from "@material-ui/core";
+import { getAuth, signOut, onAuthStateChanged } from "firebase/auth";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { MainButton } from "styles";
+import LoginIcon from "../icons/login-icon";
+import LogoIcon from "../icons/logo-icon";
+import { HeaderContainer, MainText, PageBox } from "./header-styles";
 
 const Header = () => {
-  const location = useLocation();
-  const isInLanding = location.pathname === "/";
-  return isInLanding ? <FiltersTrip /> : null;
+  const auth = getAuth();
+  const [isAutheticated, setIsAutheticated] = useState(false);
+  
+  onAuthStateChanged(auth, user => {
+    setIsAutheticated(!!user);
+  });
+
+  const navigate = useNavigate();
+  return (
+    <HeaderContainer>
+      <PageBox>
+        <Button>
+          <LogoIcon />
+        </Button>
+        <MainText variant="h5">Ropa a tu mano</MainText>
+      </PageBox>
+      {isAutheticated ? (
+        <Button onClick={() => signOut(auth)}>
+          <LoginIcon />
+        </Button>
+      ) : (
+        <MainButton onClick={() => navigate("/login")}>
+          Iniciar sesion
+        </MainButton>
+      )}
+    </HeaderContainer>
+  );
 };
 
 export default Header;

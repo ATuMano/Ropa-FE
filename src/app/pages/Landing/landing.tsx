@@ -1,3 +1,4 @@
+import { FiltersTrip } from "app/components/filters-trip/filter-trip";
 import React from "react";
 import {
   ImageContainer,
@@ -8,6 +9,7 @@ import {
 const Landing = () => {
   return (
     <>
+    <FiltersTrip />
       <ImageContainer data-testid="landing-imagen-container">
         <LandingtextContainer data-testid="landing-text-container">
           <LandingText data-testid="landing-title" variant="h4">
