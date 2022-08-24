@@ -8,7 +8,6 @@ import {
 } from "./landing-styles";
 
 const Landing = () => {
-  const auth = getAuth();
   return (
     <>
       <FiltersTrip />
@@ -19,6 +18,7 @@ const Landing = () => {
           </LandingText>
           <button
             onClick={() => {
+              const auth = getAuth();
               signOut(auth);
             }}
           >
