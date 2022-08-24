@@ -1,15 +1,7 @@
 import React, { useState } from "react";
-import { 
-  useParams,
-  useHistory,
-} from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import { Select } from "../select/select";
-import {
-  TopSectionContainer,
-  TitleContainer,
-  MainButton,
-  Text,
-} from "styles";
+import { TopSectionContainer, TitleContainer, MainButton, Text } from "styles";
 import {
   ProductContainer,
   ProductImagesContainer,
@@ -70,6 +62,10 @@ const ProductDetail = () => {
     }
   };
 
+  const hasSizeAvailable = (): boolean => {
+    return productDetail.size.length > 0;
+  };
+
   const getSizeOptions = () => {
     return productDetail.size.map(size => ({ label: size, value: size }));
   };
@@ -98,9 +94,7 @@ const ProductDetail = () => {
           <ProductImage src={productDetail.photo2} />
           <ProductImage src={productDetail.photo3} />
         </ProductImagesContainer>
-        <ProductTitle>
-          {productDetail.name}
-        </ProductTitle>
+        <ProductTitle>{productDetail.name}</ProductTitle>
         <ProductInfoContainer>
           <ProductTable>
             <tr>
@@ -117,19 +111,23 @@ const ProductDetail = () => {
             </tr>
             <tr>
               <td>Precio:</td>
-              <td>{productDetail.price} {productDetail.currency} al día</td>
+              <td>
+                {productDetail.price} {productDetail.currency} al día
+              </td>
             </tr>
           </ProductTable>
           <SelectContainer>
-            <Select
-              placeholder={"Elige tu talla"}
-              options={getSizeOptions()}
-              noOptionsMessage={() => "No se encuentra resultados"}
-              onChange={handleChange}
-              name="size"
-              inputId="size"
-              value={getSelectedValue()}
-            />
+            {hasSizeAvailable() && (
+              <Select
+                placeholder={"Elige tu talla"}
+                options={getSizeOptions()}
+                noOptionsMessage={() => "No se encuentra resultados"}
+                onChange={handleChange}
+                name="size"
+                inputId="size"
+                value={getSelectedValue()}
+              />
+            )}
           </SelectContainer>
         </ProductInfoContainer>
       </ProductContainer>
