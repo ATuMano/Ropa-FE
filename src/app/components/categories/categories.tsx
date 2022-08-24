@@ -1,6 +1,5 @@
-import { setSelectedGender } from "features/gender/gender-actions";
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
   MainButton,
@@ -10,21 +9,26 @@ import {
   TopSectionContainer
 } from "styles";
 import ImageCard, { AllowedPosition, CardItem } from "../card/card";
-import { CardContainer } from "./genders-styles";
+import { CardContainer } from "./categories-styles";
 import database from "ropa_ddbb.json";
+import { selectSelectedGender } from "features/gender/gender-selector";
+import { setSelectedCategory } from "features/category/category-actions";
 
-const Genders = () => {
+const Categories = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const genders = database.Genders.map(g => ({
-    id: g.__id__,
-    imageURL: g.photo,
-    text: g.name
+  const gender = useSelector(selectSelectedGender);
+  const categories = database.Genders.filter(g => g.name === gender)[0]
+    .Categories;
+  const cards = categories?.map(c => ({
+    id: c.__id__,
+    imageURL: c.photo,
+    text: c.name
   }))!;
 
   const handleOnClick = (card: CardItem) => {
-    dispatch(setSelectedGender(card.text));
-    navigate("/categories");
+    dispatch(setSelectedCategory(card.text));
+    navigate("/products");
   };
 
   const goBack = () => {
@@ -35,17 +39,17 @@ const Genders = () => {
     <>
       <TopSectionContainer>
         <TitleContainer>
-          <Text>Define tu género</Text>
-          <MainButton onClick={goBack}>NUEVA BUSQUEDA</MainButton>
+          <Text>Categorias</Text>
+          <MainButton onClick={goBack}>VOLVER AL ESTILO</MainButton>
         </TitleContainer>
       </TopSectionContainer>
       <MainSectionContainer>
         <CardContainer>
-          {genders.map((card: CardItem) => (
+          {cards.map((card: CardItem) => (
             <ImageCard
               key={card.id}
               card={card}
-              positionText={"top" as AllowedPosition}
+              positionText={"center" as AllowedPosition}
               onClick={() => handleOnClick(card)}
             />
           ))}
@@ -55,4 +59,4 @@ const Genders = () => {
   );
 };
 
-export default Genders;
+export default Categories;

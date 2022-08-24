@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { Select } from "../select/select";
+import { TopSectionContainer, TitleContainer, MainButton, Text } from "styles";
 import {
   ProductContainer,
   ProductImagesContainer,
@@ -12,38 +13,32 @@ import {
 } from "./product-detail-styles";
 import { ActionTypes, Option, SelectActions } from "../select/select-types";
 import { MultiValue } from "react-select";
+import database from "ropa_ddbb.json";
 
 interface ProductDetailParams {
   productId: string;
 }
 
 interface Product {
-  title: string;
-  description: string;
   brand: string;
   color: string;
-  price: number;
-  sizes: string[];
-  images: string[];
+  currency: string;
+  detail: string;
+  id: string;
+  name: string;
+  photo1: string;
+  photo2: string;
+  photo3: string;
+  price: string;
+  size: string[];
 }
-
-const fakeProduct = {
-  title: "Camisa Oxford",
-  description: "Camisa adsgfkgj flkjg oisjdioa djsiao jdaos nfme",
-  brand: "Zara",
-  color: "Rosa",
-  price: 1,
-  sizes: ["S", "M", "L"],
-  images: [
-    "/assets/images/male.png",
-    "/assets/images/male.png",
-    "/assets/images/male.png"
-  ]
-} as Product;
 
 const ProductDetail = () => {
   const { productId } = useParams() as unknown as ProductDetailParams;
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
+  const productDetail = (database.Products_details[
+    productId as keyof Object
+  ] as unknown) as Product;
 
   const onClearSelection = () => {
     setSelectedSize(null);
@@ -67,56 +62,76 @@ const ProductDetail = () => {
     }
   };
 
+  const hasSizeAvailable = (): boolean => {
+    return productDetail.size.length > 0;
+  };
+
   const getSizeOptions = () => {
-    return fakeProduct.sizes.map(size => ({ label: size, value: size }));
+    return productDetail.size.map(size => ({ label: size, value: size }));
   };
 
   const getSelectedValue = () => {
     return selectedSize ? { label: selectedSize, value: selectedSize } : null;
   };
 
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1);
+  };
+
   return (
-    <ProductContainer>
-      <ProductImagesContainer>
-        {fakeProduct.images.map(image => (
-          <ProductImage src={image} />
-        ))}
-      </ProductImagesContainer>
-      <ProductTitle>
-        {fakeProduct.title} {productId}
-      </ProductTitle>
-      <ProductInfoContainer>
-        <ProductTable>
-          <tr>
-            <td>Descripción:</td>
-            <td>{fakeProduct.description}</td>
-          </tr>
-          <tr>
-            <td>Marca:</td>
-            <td>{fakeProduct.brand}</td>
-          </tr>
-          <tr>
-            <td>Color:</td>
-            <td>{fakeProduct.color}</td>
-          </tr>
-          <tr>
-            <td>Color:</td>
-            <td>{fakeProduct.price}€ al día</td>
-          </tr>
-        </ProductTable>
-        <SelectContainer>
-          <Select
-            placeholder={"Elige tu talla"}
-            options={getSizeOptions()}
-            noOptionsMessage={() => "No se encuentra resultados"}
-            onChange={handleChange}
-            name="size"
-            inputId="size"
-            value={getSelectedValue()}
-          />
-        </SelectContainer>
-      </ProductInfoContainer>
-    </ProductContainer>
+    <>
+      <TopSectionContainer>
+        <TitleContainer>
+          <Text>Detalle Producto</Text>
+          <MainButton onClick={handleGoBack}>VOLVER A PRODUCTOS</MainButton>
+        </TitleContainer>
+      </TopSectionContainer>
+      <ProductContainer>
+        <ProductImagesContainer>
+          <ProductImage src={productDetail.photo1} />
+          <ProductImage src={productDetail.photo2} />
+          <ProductImage src={productDetail.photo3} />
+        </ProductImagesContainer>
+        <ProductTitle>{productDetail.name}</ProductTitle>
+        <ProductInfoContainer>
+          <ProductTable>
+            <tr>
+              <td>Descripción:</td>
+              <td>{productDetail.detail}</td>
+            </tr>
+            <tr>
+              <td>Marca:</td>
+              <td>{productDetail.brand}</td>
+            </tr>
+            <tr>
+              <td>Color:</td>
+              <td>{productDetail.color}</td>
+            </tr>
+            <tr>
+              <td>Precio:</td>
+              <td>
+                {productDetail.price} {productDetail.currency} al día
+              </td>
+            </tr>
+          </ProductTable>
+          <SelectContainer>
+            {hasSizeAvailable() && (
+              <Select
+                placeholder={"Elige tu talla"}
+                options={getSizeOptions()}
+                noOptionsMessage={() => "No se encuentra resultados"}
+                onChange={handleChange}
+                name="size"
+                inputId="size"
+                value={getSelectedValue()}
+              />
+            )}
+          </SelectContainer>
+        </ProductInfoContainer>
+      </ProductContainer>
+    </>
   );
 };
 

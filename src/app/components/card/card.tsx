@@ -5,6 +5,7 @@ import { CardItem, TextOverlay } from "./card-styles";
 export type AllowedPosition = "center" | "top" | "bottom";
 
 export interface CardItem {
+  id: string;
   imageURL: string;
   text: string;
   buttons?: string[];

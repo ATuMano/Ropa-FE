@@ -9,6 +9,5 @@ const cardContainerMobile = css`
 export const CardContainer = styled(Box)`
   display: flex;
   flex-wrap: wrap;
-  padding: 1em;
   ${getCssForMobileView(cardContainerMobile)}
 `;

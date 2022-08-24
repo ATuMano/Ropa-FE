@@ -1,10 +1,11 @@
+import { FiltersTrip } from "app/components/filters-trip/filter-trip";
 import React from "react";
-import { HeaderContainer } from "./header-styles";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
-  return (
-    <HeaderContainer />
-  );
+  const location = useLocation();
+  const isInLanding = location.pathname === "/";
+  return isInLanding ? <FiltersTrip /> : null;
 };
 
 export default Header;
