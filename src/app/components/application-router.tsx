@@ -1,6 +1,7 @@
 import Landing from "app/pages/landing/landing";
 import Layout from "app/pages/Layout/layout";
-import Login from "app/pages/login";
+import Login from "app/pages/Login/login";
+import Register from "app/pages/Register/register";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AuthRoute } from "./auth-route";
@@ -38,6 +39,7 @@ export const ApplicationRouter = () => {
           />
 
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </Layout>
     </BrowserRouter>
