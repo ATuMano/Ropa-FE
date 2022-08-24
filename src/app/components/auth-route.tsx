@@ -11,7 +11,7 @@ export const AuthRoute: FunctionComponent<IAuthRouteProps> = ({ children }) => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
-  onAuthStateChanged(auth, (user) => {
+  onAuthStateChanged(auth, user => {
     if (user) {
       setLoading(false);
     } else {

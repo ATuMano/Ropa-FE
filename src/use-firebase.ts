@@ -16,6 +16,4 @@ export const useFirebase = () => {
   const app = initializeApp(firebaseConfig);
   getAnalytics(app);
   getAuth(app);
-}
-
-
+};

@@ -34,7 +34,7 @@ interface Product {
 }
 
 const ProductDetail = () => {
-  const { productId } = useParams() as unknown as ProductDetailParams;
+  const { productId } = (useParams() as unknown) as ProductDetailParams;
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const productDetail = (database.Products_details[
     productId as keyof Object
