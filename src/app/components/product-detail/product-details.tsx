@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { 
+import {
   useParams,
   useHistory,
 } from "react-router-dom";
@@ -70,6 +70,10 @@ const ProductDetail = () => {
     }
   };
 
+  const hasSizeAvailable = (): boolean => {
+    return productDetail.size.length > 0;
+  };
+
   const getSizeOptions = () => {
     return productDetail.size.map(size => ({ label: size, value: size }));
   };
@@ -121,15 +125,18 @@ const ProductDetail = () => {
             </tr>
           </ProductTable>
           <SelectContainer>
-            <Select
-              placeholder={"Elige tu talla"}
-              options={getSizeOptions()}
-              noOptionsMessage={() => "No se encuentra resultados"}
-              onChange={handleChange}
-              name="size"
-              inputId="size"
-              value={getSelectedValue()}
-            />
+            {
+              hasSizeAvailable() &&
+              <Select
+                placeholder={"Elige tu talla"}
+                options={getSizeOptions()}
+                noOptionsMessage={() => "No se encuentra resultados"}
+                onChange={handleChange}
+                name="size"
+                inputId="size"
+                value={getSelectedValue()}
+              />
+            }
           </SelectContainer>
         </ProductInfoContainer>
       </ProductContainer>

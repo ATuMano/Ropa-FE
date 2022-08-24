@@ -36,6 +36,7 @@ const Products = () => {
   };
 
   const handleGoBack = () => {
+    dispatch(setSelectedProductId(""));
     history.goBack();
   };
 
