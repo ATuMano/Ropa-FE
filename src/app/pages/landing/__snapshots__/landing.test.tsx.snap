@@ -16,9 +16,6 @@ exports[`Landing tests should match snapshot 1`] = `
       >
         Disfruta tus vacas
       </h4>
-      <button>
-        Logout
-      </button>
       <p
         class="MuiTypography-root sc-dkzDqf bgwlME MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-1"

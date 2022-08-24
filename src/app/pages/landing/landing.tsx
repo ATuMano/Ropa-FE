@@ -1,9 +1,8 @@
-import { getAuth, signOut } from "firebase/auth";
 import React from "react";
 import {
   ImageContainer,
   LandingText,
-  LandingtextContainer,
+  LandingtextContainer
 } from "./landing-styles";
 
 const Landing = () => {
@@ -14,14 +13,6 @@ const Landing = () => {
           <LandingText data-testid="landing-title" variant="h4">
             Disfruta tus vacas
           </LandingText>
-          <button
-            onClick={() => {
-              const auth = getAuth();
-              signOut(auth);
-            }}
-          >
-            Logout
-          </button>
           <LandingText
             data-testid="landing-paragraph-1"
             variant="body2"
