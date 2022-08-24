@@ -1,15 +1,7 @@
 import React, { useState } from "react";
-import {
-  useParams,
-  useHistory,
-} from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import { Select } from "../select/select";
-import {
-  TopSectionContainer,
-  TitleContainer,
-  MainButton,
-  Text,
-} from "styles";
+import { TopSectionContainer, TitleContainer, MainButton, Text } from "styles";
 import {
   ProductContainer,
   ProductImagesContainer,
@@ -102,9 +94,7 @@ const ProductDetail = () => {
           <ProductImage src={productDetail.photo2} />
           <ProductImage src={productDetail.photo3} />
         </ProductImagesContainer>
-        <ProductTitle>
-          {productDetail.name}
-        </ProductTitle>
+        <ProductTitle>{productDetail.name}</ProductTitle>
         <ProductInfoContainer>
           <ProductTable>
             <tr>
@@ -121,12 +111,13 @@ const ProductDetail = () => {
             </tr>
             <tr>
               <td>Precio:</td>
-              <td>{productDetail.price} {productDetail.currency} al día</td>
+              <td>
+                {productDetail.price} {productDetail.currency} al día
+              </td>
             </tr>
           </ProductTable>
           <SelectContainer>
-            {
-              hasSizeAvailable() &&
+            {hasSizeAvailable() && (
               <Select
                 placeholder={"Elige tu talla"}
                 options={getSizeOptions()}
@@ -136,7 +127,7 @@ const ProductDetail = () => {
                 inputId="size"
                 value={getSelectedValue()}
               />
-            }
+            )}
           </SelectContainer>
         </ProductInfoContainer>
       </ProductContainer>
