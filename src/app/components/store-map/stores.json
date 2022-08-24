@@ -4,31 +4,31 @@
             "__id__": "16OONYTwawOfZVabXaYp",
             "address": "C. del Pont del Treball Digne, 14, 08020 Barcelona",
             "coordinates": [
-                41.38815085772104,
-                2.1677336656460415
+                41.42240533870773,
+                2.196582132462361
             ],
             "name": "Sant Marti",
             "phone": "+34 111 11 11 11"
         },
         {
-            "__id__": "GsSclcRLs6BoBmApit4F",
-            "address": "C. de Calàbria, 230, 08029 Barcelona",
-            "coordinates": [
-                41.386649938872964,
-                2.147824032132486
-            ],
-            "name": "Entença",
-            "phone": "+34 333 33 33 33"
-        },
-        {
             "__id__": "VM0grwDlmffBbHrOHVqW",
             "address": "C. de València, 385, 08013 Barcelona",
             "coordinates": [
-                41.402111955566085,
-                2.1725686261979407
+                41.400754681230076,
+                2.173821881058707
             ],
             "name": "Sagrada Familia",
             "phone": "+34 222 22 22 22"
+        },
+        {
+            "__id__": "GsSclcRLs6BoBmApit4F",
+            "address": "C. de Calàbria, 230, 08029 Barcelona",
+            "coordinates": [
+                41.38592328967857,
+                2.1470935795490598
+            ],
+            "name": "Entença",
+            "phone": "+34 333 33 33 33"
         }
     ],
     "Florencia": [
