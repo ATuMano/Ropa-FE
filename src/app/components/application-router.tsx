@@ -1,7 +1,10 @@
 import Landing from "app/pages/landing/landing";
 import Layout from "app/pages/Layout/layout";
+import Login from "app/pages/Login/login";
+import Register from "app/pages/Register/register";
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { AuthRoute } from "./auth-route";
 import Categories from "./categories/categories";
 import Genders from "./genders/genders";
 import Products from "./products/products";
@@ -14,24 +17,58 @@ export const ApplicationRouter = () => {
   return (
     <BrowserRouter>
       <Layout>
-        <Route path="/" exact>
-          <Landing />
-        </Route>
-        <Route path="/genders" exact>
-          <Genders />
-        </Route>
-        <Route path="/categories" exact>
-          <Categories />
-        </Route>
-        <Route path="/products" exact>
-          <Products />
-        </Route>
-        <Route path="/product/:productId" exact>
-          <ProductDetail />
-        </Route>
-        <Route path="/map" exact>
-          <StoreMap />
-        </Route>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <AuthRoute>
+                <Landing />
+              </AuthRoute>
+            }
+          />
+          <Route
+            path="/genders"
+            element={
+              <AuthRoute>
+                <Genders />
+              </AuthRoute>
+            }
+          />
+          <Route
+            path="/product/:productId"
+            element={
+              <AuthRoute>
+                <ProductDetail />
+              </AuthRoute>
+            }
+          />
+          <Route
+            path="/categories"
+            element={
+              <AuthRoute>
+                <Categories />
+              </AuthRoute>
+            }
+          />
+          <Route
+            path="/products"
+            element={
+              <AuthRoute>
+                <Products />
+              </AuthRoute>
+            }
+          />
+          <Route
+            path="/map"
+            element={
+              <AuthRoute>
+                <StoreMap />
+              </AuthRoute>
+            }
+          />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
       </Layout>
     </BrowserRouter>
   );

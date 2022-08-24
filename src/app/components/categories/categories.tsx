@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   MainButton,
   MainSectionContainer,
@@ -16,7 +16,7 @@ import { setSelectedCategory } from "features/category/category-actions";
 
 const Categories = () => {
   const dispatch = useDispatch();
-  const history = useHistory();
+  const navigate = useNavigate();
   const gender = useSelector(selectSelectedGender);
   const categories = database.Genders.filter(g => g.name === gender)[0]
     .Categories;
@@ -28,11 +28,11 @@ const Categories = () => {
 
   const handleOnClick = (card: CardItem) => {
     dispatch(setSelectedCategory(card.text));
-    history.push("/products");
+    navigate("/products");
   };
 
   const goBack = () => {
-    history.goBack();
+    navigate(-1);
   };
 
   return (

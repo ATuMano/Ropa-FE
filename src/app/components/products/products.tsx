@@ -13,11 +13,11 @@ import {
 import { selectSelectedCategory } from "features/category/category-selector";
 import database from "ropa_ddbb.json";
 import { selectSelectedGender } from "features/gender/gender-selector";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Products = () => {
   const dispatch = useDispatch();
-  const history = useHistory();
+  const navigate = useNavigate();
   const gender = useSelector(selectSelectedGender);
   const categorySelected = useSelector(selectSelectedCategory);
   const productsFiltered = database.Genders.filter(
@@ -32,12 +32,12 @@ const Products = () => {
 
   const handleOnClick = (card: CardItem) => {
     dispatch(setSelectedProductId(card.id));
-    history.push(`/product/${card.id}`);
+    navigate(`/product/${card.id}`);
   };
 
   const handleGoBack = () => {
     dispatch(setSelectedProductId(""));
-    history.goBack();
+    navigate(-1);
   };
 
   return (

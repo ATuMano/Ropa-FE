@@ -3,27 +3,27 @@
 exports[`Landing tests should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="MuiBox-root MuiBox-root-1 sc-AxjAm ulEmE"
+    class="MuiBox-root MuiBox-root-1 sc-bczRLJ cdbSov"
     data-testid="landing-imagen-container"
   >
     <div
-      class="MuiBox-root MuiBox-root-2 sc-AxirZ kQnIIt"
+      class="MuiBox-root MuiBox-root-2 sc-gsnTZi izYoPz"
       data-testid="landing-text-container"
     >
       <h4
-        class="MuiTypography-root sc-AxiKw jqnjlt MuiTypography-h4"
+        class="MuiTypography-root sc-dkzDqf bgwlME MuiTypography-h4"
         data-testid="landing-title"
       >
         Disfruta tus vacas
       </h4>
       <p
-        class="MuiTypography-root sc-AxiKw jqnjlt MuiTypography-body2 MuiTypography-paragraph"
+        class="MuiTypography-root sc-dkzDqf bgwlME MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-1"
       >
         Sabemos el estres de armar la valija. Es por eso que te solucionamos para que puedas enfocarte en disfrutar!
       </p>
       <p
-        class="MuiTypography-root sc-AxiKw jqnjlt MuiTypography-body2 MuiTypography-paragraph"
+        class="MuiTypography-root sc-dkzDqf bgwlME MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-2"
       >
         Preparate el pasaporte y el itinerario del viaje. Nosotros nos ocupamos de la ropa!

@@ -1,7 +1,7 @@
 import { setSelectedGender } from "features/gender/gender-actions";
 import React from "react";
 import { useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   MainButton,
   MainSectionContainer,
@@ -15,7 +15,7 @@ import database from "ropa_ddbb.json";
 
 const Genders = () => {
   const dispatch = useDispatch();
-  const history = useHistory();
+  const navigate = useNavigate();
   const genders = database.Genders.map(g => ({
     id: g.__id__,
     imageURL: g.photo,
@@ -24,11 +24,11 @@ const Genders = () => {
 
   const handleOnClick = (card: CardItem) => {
     dispatch(setSelectedGender(card.text));
-    history.push("/categories");
+    navigate("/categories");
   };
 
   const goBack = () => {
-    history.goBack();
+    navigate(-1);
   };
 
   return (

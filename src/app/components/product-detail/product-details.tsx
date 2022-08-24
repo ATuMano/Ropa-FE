@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams, useHistory } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { Select } from "../select/select";
 import { TopSectionContainer, TitleContainer, MainButton, Text } from "styles";
 import {
@@ -34,7 +34,7 @@ interface Product {
 }
 
 const ProductDetail = () => {
-  const { productId } = useParams() as ProductDetailParams;
+  const { productId } = useParams() as unknown as ProductDetailParams;
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const productDetail = (database.Products_details[
     productId as keyof Object
@@ -74,10 +74,10 @@ const ProductDetail = () => {
     return selectedSize ? { label: selectedSize, value: selectedSize } : null;
   };
 
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleGoBack = () => {
-    history.goBack();
+    navigate(-1);
   };
 
   return (

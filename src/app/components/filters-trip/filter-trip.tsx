@@ -1,16 +1,17 @@
 import { DATE_FORMAT, END_TRIP, START_TRIP } from "app/constants";
 import { selectFiltersTrip } from "features/filters/selectors/filter-selector";
+import { getAuth, signOut } from "firebase/auth";
 import moment from "moment";
 import React from "react";
 import { useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { TopSectionContainer, Text, MainButton } from "styles/global-styles";
 import CountryFilter from "../country-filter/country-filter";
 import DateFilter from "../country-filter/dates-filter";
 import { FiltersContainer } from "./filter-trip-styles";
 
 export const FiltersTrip = () => {
-  const history = useHistory();
+  const navigate = useNavigate();
   const { country, start_trip, end_trip } = useSelector(selectFiltersTrip);
 
   const handleSearch = () => {
@@ -19,7 +20,7 @@ export const FiltersTrip = () => {
       moment(start_trip, DATE_FORMAT, true).isValid() &&
       moment(end_trip, DATE_FORMAT, true).isValid()
     ) {
-      history.push("/genders");
+      navigate("/genders");
     }
   };
 
@@ -32,6 +33,14 @@ export const FiltersTrip = () => {
         <DateFilter fieldId={END_TRIP} placeholder="Fecha fin viaje" />
         <MainButton onClick={handleSearch}>BUSCAR</MainButton>
       </FiltersContainer>
+      <button
+        onClick={() => {
+          const auth = getAuth();
+          signOut(auth);
+        }}
+      >
+        Logout
+      </button>
     </TopSectionContainer>
   );
 };

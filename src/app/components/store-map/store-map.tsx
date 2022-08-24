@@ -3,7 +3,7 @@ import { setSelectedStore } from "features/selected-store/actions/selected-store
 import { selectSelectedStore } from "features/selected-store/selectors/selected-store-selector";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import CTAButton from "../shared/cta-button/cta-button";
 import MapWrapper from "./map/map";
 import {
@@ -17,7 +17,7 @@ import StoreList from "./stores/store-list";
 type StoreType = { [key in string]: any };
 const StoreMap = () => {
   const dispatch = useDispatch();
-  const history = useHistory();
+  const navigate = useNavigate();
   const { country } = useSelector(selectFiltersTrip);
   const selectedStore = useSelector(selectSelectedStore);
   if (!country) return <></>;
@@ -25,7 +25,7 @@ const StoreMap = () => {
   const handleGoBackClick = () => {
     dispatch(setSelectedStore(null));
     // TO DO this should go to another root
-    history.push("/");
+    navigate("/");
   };
 
   const handleConfirmClick = () => {
