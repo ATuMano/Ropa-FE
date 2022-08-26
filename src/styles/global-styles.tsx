@@ -6,7 +6,7 @@ import styled, {
 
 import { Theme } from "./types";
 import defaultTheme from "./default-theme";
-import { Box } from "@material-ui/core";
+import { Box, Typography, Container } from "@material-ui/core";
 export const GlobalStyles: GlobalStyleComponent<
   { theme?: Theme },
   {}
@@ -33,22 +33,20 @@ ${({ theme }: { theme?: Theme }) => css`
 `}`;
 
 export const MainButton = styled.button`
-  width: 153px;
-  height: 46px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: ${({ theme }) => theme.primaryColor};
-  background-color: ${({ theme }) => theme.lightColor};
-  cursor: pointer;
-  border: none;
-  &:hover {
-    color: ${({ theme }) => theme.lightColor};
-    border: 2px solid ${({ theme }) => theme.lightColor};
-    background-color: ${({ theme }) => theme.primaryColor};
-  }
+  background-color: ${({ theme }) => theme.primaryColor};
+  color: white;
+  padding: 5px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  height: 44px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+`;
+
+export const Title = styled(Typography)`
+  color: ${({ theme }) => theme.secondaryColor};
 `;
 
 export const nextButton = styled.button`
@@ -68,6 +66,16 @@ export const nextButton = styled.button`
     border: 2px solid ${({ theme }) => theme.lightColor};
     background-color: ${({ theme }) => theme.primaryColor};
   }
+`;
+
+export const AuthorizationContainer = styled(Container)`
+  padding: 10% 0;
+`;
+
+export const FormBox = styled(Box)`
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 `;
 
 export const Text = styled.label`

@@ -1,6 +1,5 @@
 import { DATE_FORMAT, END_TRIP, START_TRIP } from "app/constants";
 import { selectFiltersTrip } from "features/filters/selectors/filter-selector";
-import { getAuth, signOut } from "firebase/auth";
 import moment from "moment";
 import React from "react";
 import { useSelector } from "react-redux";
@@ -33,14 +32,6 @@ export const FiltersTrip = () => {
         <DateFilter fieldId={END_TRIP} placeholder="Fecha fin viaje" />
         <MainButton onClick={handleSearch}>BUSCAR</MainButton>
       </FiltersContainer>
-      <button
-        onClick={() => {
-          const auth = getAuth();
-          signOut(auth);
-        }}
-      >
-        Logout
-      </button>
     </TopSectionContainer>
   );
 };
