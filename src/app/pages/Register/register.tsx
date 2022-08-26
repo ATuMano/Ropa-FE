@@ -1,4 +1,4 @@
-import { TextField } from "@material-ui/core";
+import { Link, TextField } from "@material-ui/core";
 import {
   createUserWithEmailAndPassword,
   getAuth,
@@ -12,6 +12,7 @@ import {
   MainButton,
   Title
 } from "styles/global-styles";
+import { LinkBox } from "./register-styles";
 
 export interface IRegisterProps {}
 
@@ -64,6 +65,9 @@ const Register: FunctionComponent<IRegisterProps> = _props => {
           variant="outlined"
         />
         <MainButton type="submit">Registrarse</MainButton>
+        <LinkBox>
+          <Link href="/login">¿Ya tienes una cuenta? Inciar sesion</Link>
+        </LinkBox>
       </FormBox>
     </AuthorizationContainer>
   );
