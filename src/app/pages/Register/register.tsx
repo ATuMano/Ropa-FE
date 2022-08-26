@@ -31,7 +31,7 @@ const Register: FunctionComponent<IRegisterProps> = _props => {
         await updateProfile(response.user, {
           displayName: `${firstName} ${lastName}`
         });
-        navigate(-2);
+        navigate("/");
       })
       .catch(() => {});
   };

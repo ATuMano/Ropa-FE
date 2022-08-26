@@ -25,7 +25,7 @@ const Login: FunctionComponent<ILoginProps> = _props => {
     signInWithEmailAndPassword(auth, email, password)
       .then((response) => {
         console.log(response.user);
-        navigate(-1);
+        navigate("/");
       })
       .catch(() => {
         setAuthing(false);
@@ -36,7 +36,7 @@ const Login: FunctionComponent<ILoginProps> = _props => {
     signInWithPopup(auth, new GoogleAuthProvider())
       .then((response) => {
         console.log(response.user);
-        navigate(-1);
+        navigate("/");
       })
       .catch(() => {
         setAuthing(false);
@@ -73,7 +73,7 @@ const Login: FunctionComponent<ILoginProps> = _props => {
           Inicio de sesión con
         </Button>
         <LinkBox>
-          <Link>¿Se te olvido tu contraseña?</Link>
+          <Link href="/forgot">¿Se te olvido tu contraseña?</Link>
           <Link href="/register">¿No tienes una cuenta? Registrese</Link>
         </LinkBox>
       </FormBox>
