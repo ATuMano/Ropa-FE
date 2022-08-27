@@ -35,6 +35,7 @@ ${({ theme }: { theme?: Theme }) => css`
 export const MainButton = styled.button`
   background-color: ${({ theme }) => theme.primaryColor};
   color: white;
+  cursor: pointer;
   padding: 5px 15px;
   border: 1px solid rgba(0, 0, 0, 0.23);
   height: 44px;
@@ -43,6 +44,61 @@ export const MainButton = styled.button`
   line-height: 1.75;
   letter-spacing: 0.02857em;
   text-transform: uppercase;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+
+  &:active {
+    animation: gradient 100ms;
+    background: #f88;
+    color: #fff;
+    box-shadow: none;
+  }
+  @keyframes gradient {
+    0% {
+      background: radial-gradient(
+        circle at center,
+        rgba(255, 125, 125, 0) 0%,
+        #fff 0%,
+        #fff 100%
+      );
+    }
+    25% {
+      background: radial-gradient(
+        circle at center,
+        rgba(255, 125, 125, 0.3) 24%,
+        #fff 25%,
+        #fff 100%
+      );
+    }
+    50% {
+      background: radial-gradient(
+        circle at center,
+        rgba(255, 125, 125, 0.5) 49%,
+        #fff 50%,
+        #fff 100%
+      );
+    }
+    75% {
+      background: radial-gradient(
+        circle at center,
+        rgba(255, 125, 125, 0.8) 74%,
+        #fff 75%,
+        #fff 100%
+      );
+    }
+    100% {
+      color: #fff;
+      background: radial-gradient(
+        circle at center,
+        #f88 99%,
+        #fff 100%,
+        #fff 100%
+      );
+    }
+  }
 `;
 
 export const Title = styled(Typography)`
