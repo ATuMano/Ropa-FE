@@ -10,6 +10,7 @@ import Genders from "./genders/genders";
 import Products from "./products/products";
 import ProductDetail from "./product-detail/product-details";
 import StoreMap from "./store-map/store-map";
+import ConfirmRent from "app/pages/Confirm-Rent/confirm-rent";
 
 // TO DO map route should be removed from application router
 
@@ -30,6 +31,7 @@ export const ApplicationRouter = () => {
           element={addLayout(<ProductDetail />)}
         />
         <Route path="/map" element={addLayoutWithSecurity(<StoreMap />)} />
+        <Route path="/confirmation" element={addLayoutWithSecurity(<ConfirmRent />)} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>

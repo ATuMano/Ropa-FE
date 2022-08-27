@@ -54,7 +54,7 @@ export const customReactSelectStyles: StylesConfig<Option> = {
   }),
   placeholder: base => ({
     ...base,
-    color: defaultTheme.grey500,
+    color: defaultTheme.greyColor,
     fontWeight: 400,
     fontSize: "14px",
     lineHeight: "22px"

@@ -35,7 +35,7 @@ const Genders = () => {
     <>
       <TopSectionContainer>
         <TitleContainer>
-          <Text>Define tu género</Text>
+          <Text variant="h4">Define tu género</Text>
           <MainButton onClick={goBack}>NUEVA BUSQUEDA</MainButton>
         </TitleContainer>
       </TopSectionContainer>

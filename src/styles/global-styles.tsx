@@ -105,25 +105,6 @@ export const Title = styled(Typography)`
   color: ${({ theme }) => theme.secondaryColor};
 `;
 
-export const nextButton = styled.button`
-  width: 153px;
-  height: 46px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: ${({ theme }) => theme.primaryColor};
-  background-color: ${({ theme }) => theme.lightColor};
-  cursor: pointer;
-  border: none;
-  &:hover {
-    color: ${({ theme }) => theme.lightColor};
-    border: 2px solid ${({ theme }) => theme.lightColor};
-    background-color: ${({ theme }) => theme.primaryColor};
-  }
-`;
-
 export const AuthorizationContainer = styled(Container)`
   padding: 10% 0;
 `;
@@ -134,13 +115,7 @@ export const FormBox = styled(Box)`
   gap: 1em;
 `;
 
-export const Text = styled.label`
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 38px;
-  white-space: nowrap;
+export const Text = styled(Typography)`
   color: ${({ theme }) => theme.lightColor};
 `;
 
@@ -160,5 +135,21 @@ export const TitleContainer = styled.div`
 `;
 
 export const MainSectionContainer = styled(Box)`
-  padding: 2em;
+  padding: 4em 8em;
+`;
+
+export const SectionText = styled(Typography)`
+  color: ${({ theme }) => theme.primaryColor};
+  padding: 0.5em 2em;
+  border: 1px solid black;
+`;
+
+export const ColumnTableSection = styled(Box)`
+  width: 50%;
+`;
+
+export const ColumnTableText = styled(Typography)`
+  color: black;
+  padding: 0.5em 2em;
+  border: 1px solid ${({ theme }) => theme.primaryColor};
 `;

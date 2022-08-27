@@ -12,7 +12,7 @@ const reducers = combineReducers({
   configuration: configurationReducer,
   selectedCategory: categoryReducer,
   filtersTrip: filtersReducer,
-  selectedProduct: productReducer,
+  productsInChart: productReducer,
   selectedGender: genderReducer,
   selectedStoreId: selectedStoreReducer
 });

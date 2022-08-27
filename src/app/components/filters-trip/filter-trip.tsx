@@ -26,7 +26,7 @@ export const FiltersTrip = () => {
   return (
     <TopSectionContainer>
       <FiltersContainer>
-        <Text>A donde quieres ir?</Text>
+        <Text variant="h4">A donde quieres ir?</Text>
         <CountryFilter />
         <DateFilter fieldId={START_TRIP} placeholder="Fecha inicio viaje" />
         <DateFilter fieldId={END_TRIP} placeholder="Fecha fin viaje" />

@@ -39,7 +39,7 @@ const Categories = () => {
     <>
       <TopSectionContainer>
         <TitleContainer>
-          <Text>Categorias</Text>
+          <Text variant="h4">Categorias</Text>
           <MainButton onClick={goBack}>VOLVER AL ESTILO</MainButton>
         </TitleContainer>
       </TopSectionContainer>

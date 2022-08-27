@@ -14,27 +14,16 @@ import {
 import { ActionTypes, Option, SelectActions } from "../select/select-types";
 import { MultiValue } from "react-select";
 import database from "ropa_ddbb.json";
+import { setSelectedProductId } from "features/products/products-actions";
+import { useDispatch } from "react-redux";
 
 interface ProductDetailParams {
   productId: string;
 }
 
-interface Product {
-  brand: string;
-  color: string;
-  currency: string;
-  detail: string;
-  id: string;
-  name: string;
-  photo1: string;
-  photo2: string;
-  photo3: string;
-  price: string;
-  size: string[];
-}
-
 const ProductDetail = () => {
   const { productId } = (useParams() as unknown) as ProductDetailParams;
+  const dispatch = useDispatch();
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const productDetail = (database.Products_details[
     productId as keyof Object
@@ -80,11 +69,16 @@ const ProductDetail = () => {
     navigate(-1);
   };
 
+  const handleAddToChart = () => {
+    dispatch(setSelectedProductId(productId));
+    navigate("/confirmation");
+  };
+
   return (
     <>
       <TopSectionContainer>
         <TitleContainer>
-          <Text>Detalle Producto</Text>
+          <Text variant="h4">Detalle Producto</Text>
           <MainButton onClick={handleGoBack}>VOLVER A PRODUCTOS</MainButton>
         </TitleContainer>
       </TopSectionContainer>
@@ -130,6 +124,7 @@ const ProductDetail = () => {
             )}
           </SelectContainer>
         </ProductInfoContainer>
+        <MainButton onClick={handleAddToChart}>Añadir a la cesta</MainButton>
       </ProductContainer>
     </>
   );

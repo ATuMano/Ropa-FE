@@ -1,6 +1,5 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { setSelectedProductId } from "features/products/products-actions";
+import { useSelector } from "react-redux";
 import ImageCard, { AllowedPosition, CardItem } from "../card/card";
 import { CardContainer } from "../genders/genders-styles";
 import {
@@ -16,7 +15,6 @@ import { selectSelectedGender } from "features/gender/gender-selector";
 import { useNavigate } from "react-router-dom";
 
 const Products = () => {
-  const dispatch = useDispatch();
   const navigate = useNavigate();
   const gender = useSelector(selectSelectedGender);
   const categorySelected = useSelector(selectSelectedCategory);
@@ -31,12 +29,10 @@ const Products = () => {
   }))!;
 
   const handleOnClick = (card: CardItem) => {
-    dispatch(setSelectedProductId(card.id));
     navigate(`/product/${card.id}`);
   };
 
   const handleGoBack = () => {
-    dispatch(setSelectedProductId(""));
     navigate(-1);
   };
 
@@ -44,7 +40,7 @@ const Products = () => {
     <>
       <TopSectionContainer>
         <TitleContainer>
-          <Text>Productos</Text>
+          <Text variant="h4">Productos</Text>
           <MainButton onClick={handleGoBack}>VOLVER A CATEGORIAS</MainButton>
         </TitleContainer>
       </TopSectionContainer>

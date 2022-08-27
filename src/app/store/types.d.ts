@@ -39,6 +39,6 @@ export interface State {
   selectedGender: string;
   selectedCategory: string;
   filtersTrip: FilterTrip;
-  selectedProductId: string;
+  productsInChart: string[];
   selectedStoreId: string;
 }

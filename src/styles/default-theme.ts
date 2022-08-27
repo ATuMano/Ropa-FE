@@ -25,7 +25,7 @@ const defaultTheme: Theme = {
   cookiesSecondaryColor: "#fff",
   logoMargins: "0 10px 0 0",
   logoHeight: "40px",
-  grey500: "#999999"
+  greyColor: "#999999"
 };
 
 export default defaultTheme;
