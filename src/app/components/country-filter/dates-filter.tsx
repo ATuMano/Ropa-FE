@@ -23,7 +23,7 @@ const DateSelect = styled(Datetime)`
     height: 48px;
     width: 150px;
     padding: 8px;
-    color: #333333;
+    color: #0BB3BE;
 
     ::placeholder {
       color: #999999;
