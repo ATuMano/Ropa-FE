@@ -38,7 +38,7 @@ const Register: FunctionComponent<IRegisterProps> = _props => {
   return (
     <AuthorizationContainer maxWidth="sm">
       <FormBox component="form" onSubmit={signUp}>
-        <Title variant="h3">Registrate</Title>
+        <Title variant="h3">Registrese</Title>
         <TextField
           required
           name="firstName"
@@ -64,7 +64,7 @@ const Register: FunctionComponent<IRegisterProps> = _props => {
           label="Contraseña"
           variant="outlined"
         />
-        <MainButton type="submit">Registrarse</MainButton>
+        <MainButton type="submit">Registrese</MainButton>
         <LinkBox>
           <Link href="/login">¿Ya tienes una cuenta? Inciar sesion</Link>
         </LinkBox>

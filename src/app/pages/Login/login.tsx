@@ -46,7 +46,7 @@ const Login: FunctionComponent<ILoginProps> = _props => {
   return (
     <AuthorizationContainer maxWidth="sm">
       <FormBox component="form" onSubmit={signIn}>
-        <Title variant="h3">Inicio de session</Title>
+        <Title variant="h3">Inicio de sesión</Title>
         <TextField
           required
           name="email"
