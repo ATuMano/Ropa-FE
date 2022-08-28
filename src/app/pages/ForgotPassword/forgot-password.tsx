@@ -39,7 +39,7 @@ const ForgotPassword: FunctionComponent<IForgotPasswordProps> = _props => {
         <MainButton type="submit">Enviar Email</MainButton>
         <Divider />
         <Button variant="outlined" href="/login">
-          Iniciar Session
+          Iniciar Sesión
         </Button>
       </FormBox>
     </AuthorizationContainer>
