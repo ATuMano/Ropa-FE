@@ -8,7 +8,7 @@ import {
   TopSectionContainer,
   TitleContainer,
   Text,
-  MainSectionContainer,
+  MainSectionContainer
 } from "styles";
 import { TableSection } from "./confirm-rent-styles";
 // import { selectSelectedCategory } from "features/category/category-selector";

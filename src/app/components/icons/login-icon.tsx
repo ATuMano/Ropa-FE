@@ -3,11 +3,7 @@ import { withTheme } from "styled-components";
 import { IconProps } from "./types";
 
 const LoginIcon = ({ theme }: IconProps) => (
-  <svg
-    width="40px"
-    height="40px"
-    viewBox="0 0 32 32"
-  >
+  <svg width="40px" height="40px" viewBox="0 0 32 32">
     <circle
       cx="16"
       cy="16"

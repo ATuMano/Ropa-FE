@@ -19,7 +19,10 @@ const RentingDetail: FunctionComponent<IRentingDetailProps> = _props => {
   const productDetails = productsInChart.map(
     id => (database.Products_details[id as keyof Object] as unknown) as Product
   );
-  const totalPrice = productDetails.reduce((acc, { price }) => acc + parseFloat(price), 0);
+  const totalPrice = productDetails.reduce(
+    (acc, { price }) => acc + parseFloat(price),
+    0
+  );
   const totalCurrency = productDetails[0]?.currency;
   const productDetailSection = (
     name: string,

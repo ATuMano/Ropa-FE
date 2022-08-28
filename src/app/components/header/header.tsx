@@ -10,7 +10,7 @@ import { HeaderContainer, MainText, PageBox } from "./header-styles";
 const Header = () => {
   const auth = getAuth();
   const [isAutheticated, setIsAutheticated] = useState(false);
-  
+
   onAuthStateChanged(auth, user => {
     setIsAutheticated(!!user);
   });

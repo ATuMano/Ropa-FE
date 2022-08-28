@@ -1,5 +1,9 @@
 import React, { FunctionComponent } from "react";
-import { ColumnTableSection, ColumnTableText, SectionText } from "styles/global-styles";
+import {
+  ColumnTableSection,
+  ColumnTableText,
+  SectionText
+} from "styles/global-styles";
 
 export interface IPaymentDetailProps {}
 

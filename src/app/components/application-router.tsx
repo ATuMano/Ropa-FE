@@ -31,7 +31,10 @@ export const ApplicationRouter = () => {
           element={addLayout(<ProductDetail />)}
         />
         <Route path="/map" element={addLayoutWithSecurity(<StoreMap />)} />
-        <Route path="/confirmation" element={addLayoutWithSecurity(<ConfirmRent />)} />
+        <Route
+          path="/confirmation"
+          element={addLayoutWithSecurity(<ConfirmRent />)}
+        />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>

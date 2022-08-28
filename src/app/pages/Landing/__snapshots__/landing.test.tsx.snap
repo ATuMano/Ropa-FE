@@ -3,16 +3,16 @@
 exports[`Landing tests should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gKXOVf grrbPE"
+    class="sc-jSMfEi ejWbvd"
   >
     <div
-      class="sc-kDDrLX cpqryZ"
+      class="sc-crXcEl dcRULP"
     >
-      <label
-        class="sc-jSMfEi bBCqQa"
+      <h4
+        class="MuiTypography-root sc-eCYdqJ gDmCUp MuiTypography-h4"
       >
         A donde quieres ir?
-      </label>
+      </h4>
       <div
         class=" css-1ktriz-container"
       >
@@ -64,7 +64,7 @@ exports[`Landing tests should match snapshot 1`] = `
           >
             <div
               aria-hidden="true"
-              class="sc-papXJ gVENeQ"
+              class="sc-kDDrLX jVYwSK"
               data-testid="clear-selection"
             >
               <svg
@@ -89,7 +89,7 @@ exports[`Landing tests should match snapshot 1`] = `
         />
       </div>
       <div
-        class="rdt sc-jqUVSM fQvczk"
+        class="rdt sc-iqcoie dzdaXm"
       >
         <input
           class="form-control"
@@ -417,7 +417,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     23
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="7"
                     data-value="24"
                     data-year="2022"
@@ -449,7 +449,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     27
                   </td>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="7"
                     data-value="28"
                     data-year="2022"
@@ -521,7 +521,7 @@ exports[`Landing tests should match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="rdt sc-jqUVSM fQvczk"
+        class="rdt sc-iqcoie dzdaXm"
       >
         <input
           class="form-control"
@@ -849,7 +849,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     23
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="7"
                     data-value="24"
                     data-year="2022"
@@ -881,7 +881,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     27
                   </td>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="7"
                     data-value="28"
                     data-year="2022"
@@ -953,34 +953,34 @@ exports[`Landing tests should match snapshot 1`] = `
         </div>
       </div>
       <button
-        class="sc-bczRLJ lfNKLi"
+        class="sc-bczRLJ kpZfFp"
       >
         BUSCAR
       </button>
     </div>
   </div>
   <div
-    class="MuiBox-root MuiBox-root-1 sc-crXcEl pMbLT"
+    class="MuiBox-root MuiBox-root-1 sc-breuTD hIArbU"
     data-testid="landing-imagen-container"
   >
     <div
-      class="MuiBox-root MuiBox-root-2 sc-evZas gbdEJ"
+      class="MuiBox-root MuiBox-root-2 sc-ksZaOG gZoXfh"
       data-testid="landing-text-container"
     >
       <h4
-        class="MuiTypography-root sc-breuTD fNWVCq MuiTypography-h4"
+        class="MuiTypography-root sc-hAZoDl AFqUC MuiTypography-h4"
         data-testid="landing-title"
       >
         Disfruta tus vacas
       </h4>
       <p
-        class="MuiTypography-root sc-breuTD fNWVCq MuiTypography-body2 MuiTypography-paragraph"
+        class="MuiTypography-root sc-hAZoDl AFqUC MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-1"
       >
         Sabemos el estres de armar la valija. Es por eso que te solucionamos para que puedas enfocarte en disfrutar!
       </p>
       <p
-        class="MuiTypography-root sc-breuTD fNWVCq MuiTypography-body2 MuiTypography-paragraph"
+        class="MuiTypography-root sc-hAZoDl AFqUC MuiTypography-body2 MuiTypography-paragraph"
         data-testid="landing-paragraph-2"
       >
         Preparate el pasaporte y el itinerario del viaje. Nosotros nos ocupamos de la ropa!
