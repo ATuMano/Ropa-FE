@@ -10,6 +10,7 @@ import Genders from "./genders/genders";
 import Products from "./products/products";
 import ProductDetail from "./product-detail/product-details";
 import StoreMap from "./store-map/store-map";
+import ForgotPassword from "app/pages/ForgotPassword/forgot-password";
 
 // TO DO map route should be removed from application router
 
@@ -32,6 +33,7 @@ export const ApplicationRouter = () => {
         <Route path="/map" element={addLayoutWithSecurity(<StoreMap />)} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/forgot" element={<ForgotPassword />} />
       </Routes>
     </BrowserRouter>
   );
