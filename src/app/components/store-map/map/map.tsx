@@ -28,6 +28,7 @@ const MapWrapper: FC<{ markers: Store[] }> = ({ markers }) => {
         zoom={zoom}
         style={{
           flexGrow: "1",
+          opacity: "1",
           height: "100%"
         }}
       >
@@ -116,7 +117,7 @@ const Marker: React.FC<MarkerProps> = ({ storeID, ...options }) => {
     fillOpacity: 1,
     strokeWeight: 0,
     rotation: 0,
-    scale: 0.5,
+    scale: 0.8,
     labelOrigin: new google.maps.Point(40, 30),
     anchor: new google.maps.Point(9, 35)
   };
