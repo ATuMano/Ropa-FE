@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <PageBox>
-        <Button>
+        <Button onClick={() => navigate("/")}>
           <LogoIcon />
         </Button>
         <MainText variant="h5">Ropa a tu mano</MainText>
