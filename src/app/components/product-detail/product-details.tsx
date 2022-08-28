@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Select } from "../select/select";
-import { TopSectionContainer, TitleContainer, MainButton, Text } from "styles";
+import { TopSectionContainer, TitleContainer, GoBackButton, MainButton, Text } from "styles";
 import {
   ProductContainer,
   ProductImagesContainer,
@@ -80,12 +80,16 @@ const ProductDetail = () => {
     navigate(-1);
   };
 
+  const handleOnClick = () => {
+    navigate ('/map');  // onClick has to send to ADD CARRITO, this was done just to test
+  };
+
   return (
     <>
       <TopSectionContainer>
         <TitleContainer>
           <Text>Detalle Producto</Text>
-          <MainButton onClick={handleGoBack}>VOLVER A PRODUCTOS</MainButton>
+          <GoBackButton onClick={handleGoBack}>VOLVER A PRODUCTOS</GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <ProductContainer>
@@ -130,6 +134,7 @@ const ProductDetail = () => {
             )}
           </SelectContainer>
         </ProductInfoContainer>
+        <MainButton onClick={handleOnClick}>AGREGAR AL CARRITO</MainButton>
       </ProductContainer>
     </>
   );

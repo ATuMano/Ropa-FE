@@ -4,7 +4,7 @@ import { setSelectedProductId } from "features/products/products-actions";
 import ImageCard, { AllowedPosition, CardItem } from "../card/card";
 import { CardContainer } from "../genders/genders-styles";
 import {
-  MainButton,
+  GoBackButton,
   TopSectionContainer,
   TitleContainer,
   Text,
@@ -45,7 +45,7 @@ const Products = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Productos</Text>
-          <MainButton onClick={handleGoBack}>VOLVER A CATEGORIAS</MainButton>
+          <GoBackButton onClick={handleGoBack}>VOLVER A CATEGORIAS</GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <MainSectionContainer>

@@ -4,7 +4,7 @@ import moment from "moment";
 import React from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { TopSectionContainer, Text, MainButton } from "styles/global-styles";
+import { TopSectionContainer, Text, GoNextButton } from "styles/global-styles";
 import CountryFilter from "../country-filter/country-filter";
 import DateFilter from "../country-filter/dates-filter";
 import { FiltersContainer } from "./filter-trip-styles";
@@ -30,7 +30,7 @@ export const FiltersTrip = () => {
         <CountryFilter />
         <DateFilter fieldId={START_TRIP} placeholder="Fecha inicio viaje" />
         <DateFilter fieldId={END_TRIP} placeholder="Fecha fin viaje" />
-        <MainButton onClick={handleSearch}>BUSCAR</MainButton>
+        <GoNextButton onClick={handleSearch}>BUSCAR</GoNextButton>
       </FiltersContainer>
     </TopSectionContainer>
   );
