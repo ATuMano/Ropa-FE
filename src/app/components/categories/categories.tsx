@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
-  MainButton,
+  GoBackButton,
   MainSectionContainer,
   Text,
   TitleContainer,
@@ -40,7 +40,7 @@ const Categories = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Categorias</Text>
-          <MainButton onClick={goBack}>VOLVER AL ESTILO</MainButton>
+          <GoBackButton onClick={goBack}>VOLVER AL ESTILO</GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <MainSectionContainer>

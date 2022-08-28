@@ -45,27 +45,34 @@ export const MainButton = styled.button`
   text-transform: uppercase;
 `;
 
-export const Title = styled(Typography)`
-  color: ${({ theme }) => theme.secondaryColor};
+export const GoNextButton = styled.button`
+  background-color: ${({ theme }) => theme.lightColor};
+  color: ${({ theme }) => theme.primaryColor};
+  padding: 5px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  height: 44px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
 `;
 
-export const nextButton = styled.button`
-  width: 153px;
-  height: 46px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: ${({ theme }) => theme.primaryColor};
+export const GoBackButton = styled.button`
   background-color: ${({ theme }) => theme.lightColor};
-  cursor: pointer;
-  border: none;
-  &:hover {
-    color: ${({ theme }) => theme.lightColor};
-    border: 2px solid ${({ theme }) => theme.lightColor};
-    background-color: ${({ theme }) => theme.primaryColor};
-  }
+  color: ${({ theme }) => theme.primaryColor};
+  padding: 5px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  height: 44px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+`;
+
+export const Title = styled(Typography)`
+  color: ${({ theme }) => theme.secondaryColor};
 `;
 
 export const AuthorizationContainer = styled(Container)`

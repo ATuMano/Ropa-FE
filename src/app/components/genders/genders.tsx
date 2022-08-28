@@ -3,7 +3,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
-  MainButton,
+  GoBackButton,
   MainSectionContainer,
   Text,
   TitleContainer,
@@ -36,7 +36,7 @@ const Genders = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Define tu género</Text>
-          <MainButton onClick={goBack}>NUEVA BUSQUEDA</MainButton>
+          <GoBackButton onClick={goBack}>NUEVA BUSQUEDA</GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <MainSectionContainer>

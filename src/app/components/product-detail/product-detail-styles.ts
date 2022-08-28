@@ -38,3 +38,7 @@ export const ProductTable = styled.table`
 export const SelectContainer = styled.div`
   margin-left: auto;
 `;
+
+export const MainButton = styled.button`
+  margin-right: auto;
+`;
