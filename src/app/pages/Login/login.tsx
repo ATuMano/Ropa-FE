@@ -70,7 +70,7 @@ const Login: FunctionComponent<ILoginProps> = _props => {
           onClick={signInWithGoogle}
           disabled={authing}
         >
-          Inicio de sesión con
+          Inicio de sesión con Google
         </Button>
         <LinkBox>
           <Link>¿Se te olvido tu contraseña?</Link>
