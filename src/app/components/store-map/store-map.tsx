@@ -29,7 +29,7 @@ const StoreMap = () => {
   };
 
   const handleConfirmClick = () => {
-    console.log("confirm!");
+    navigate("/payment");
   };
 
   const countryStores: Store[] = (stores as StoreType)[country];

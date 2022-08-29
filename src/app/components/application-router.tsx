@@ -11,6 +11,7 @@ import Products from "./products/products";
 import ProductDetail from "./product-detail/product-details";
 import StoreMap from "./store-map/store-map";
 import ForgotPassword from "app/pages/ForgotPassword/forgot-password";
+import Payment from "./payment/payment";
 
 // TO DO map route should be removed from application router
 
@@ -30,6 +31,7 @@ export const ApplicationRouter = () => {
           path="/product/:productId"
           element={addLayout(<ProductDetail />)}
         />
+        <Route path="/payment" element={addLayout(<Payment />)} />
         <Route path="/map" element={addLayoutWithSecurity(<StoreMap />)} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

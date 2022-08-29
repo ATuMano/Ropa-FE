@@ -4,11 +4,7 @@ import { withTheme } from "styled-components";
 import { IconProps } from "./types";
 
 const LogoIcon = (_props: IconProps) => (
-  <svg
-    width="50"
-    height="46"
-    viewBox="0 0 348.000000 338.000000"
-  >
+  <svg width="50" height="46" viewBox="0 0 348.000000 338.000000">
     <g
       transform="translate(0.000000,338.000000) scale(0.100000,-0.100000)"
       fill="#fefefe"

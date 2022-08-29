@@ -45,7 +45,9 @@ const Products = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Productos</Text>
-          <GoBackButton onClick={handleGoBack}>VOLVER A CATEGORIAS</GoBackButton>
+          <GoBackButton onClick={handleGoBack}>
+            VOLVER A CATEGORIAS
+          </GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <MainSectionContainer>

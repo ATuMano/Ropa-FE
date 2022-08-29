@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import { MainButton } from "styles";
 
 export const ProductContainer = styled.section`
   width: 80%;
   margin: 2rem auto;
+  padding-bottom: 36px;
 `;
 
 export const ProductImagesContainer = styled.div`
@@ -39,6 +41,6 @@ export const SelectContainer = styled.div`
   margin-left: auto;
 `;
 
-export const MainButton = styled.button`
-  margin-right: auto;
+export const AddToCartButton = styled(MainButton)`
+  float: right;
 `;

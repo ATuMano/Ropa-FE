@@ -22,7 +22,7 @@ const ForgotPassword: FunctionComponent<IForgotPasswordProps> = _props => {
       .then(() => {
         console.log("Password reset email sent!");
       })
-      .catch((error) => {
+      .catch(error => {
         console.log(error);
       });
   };

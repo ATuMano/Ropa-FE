@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Select } from "../select/select";
-import { TopSectionContainer, TitleContainer, GoBackButton, MainButton, Text } from "styles";
+import {
+  TopSectionContainer,
+  TitleContainer,
+  GoBackButton,
+  Text
+} from "styles";
 import {
   ProductContainer,
   ProductImagesContainer,
@@ -9,7 +14,8 @@ import {
   ProductTitle,
   ProductInfoContainer,
   ProductTable,
-  SelectContainer
+  SelectContainer,
+  AddToCartButton
 } from "./product-detail-styles";
 import { ActionTypes, Option, SelectActions } from "../select/select-types";
 import { MultiValue } from "react-select";
@@ -81,7 +87,7 @@ const ProductDetail = () => {
   };
 
   const handleOnClick = () => {
-    navigate ('/map');  // onClick has to send to ADD CARRITO, this was done just to test
+    navigate("/map"); // onClick has to send to ADD CARRITO, this was done just to test
   };
 
   return (
@@ -134,7 +140,9 @@ const ProductDetail = () => {
             )}
           </SelectContainer>
         </ProductInfoContainer>
-        <MainButton onClick={handleOnClick}>AGREGAR AL CARRITO</MainButton>
+        <AddToCartButton onClick={handleOnClick}>
+          AGREGAR AL CARRITO
+        </AddToCartButton>
       </ProductContainer>
     </>
   );

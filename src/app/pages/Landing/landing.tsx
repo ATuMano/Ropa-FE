@@ -9,7 +9,7 @@ import {
 const Landing = () => {
   return (
     <>
-    <FiltersTrip />
+      <FiltersTrip />
       <ImageContainer data-testid="landing-imagen-container">
         <LandingtextContainer data-testid="landing-text-container">
           <LandingText data-testid="landing-title" variant="h4">
