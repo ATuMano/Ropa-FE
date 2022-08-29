@@ -8,7 +8,12 @@ import {
 } from "firebase/auth";
 import React, { FormEvent, FunctionComponent, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { AuthorizationContainer, MainButton, Title, FormBox } from "styles/global-styles";
+import {
+  AuthorizationContainer,
+  MainButton,
+  Title,
+  FormBox
+} from "styles/global-styles";
 import { LinkBox } from "./login-styles";
 
 export interface ILoginProps {}
@@ -23,7 +28,7 @@ const Login: FunctionComponent<ILoginProps> = _props => {
     const email: string = event.currentTarget["email"].value;
     const password: string = event.currentTarget["password"].value;
     signInWithEmailAndPassword(auth, email, password)
-      .then((response) => {
+      .then(response => {
         console.log(response.user);
         navigate("/");
       })
@@ -34,7 +39,7 @@ const Login: FunctionComponent<ILoginProps> = _props => {
   const signInWithGoogle = () => {
     setAuthing(true);
     signInWithPopup(auth, new GoogleAuthProvider())
-      .then((response) => {
+      .then(response => {
         console.log(response.user);
         navigate("/");
       })

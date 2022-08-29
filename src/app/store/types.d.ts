@@ -1,4 +1,5 @@
 import { ConfigModel } from "features/configuration/configuration-types";
+import { PaymentData } from "features/payment/payment.types";
 
 interface ActionStandardBase {
   type: string;
@@ -41,4 +42,5 @@ export interface State {
   filtersTrip: FilterTrip;
   selectedProductId: string;
   selectedStoreId: string;
+  paymentData: PaymentData;
 }
