@@ -13,7 +13,7 @@ export const Card = styled(Box)<{ selected: boolean }>`
   flex-direction: column;
   padding: 1rem 0 0.3rem;
   cursor: pointer;
-  background-color: ${({ selected }) => (selected ? "#F0F0F0" : "white")};
+  background-color: ${({ selected }) => (selected ? "#b9b9b9" : "white")};
   box-shadow: inset 0px -3px 0px #e5e5e5;
 `;
 
