@@ -3,7 +3,7 @@
 exports[`Landing tests should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-iBkjds HYztO"
+    class="sc-iBkjds hkfcpW"
   >
     <div
       class="sc-iqcoie ivyQmM"
@@ -467,7 +467,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     29
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="7"
                     data-value="30"
                     data-year="2022"
@@ -475,7 +475,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     30
                   </td>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="7"
                     data-value="31"
                     data-year="2022"
@@ -899,7 +899,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     29
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="7"
                     data-value="30"
                     data-year="2022"
@@ -907,7 +907,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     30
                   </td>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="7"
                     data-value="31"
                     data-year="2022"
