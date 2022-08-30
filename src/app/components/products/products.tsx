@@ -13,6 +13,7 @@ import {
 import { selectSelectedCategory } from "features/category/category-selector";
 import database from "ropa_ddbb.json";
 import { selectSelectedGender } from "features/gender/gender-selector";
+import { setSelectedCategory } from "features/category/category-actions";
 import { useNavigate } from "react-router-dom";
 
 const Products = () => {
@@ -35,9 +36,9 @@ const Products = () => {
     navigate(`/product/${card.id}`);
   };
 
-  const handleGoBack = () => {
-    dispatch(setSelectedProductId(""));
-    navigate(-1);
+  const handleGoBackClick = () => {
+    dispatch(setSelectedCategory(""));
+    navigate("/categories");
   };
 
   return (
@@ -45,7 +46,7 @@ const Products = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Productos</Text>
-          <GoBackButton onClick={handleGoBack}>
+          <GoBackButton onClick={handleGoBackClick}>
             VOLVER A CATEGORIAS
           </GoBackButton>
         </TitleContainer>

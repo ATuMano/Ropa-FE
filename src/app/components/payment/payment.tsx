@@ -5,6 +5,7 @@ import {
   MainSectionContainer,
   Text,
   TitleContainer,
+  GoBackButton,
   TopSectionContainer
 } from "styles";
 import CTAButton from "../shared/cta-button/cta-button";
@@ -43,7 +44,7 @@ const Payment = () => {
     navigate("/summary");
   };
 
-  const goBack = () => {
+  const handleGoBackClick = () => {
     navigate(-1);
   };
 
@@ -101,12 +102,12 @@ const Payment = () => {
           </Field>
         </FieldsContainer>
         <ButtonsContainer>
-          <CTAButton text="VOLVER" onClick={goBack} isMain={false} />
+          <GoBackButton onClick={handleGoBackClick}>VOLVER</GoBackButton>
           <CTAButton
             text="CONFIRMAR PAGO"
             onClick={handleConfirmClick}
             isMain={true}
-            disabled={false}
+            disabled={!paymentInitialData}
           />
         </ButtonsContainer>
       </MainSectionContainer>

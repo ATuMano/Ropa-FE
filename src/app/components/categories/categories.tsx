@@ -1,4 +1,5 @@
 import React from "react";
+import { setSelectedGender } from "features/gender/gender-actions";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
@@ -31,8 +32,9 @@ const Categories = () => {
     navigate("/products");
   };
 
-  const goBack = () => {
-    navigate(-1);
+  const handleGoBackClick = () => {
+    dispatch(setSelectedGender(""));
+    navigate("/genders");
   };
 
   return (
@@ -40,7 +42,9 @@ const Categories = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Categorias</Text>
-          <GoBackButton onClick={goBack}>VOLVER AL ESTILO</GoBackButton>
+          <GoBackButton onClick={handleGoBackClick}>
+            VOLVER AL ESTILO
+          </GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <MainSectionContainer>

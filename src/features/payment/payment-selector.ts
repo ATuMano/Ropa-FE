@@ -1,3 +1,3 @@
 import { State } from "app/store/types";
 
-export const selectPaymentData = (state: State) => state.paymentData;
+export const selectSelectPaymentData = (state: State) => state.paymentData;

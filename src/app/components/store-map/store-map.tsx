@@ -13,6 +13,12 @@ import {
 } from "./store-map-styles";
 import stores from "./stores.json";
 import StoreList from "./stores/store-list";
+import {
+  TopSectionContainer,
+  TitleContainer,
+  GoBackButton,
+  Text
+} from "styles";
 
 type StoreType = { [key in string]: any };
 const StoreMap = () => {
@@ -24,8 +30,7 @@ const StoreMap = () => {
 
   const handleGoBackClick = () => {
     dispatch(setSelectedStore(null));
-    // TO DO this should go to another root
-    navigate("/");
+    navigate("/products");
   };
 
   const handleConfirmClick = () => {
@@ -34,21 +39,28 @@ const StoreMap = () => {
 
   const countryStores: Store[] = (stores as StoreType)[country];
   return (
-    <MapStoresContainer>
-      <StoreList stores={countryStores} />
-      <MapSection>
-        <MapWrapper markers={countryStores} />
-        <ButtonsContainer>
-          <CTAButton text="VOLVER" onClick={handleGoBackClick} isMain={false} />
-          <CTAButton
-            text="CONFIRMAR LOCAL"
-            onClick={handleConfirmClick}
-            isMain={true}
-            disabled={!selectedStore}
-          />
-        </ButtonsContainer>
-      </MapSection>
-    </MapStoresContainer>
+    <>
+      <TopSectionContainer>
+        <TitleContainer>
+          <Text>Seleccionar tu local para retirar la ropa</Text>
+        </TitleContainer>
+      </TopSectionContainer>
+      <MapStoresContainer>
+        <StoreList stores={countryStores} />
+        <MapSection>
+          <MapWrapper markers={countryStores} />
+          <ButtonsContainer>
+            <GoBackButton onClick={handleGoBackClick}>VOLVER</GoBackButton>
+            <CTAButton
+              text="CONFIRMAR LOCAL"
+              onClick={handleConfirmClick}
+              isMain={true}
+              disabled={!selectedStore}
+            />
+          </ButtonsContainer>
+        </MapSection>
+      </MapStoresContainer>
+    </>
   );
 };
 
