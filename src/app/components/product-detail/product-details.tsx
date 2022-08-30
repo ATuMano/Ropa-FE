@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
 import { Select } from "../select/select";
 import {
   TopSectionContainer,
@@ -20,6 +21,7 @@ import {
 import { ActionTypes, Option, SelectActions } from "../select/select-types";
 import { MultiValue } from "react-select";
 import database from "ropa_ddbb.json";
+import { setSelectedProductId } from "features/products/products-actions";
 
 interface ProductDetailParams {
   productId: string;
@@ -80,10 +82,13 @@ const ProductDetail = () => {
     return selectedSize ? { label: selectedSize, value: selectedSize } : null;
   };
 
+  const dispatch = useDispatch();
+
   const navigate = useNavigate();
 
-  const handleGoBack = () => {
-    navigate(-1);
+  const handleGoBackClick = () => {
+    dispatch(setSelectedProductId(""));
+    navigate("/products");
   };
 
   const handleOnClick = () => {
@@ -95,7 +100,7 @@ const ProductDetail = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Detalle Producto</Text>
-          <GoBackButton onClick={handleGoBack}>VOLVER A PRODUCTOS</GoBackButton>
+          <GoBackButton onClick={handleGoBackClick}>VOLVER A PRODUCTOS</GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <ProductContainer>

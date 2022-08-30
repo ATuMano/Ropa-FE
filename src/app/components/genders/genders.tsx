@@ -27,8 +27,8 @@ const Genders = () => {
     navigate("/categories");
   };
 
-  const goBack = () => {
-    navigate(-1);
+  const handleGoBackClick = () => {
+    navigate("/");
   };
 
   return (
@@ -36,7 +36,7 @@ const Genders = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Define tu género</Text>
-          <GoBackButton onClick={goBack}>NUEVA BUSQUEDA</GoBackButton>
+          <GoBackButton onClick={handleGoBackClick}>NUEVA BUSQUEDA</GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <MainSectionContainer>
