@@ -2,7 +2,7 @@ import { Box } from "@material-ui/core";
 import styled from "styled-components";
 
 export const MapStoresContainer = styled(Box)`
-  height: 80vh;
+  height: 85vh;
   display: flex;
 `;
 
@@ -14,6 +14,6 @@ export const MapSection = styled(Box)`
 
 export const ButtonsContainer = styled(Box)`
   display: flex;
-  margin: 70px;
+  margin: 40px;
   align-self: self-end;
 `;

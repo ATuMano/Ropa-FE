@@ -96,7 +96,7 @@ export const Text = styled.label`
 `;
 
 export const TopSectionContainer = styled.div`
-  height: 180px;
+  height: 100px;
   display: flex;
   justify-content: center;
   background-color: ${({ theme }) => theme.primaryColor};
