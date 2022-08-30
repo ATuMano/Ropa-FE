@@ -42,7 +42,9 @@ const Categories = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Categorias</Text>
-          <GoBackButton onClick={handleGoBackClick}>VOLVER AL ESTILO</GoBackButton>
+          <GoBackButton onClick={handleGoBackClick}>
+            VOLVER AL ESTILO
+          </GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <MainSectionContainer>

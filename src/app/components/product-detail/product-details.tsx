@@ -100,7 +100,9 @@ const ProductDetail = () => {
       <TopSectionContainer>
         <TitleContainer>
           <Text>Detalle Producto</Text>
-          <GoBackButton onClick={handleGoBackClick}>VOLVER A PRODUCTOS</GoBackButton>
+          <GoBackButton onClick={handleGoBackClick}>
+            VOLVER A PRODUCTOS
+          </GoBackButton>
         </TitleContainer>
       </TopSectionContainer>
       <ProductContainer>
