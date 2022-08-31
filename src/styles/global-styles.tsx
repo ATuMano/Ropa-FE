@@ -43,6 +43,7 @@ export const MainButton = styled.button`
   line-height: 1.75;
   letter-spacing: 0.02857em;
   text-transform: uppercase;
+  margin-left: auto;
 `;
 
 export const GoNextButton = styled.button`

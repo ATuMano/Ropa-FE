@@ -43,4 +43,5 @@ export interface State {
   selectedProductId: string;
   selectedStoreId: string;
   paymentData: PaymentData;
+  shoppingCart: ShoppingCart;
 }
