@@ -48,6 +48,10 @@ const Payment = () => {
     navigate(-1);
   };
 
+  const isButtonEnabled = () => {
+    return cardHolder && cardNumber && cardExpiration && cardCVV;
+  };
+
   return (
     <>
       <TopSectionContainer>
@@ -107,7 +111,7 @@ const Payment = () => {
             text="CONFIRMAR PAGO"
             onClick={handleConfirmClick}
             isMain={true}
-            disabled={!paymentInitialData}
+            disabled={!isButtonEnabled()}
           />
         </ButtonsContainer>
       </MainSectionContainer>

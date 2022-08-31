@@ -33,9 +33,10 @@ exports[`Landing tests should match snapshot 1`] = `
             class=" css-so14a7-ValueContainer"
           >
             <div
-              class=" css-qc6sy-singleValue"
+              class=" css-ggeuks-placeholder"
+              id="react-select-2-placeholder"
             >
-              Barcelona
+              Elige la ciudad
             </div>
             <div
               class=" css-a2c4u8-Input"
@@ -43,6 +44,7 @@ exports[`Landing tests should match snapshot 1`] = `
             >
               <input
                 aria-autocomplete="list"
+                aria-describedby="react-select-2-placeholder"
                 aria-expanded="false"
                 aria-haspopup="true"
                 autocapitalize="none"
@@ -68,15 +70,16 @@ exports[`Landing tests should match snapshot 1`] = `
               data-testid="clear-selection"
             >
               <svg
-                fill="none"
-                height="8"
-                viewBox="0 0 8 8"
+                fill="#0BB3BE"
+                height="12"
+                viewBox="0 0 20 12"
                 width="8"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M6.82843 7.77596L4 4.94753L1.17157 7.77596L0.22405 6.82843L3.05248 4.00001L0.22405 1.17158L1.17157 0.224057L4 3.05248L6.82843 0.224057L7.77595 1.17158L4.94752 4.00001L7.77595 6.82843L6.82843 7.77596Z"
-                  fill="#0BB3BE"
+                  clip-rule="evenodd"
+                  d="M0.217152 2.15189L1.65198 0.717066L9.99999 9.06508L18.348 0.717066L19.7828 2.15189L10.0014 11.9333L0.217152 2.15189Z"
+                  fill-rule="evenodd"
                 />
               </svg>
             </div>
@@ -85,7 +88,7 @@ exports[`Landing tests should match snapshot 1`] = `
         <input
           name="category"
           type="hidden"
-          value="Barcelona"
+          value=""
         />
       </div>
       <div
