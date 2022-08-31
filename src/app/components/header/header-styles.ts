@@ -10,6 +10,7 @@ export const HeaderContainer = styled(Box)`
   height: 70px;
   background: ${({ theme }: { theme: Theme }) => theme.lightColor};
   border: 1px solid black;
+  gap: 20px;
 `;
 
 export const PageBox = styled(Box)`
@@ -18,4 +19,8 @@ export const PageBox = styled(Box)`
 
 export const MainText = styled(Title)`
   align-self: center;
+`;
+
+export const ShoppingCart = styled.div`
+  width: 30px;
 `;

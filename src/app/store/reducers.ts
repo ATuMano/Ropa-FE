@@ -7,6 +7,7 @@ import { categoryReducer } from "features/category/category-reducer";
 import { combineReducers } from "redux";
 import { selectedStoreReducer } from "features/selected-store/reducers/selected-store-reducer";
 import { paymentDataReducer } from "features/payment/payment-reducer";
+import { shoppingCartReducer } from "features/shopping-cart/shopping-cart-reducer";
 
 const reducers = combineReducers({
   isAppLoaded: appLoadedReducer,
@@ -16,7 +17,8 @@ const reducers = combineReducers({
   selectedProduct: productReducer,
   selectedGender: genderReducer,
   selectedStoreId: selectedStoreReducer,
-  paymentData: paymentDataReducer
+  paymentData: paymentDataReducer,
+  shoppingCart: shoppingCartReducer
 });
 
 export default reducers;

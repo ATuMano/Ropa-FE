@@ -22,6 +22,7 @@ import { ActionTypes, Option, SelectActions } from "../select/select-types";
 import { MultiValue } from "react-select";
 import database from "ropa_ddbb.json";
 import { setSelectedProductId } from "features/products/products-actions";
+import { addProduct } from "features/shopping-cart/shopping-cart-actions";
 
 interface ProductDetailParams {
   productId: string;
@@ -44,6 +45,8 @@ interface Product {
 const ProductDetail = () => {
   const { productId } = (useParams() as unknown) as ProductDetailParams;
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
+  const [isButtonDisabled, setIsButtonDisabled] = useState<boolean>(false);
+
   const productDetail = (database.Products_details[
     productId as keyof Object
   ] as unknown) as Product;
@@ -63,6 +66,7 @@ const ProductDetail = () => {
     selectedOption: Option | MultiValue<Option> | null,
     { action }: { action: ActionTypes }
   ) => {
+    setIsButtonDisabled(false);
     if (action === SelectActions.SELECT && selectedOption) {
       onSelectValue(selectedOption);
     } else if (action === SelectActions.CLEAR) {
@@ -92,7 +96,15 @@ const ProductDetail = () => {
   };
 
   const handleOnClick = () => {
-    navigate("/map"); // onClick has to send to ADD CARRITO, this was done just to test
+    if (!selectedSize) return;
+
+    const product = {
+      ...productDetail,
+      size: selectedSize
+    };
+
+    setIsButtonDisabled(true);
+    dispatch(addProduct(product));
   };
 
   return (
@@ -147,7 +159,7 @@ const ProductDetail = () => {
             )}
           </SelectContainer>
         </ProductInfoContainer>
-        <AddToCartButton onClick={handleOnClick}>
+        <AddToCartButton disabled={isButtonDisabled} onClick={handleOnClick}>
           AGREGAR AL CARRITO
         </AddToCartButton>
       </ProductContainer>
