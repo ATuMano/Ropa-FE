@@ -48,9 +48,9 @@ const Payment = () => {
     navigate(-1);
   };
 
-const isButtonEnabled = () => {
-  return cardHolder && cardNumber && cardExpiration && cardCVV;
-};
+  const isButtonEnabled = () => {
+    return cardHolder && cardNumber && cardExpiration && cardCVV;
+  };
 
   return (
     <>
