@@ -11,9 +11,9 @@ import {
 import { FilterTrip } from "../filters.types";
 
 const initialFilter: FilterTrip = {
-  country: "",
-  start_trip: "",
-  end_trip: ""
+  country: "Barcelona",
+  start_trip: "01/09/2022",
+  end_trip: "11/09/2022"
 };
 
 const filterHandler: Mapping<Function> = {
