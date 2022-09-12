@@ -14,7 +14,6 @@ import ForgotPassword from "app/pages/ForgotPassword/forgot-password";
 import Payment from "./payment/payment";
 import ReviewOrder from "./review-order/review-order";
 
-
 // TO DO map route should be removed from application router
 
 export const ApplicationRouter = () => {
