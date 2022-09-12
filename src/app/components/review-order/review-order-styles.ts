@@ -1,9 +1,22 @@
 import styled from "styled-components";
 
-export const Table = styled.table<{ width: string }>`
-  width: ${({ width }) => width}%;
+export const TablesContainer = styled.div`
+  display: flex;
+`;
+
+export const TableContainer = styled.div`
+  width: 100%;
+`;
+
+export const Table = styled.table`
+  width: 100%;
   padding: 0px 20px;
   border: none;
+`;
+
+export const TableInfo = styled.table`
+  width: 100%;
+  border: 1px solid #0bb3be;
 `;
 
 export const TitleTable = styled.h4`
@@ -11,7 +24,6 @@ export const TitleTable = styled.h4`
   border: 1px solid #0bb3be;
   padding: 0.75rem;
   font-size: 18px;
-  margin: 1.5rem 0;
 `;
 
 export const Cell = styled.td`
@@ -20,6 +32,8 @@ export const Cell = styled.td`
   font-size: 18px;
   line-height: 22px;
 `;
+
+export const RowTable = styled.tr``;
 
 export const CellTitle = styled(Cell)`
   font-family: ${({ theme }) => theme.fontFamily};
