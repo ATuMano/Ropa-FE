@@ -1,7 +1,7 @@
 import React from "react";
-// import { selectFiltersTrip } from 'features/filters/selectors/filter-selector';
-// import { selectSelectPaymentData } from 'features/payment/payment-selector';
-// import { useSelector } from 'react-redux';
+import { selectFiltersTrip } from 'features/filters/selectors/filter-selector';
+import { selectSelectPaymentData } from 'features/payment/payment-selector';
+import { useSelector } from 'react-redux';
 import { TitleContainer, TopSectionContainer, Text } from "styles";
 import { ProductContainer } from "../product-detail/product-detail-styles";
 import {
@@ -17,8 +17,8 @@ import {
   TableContainer,
   TotalPrice
 } from "./review-order-styles";
-// import database from "ropa_ddbb.json";
-// import { selectSelectedStore } from 'features/selected-store/selectors/selected-store-selector';
+import database from "ropa_ddbb.json";
+import { selectSelectedStore } from 'features/selected-store/selectors/selected-store-selector';
 
 const productsShopping = [
   {
@@ -100,10 +100,10 @@ const getTotalPrice = () =>
     });
 
 const ReviewOrder = () => {
-  // const tripData = useSelector(selectFiltersTrip);
-  // const paymentData = useSelector(selectSelectPaymentData);
-  // const storeId = useSelector(selectSelectedStore);
-  // const storeData = database.Cities.filter(city => city.name === tripData.country)[0].Stores.filter(store => store.__id__ === storeId)[0];
+  const tripData = useSelector(selectFiltersTrip);
+  const paymentData = useSelector(selectSelectPaymentData);
+  const storeId = useSelector(selectSelectedStore);
+  const storeData = database.Cities.filter(city => city.name === tripData.country)[0].Stores.filter(store => store.__id__ === storeId)[0];
   return (
     <>
       <TopSectionContainer>
@@ -124,23 +124,19 @@ const ReviewOrder = () => {
               <tbody>
                 <tr>
                   <Cell>Local: </Cell>
-                  <Cell>Barcelona Local 1</Cell>
-                  {/* <Cell>{storeData.name}</Cell> */}
+                  <Cell>{storeData.name}</Cell>
                 </tr>
                 <tr>
                   <Cell>Direccion: </Cell>
-                  <Cell>C. del Pont del Treball Digne, 14, 08020 ...</Cell>
-                  {/* <Cell>{storeData.address}</Cell> */}
+                  <Cell>{storeData.address}</Cell>
                 </tr>
                 <tr>
                   <Cell>Fecha inicio viaje: </Cell>
-                  <Cell>24/09/2022</Cell>
-                  {/* <Cell>{tripData.start_trip}</Cell> */}
+                  <Cell>{tripData.start_trip}</Cell>
                 </tr>
                 <tr>
                   <Cell>Fecha fin viaje: </Cell>
-                  <Cell>01/10/2022</Cell>
-                  {/* <Cell>{tripData.end_trip}</Cell> */}
+                  <Cell>{tripData.end_trip}</Cell>
                 </tr>
               </tbody>
             </TableInfo>
@@ -151,8 +147,7 @@ const ReviewOrder = () => {
               <tbody>
                 <tr>
                   <Cell>Nombre en la tarjeta: </Cell>
-                  <Cell>Adrian M. Dominguez</Cell>
-                  {/* <Cell>{paymentData.cardHolder}</Cell> */}
+                  <Cell>{paymentData.cardHolder}</Cell>
                 </tr>
                 <tr>
                   <Cell>Tipo de tarjeta: </Cell>
@@ -160,13 +155,11 @@ const ReviewOrder = () => {
                 </tr>
                 <tr>
                   <Cell>Número de tarjeta: </Cell>
-                  <Cell>4000 0012 3456 7899</Cell>
-                  {/* <Cell>{paymentData.cardNumber}</Cell> */}
+                  <Cell>{paymentData.cardNumber}</Cell>
                 </tr>
                 <tr>
                   <Cell>Fecha de vencimiento: </Cell>
-                  <Cell>10/2024</Cell>
-                  {/* <Cell>{paymentData.cardExpiration}</Cell> */}
+                  <Cell>{paymentData.cardExpiration}</Cell>
                 </tr>
               </tbody>
             </TableInfo>

@@ -41,7 +41,7 @@ const Payment = () => {
     dispatch(
       setPaymentData({ cardHolder, cardNumber, cardExpiration, cardCVV })
     );
-    navigate("/summary");
+    navigate("/review");
   };
 
   const handleGoBackClick = () => {
