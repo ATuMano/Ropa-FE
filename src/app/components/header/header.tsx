@@ -11,7 +11,8 @@ import {
   HeaderContainer,
   MainText,
   PageBox,
-  ShoppingCart
+  ShoppingCart,
+  ItemsCount
 } from "./header-styles";
 
 const Header = () => {
@@ -41,7 +42,9 @@ const Header = () => {
           Iniciar sesion
         </MainButton>
       )}
-      <ShoppingCart>{products.length}</ShoppingCart>
+      <ShoppingCart>
+        <ItemsCount>{products.length}</ItemsCount>
+      </ShoppingCart>
     </HeaderContainer>
   );
 };
