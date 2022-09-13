@@ -23,6 +23,7 @@ import { MultiValue } from "react-select";
 import database from "ropa_ddbb.json";
 import { setSelectedProductId } from "features/products/products-actions";
 import { addProduct } from "features/shopping-cart/shopping-cart-actions";
+import { useNotification } from "features/notifications/use-notification";
 
 interface ProductDetailParams {
   productId: string;
@@ -46,6 +47,7 @@ const ProductDetail = () => {
   const { productId } = (useParams() as unknown) as ProductDetailParams;
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const [isButtonDisabled, setIsButtonDisabled] = useState<boolean>(false);
+  const { showNotification, Notification } = useNotification();
 
   const productDetail = (database.Products_details[
     productId as keyof Object
@@ -103,6 +105,7 @@ const ProductDetail = () => {
       size: selectedSize
     };
 
+    showNotification("Producto agregado");
     setIsButtonDisabled(true);
     dispatch(addProduct(product));
   };
@@ -163,6 +166,7 @@ const ProductDetail = () => {
           AGREGAR AL CARRITO
         </AddToCartButton>
       </ProductContainer>
+      <Notification />
     </>
   );
 };
