@@ -1132,7 +1132,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-2b.jpg?alt=media&token=87d615bb-c993-4855-ade6-f5540b6f3463",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-2c.jpg?alt=media&token=dc81dadc-05da-490d-9de0-f3f0fe79f84b",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "2tF96HEncciz4e362nDT": {
       "brand": "ZARA",
@@ -1165,7 +1165,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-9b.jpg?alt=media&token=5a3a739f-5ef6-4116-b2e1-34005525ca89",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-9c.jpg?alt=media&token=307cf25b-3ca6-41d2-910b-c7604ad83c88",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "4IT0kQaTgGHivTOIffXy": {
       "brand": "ZARA",
@@ -1198,7 +1198,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-1b.jpg?alt=media&token=f9d34aeb-ed39-4abf-b4d3-0d4fe894ad88",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-1c.jpg?alt=media&token=f0bc674b-5dab-4e18-8dea-bbbb82969cd9",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "4umwM6xgdAgApfHpFYnO": {
       "brand": "ZARA",
@@ -1271,7 +1271,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-7b.jpg?alt=media&token=55bb9d38-99f8-4193-8f55-fc2651dc8706",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-7c.jpg?alt=media&token=5abf16fe-9c6d-42e0-b3cc-43ac993c9eb8",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "8UTUhBnzF6uWpBWl26fp": {
       "brand": "ZARA",
@@ -1344,7 +1344,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-8b.jpg?alt=media&token=2ace8e2c-dcc3-4ed8-a88c-1039073fe5e6",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-8c.jpg?alt=media&token=0bdd80c5-7cf8-4507-8579-c3980f62d523",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "Ag8dGz2Ke4xOSiREbCon": {
       "brand": "ZARA",
@@ -1497,7 +1497,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-1b.jpg?alt=media&token=bd017882-5f6b-4efd-b253-1285ebc77ebe",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-1c.jpg?alt=media&token=fc2830c1-fe54-45e1-a21f-c3bab00edbd6",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "dpqEdIE3ZLHjpyiK4Vzn": {
       "brand": "ZARA",
@@ -1510,7 +1510,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-2b.jpg?alt=media&token=fefa4ff8-b153-4701-8c6b-463dd8b3074e",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-2c.jpg?alt=media&token=edaadb66-5e3f-4435-a326-184f43e9b8ce",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "gjj20azJ7D9myp2xSsrQ": {
       "brand": "ZARA",
@@ -1523,7 +1523,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-8b.jpg?alt=media&token=0f3c5745-b8e6-41c3-972a-56083e8e6010",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-8c.jpg?alt=media&token=4e33da7e-b90a-499a-9c46-c46a40bc3dc3",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "gpnihsjWMxq7FrD4dNX9": {
       "brand": "ZARA",
@@ -1536,7 +1536,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-4b.jpg?alt=media&token=1834f907-a537-43d1-b1f7-a1818a90b888",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-4c.jpg?alt=media&token=19714849-1cb7-4ea8-87fc-be3eac3c1211",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "hQT5nky9gApu2TJ5BjLZ": {
       "brand": "ZARA",
@@ -1549,7 +1549,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-5b.jpg?alt=media&token=6ec773af-228a-47fb-8135-e64ac7cc4415",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-5c.jpg?alt=media&token=fbd7b53a-3fcf-428b-a09a-b19cab906cd1",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "kceQuev2NL8ej6UaqMqH": {
       "brand": "ZARA",
@@ -1562,7 +1562,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-3b.jpg?alt=media&token=6317745c-9df8-4432-b513-7f267cb7b329",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-3c.jpg?alt=media&token=dcd3e69b-7a34-4123-b4f4-4e0f95352e5e",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "EcKecSkSJ3bGqDilaowX": {
       "brand": "ZARA",
@@ -1635,7 +1635,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-6b.jpg?alt=media&token=4e096dc8-5a16-4656-8824-abca18a95773",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-6c.jpg?alt=media&token=071461de-3ec7-4f79-b4b8-7068e61ca5cb",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "K5zf4nLJuyvNji1A7G3D": {
       "brand": "ZARA",
@@ -1668,7 +1668,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-4b.jpg?alt=media&token=e643419a-d403-4580-b1aa-9d33b5866c5c",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-4c.jpg?alt=media&token=80e6a476-0b5f-4dea-abf6-5541e1fb5f19",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "MEzCYYlKeG5EOEi0VvfD": {
       "brand": "ZARA",
@@ -1881,7 +1881,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-5b.jpg?alt=media&token=3129640a-1290-4f29-93ce-2f6d7b2d39d6",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-5c.jpg?alt=media&token=20bfbc8f-e1c4-481f-88b1-0e9648e30fb1",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "UKe9FpZvnAtIAq2vN6f7": {
       "brand": "ZARA",
@@ -1894,7 +1894,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-7b.jpg?alt=media&token=d9fdc057-0dfc-4bad-9b27-731306efa72b",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-7c.jpg?alt=media&token=bdb4e86e-eb9c-48ec-b562-63067a3c2cfd",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "ccuVH5nDgA8dwi04fAyX": {
       "brand": "ZARA",
@@ -1907,7 +1907,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-6b.jpg?alt=media&token=1a3bc98d-e644-472e-82fe-97cb5ca6e45c",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-9-accesorio-6c.jpg?alt=media&token=260166df-8d72-4bac-87bc-0ad179bb4ca7",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "UkS5XvubXcQaWqKI3J9S": {
       "brand": "ZARA",
@@ -2000,7 +2000,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-3b.jpg?alt=media&token=9128dda3-d904-461d-b4a1-cdfdf3972ba1",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-3c.jpg?alt=media&token=e22711ca-64a7-400c-ad15-603e417926a9",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "rDO2CHnD0FAa0DSOrD4P": {
       "brand": "ZARA",
@@ -2013,7 +2013,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-9b.jpg?alt=media&token=61b489e2-eb69-43e8-a933-fbe9e8914bb0",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/female%2Fmujer-8-bolso-9c.jpg?alt=media&token=23d21fbd-46a4-43a9-85dc-ed70c0c4f063",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "X7YHlGB12GqG8rnrKLuF": {
       "brand": "ZARA",
@@ -2282,7 +2282,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-7b.jpg?alt=media&token=a5aff209-3efd-4df5-8e7b-9ee0ff6637f8",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-7b.jpg?alt=media&token=a5aff209-3efd-4df5-8e7b-9ee0ff6637f8",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "4k4TunNEIy7a9aLCIwdh": {
       "brand": "ZARA",
@@ -2332,7 +2332,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-6b.jpg?alt=media&token=76676324-ac23-478f-9ee2-fbd3a8079ecb",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-6c.jpg?alt=media&token=a5978760-9dad-4f03-9210-33e4e47f97a4",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "tpsNuAl8wYkhjTl47tMM": {
       "brand": "ZARA",
@@ -2345,7 +2345,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-4b.jpg?alt=media&token=59f081be-8dc1-40e8-84f0-3de083d957a1",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-4c.jpg?alt=media&token=acefc01a-42b9-47a6-89c3-f115f5d3d85a",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "5VuvzLhy54PuUxeIypu8": {
       "brand": "ZARA",
@@ -2414,7 +2414,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-5b.jpg?alt=media&token=302790ff-ee5b-42f1-b320-32d716340e80",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-5c.jpg?alt=media&token=8f94aa76-68ab-4ef3-9eb6-808f8c8a954a",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "891hQm5XZsLbns000DDM": {
       "brand": "ZARA",
@@ -2426,7 +2426,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-9b.jpg?alt=media&token=d988e6f7-f470-4687-bf79-cb0007e14e53",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-9b.jpg?alt=media&token=d988e6f7-f470-4687-bf79-cb0007e14e53",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "8RTffLytBeQic3k0xdCf": {
       "brand": "ZARA",
@@ -2537,7 +2537,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-7b.jpg?alt=media&token=f9ffe708-7ec7-40ef-a55b-4376520deb03",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-7c.jpg?alt=media&token=3353f5f5-2750-4209-876c-d4ff090f291e",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "CXmagbRLN3iIOKbmYj8f": {
       "brand": "ZARA",
@@ -2568,7 +2568,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-2b.jpg?alt=media&token=dc8b3584-8c1c-4f3b-8c54-ff8bd06bb4ee",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-2c.jpg?alt=media&token=cd9a0a62-4167-4126-bc82-6208fe20aba6",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "FuuaQ9w5K24Rf8E1MGGd": {
       "brand": "ZARA",
@@ -2732,7 +2732,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-3b.jpg?alt=media&token=0b826ec2-6bb1-4e82-b13c-ca55d6f6d54b",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-3c.jpg?alt=media&token=027745d1-e36e-4445-a1d6-97c646b4b275",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "LeG23W3dWu40g4xyL2CL": {
       "brand": "ZARA",
@@ -2763,7 +2763,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-9b.jpg?alt=media&token=e9ed93bb-9604-4862-9548-39201ee33e80",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-9c.jpg?alt=media&token=956a7f48-b438-4bf4-8777-2f64f1a4cd7d",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "Nc3L1XCfTdakinN5WGkb": {
       "brand": "ZARA",
@@ -2794,7 +2794,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-1b.jpg?alt=media&token=ed4961df-335c-4aea-88b6-bf2ec4beb95f",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-1c.jpg?alt=media&token=8499405f-3251-4a0d-bf06-9162a82b281c",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "yDmVQ1ALwffTwot8l0Xe": {
       "brand": "ZARA",
@@ -2807,7 +2807,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-8b.jpg?alt=media&token=e8748e94-495b-4b4b-ad30-94864977bbe8",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Faccesorios9%2Fhombre-9-accesorio-8b.jpg?alt=media&token=e8748e94-495b-4b4b-ad30-94864977bbe8",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "PUQg3MVH4NLaosrnvJCE": {
       "brand": "ZARA",
@@ -2861,7 +2861,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-6b.jpg?alt=media&token=36f6bf97-6f3a-4acd-8b9c-b81c857bb0e1",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-6c.jpg?alt=media&token=42832668-c8bf-4a04-9ff7-873d615c04c5",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "TEypy0fpFJ591dJw8Ndx": {
       "brand": "ZARA",
@@ -2873,7 +2873,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-2b.jpg?alt=media&token=593c4e3e-7285-45d2-814c-b5f4cf4d9731",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-2c.jpg?alt=media&token=75144690-8a05-4df6-811a-56834d4cf259",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "Wip36Fkz60lzMDOvHnEa": {
       "brand": "ZARA",
@@ -2885,7 +2885,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-3b.jpg?alt=media&token=bd925aa3-ed79-4660-b1f0-1634c5da802a",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-3c.jpg?alt=media&token=c866e39b-e9b2-4f0d-b001-d675e4857234",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "XK7VWphd9FBUzKTkbqOn": {
       "brand": "ZARA",
@@ -2897,7 +2897,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-5b.jpg?alt=media&token=b3288fb9-0ae7-43ba-bd44-d6d25a6073f3",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-5c.jpg?alt=media&token=5a69e165-b72e-468a-bbdc-87573f5c1c4b",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "b4MCwHSRoMuVgZ7f0x0Y": {
       "brand": "ZARA",
@@ -2910,7 +2910,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-4b.jpg?alt=media&token=2918d4d7-c0ef-49b1-b4f5-d679d185d00f",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-4c.jpg?alt=media&token=8eb8e85e-9908-47ec-a356-fde1ee61173a",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "fxZyUalz0qBNpUD45mqv": {
       "brand": "ZARA",
@@ -2923,7 +2923,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-8b.jpg?alt=media&token=444a1b43-35db-4123-a528-b5581302dda4",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-8c.jpg?alt=media&token=0c0689f6-da0e-4317-b37e-341e2fe5bffb",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "l2KthHFEy7mbzSM8SbBc": {
       "brand": "ZARA",
@@ -2936,7 +2936,7 @@
       "photo2": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-1b.jpg?alt=media&token=d983585a-0e04-4d7c-a553-28578ea1f365",
       "photo3": "https://firebasestorage.googleapis.com/v0/b/ropa-a-tu-mano.appspot.com/o/male%2Fbolsos8%2Fhombre-8-bolso-1c.jpg?alt=media&token=d8c9670c-47e1-44cc-9ce6-3093debe912f",
       "price": "1,00",
-      "size": []
+      "size": ["talle unico"]
     },
     "XOA4d1gbvQhwH7IHteu8": {
       "brand": "ZARA",
