@@ -21,6 +21,23 @@ export const MainText = styled(Title)`
   align-self: center;
 `;
 
-export const ShoppingCart = styled.div`
-  width: 30px;
+export const ShoppingCartIcon = styled.div`
+  width: 53px;
+  height: 50px;
+  background-image: url("/assets/images/cart.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+`;
+
+export const ItemsCount = styled.div`
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  background-color: ${({ theme }) => theme.warningColor};
+  color: ${({ theme }) => theme.lightColor};
+  border-radius: 10px;
+  min-width: 25px;
+  text-align: center;
 `;

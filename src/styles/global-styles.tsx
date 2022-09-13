@@ -32,8 +32,9 @@ ${({ theme }: { theme?: Theme }) => css`
   }
 `}`;
 
-export const MainButton = styled.button`
-  background-color: ${({ theme }) => theme.primaryColor};
+export const MainButton = styled.button<{ disabled?: boolean }>`
+  background-color: ${({ theme, disabled }) =>
+    disabled ? theme.disabled : theme.primaryColor};
   color: white;
   padding: 5px 15px;
   border: 1px solid rgba(0, 0, 0, 0.23);
@@ -44,6 +45,7 @@ export const MainButton = styled.button`
   letter-spacing: 0.02857em;
   text-transform: uppercase;
   margin-left: auto;
+  cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
 `;
 
 export const GoNextButton = styled.button`
