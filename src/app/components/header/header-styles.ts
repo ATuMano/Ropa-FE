@@ -21,7 +21,7 @@ export const MainText = styled(Title)`
   align-self: center;
 `;
 
-export const ShoppingCart = styled.div`
+export const ShoppingCartIcon = styled.div`
   width: 53px;
   height: 50px;
   background-image: url("/assets/images/cart.jpg");

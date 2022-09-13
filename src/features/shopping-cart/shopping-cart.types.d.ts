@@ -13,5 +13,6 @@ export interface Product {
 }
 
 export interface ShoppingCart {
+  show: boolean;
   products: Product[];
 }

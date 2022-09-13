@@ -1,8 +1,9 @@
 import { Button } from "@material-ui/core";
+import { toggleShowCart } from "features/shopping-cart/shopping-cart-actions";
 import { selectShoppingCart } from "features/shopping-cart/shopping-cart-selector";
 import { getAuth, signOut, onAuthStateChanged } from "firebase/auth";
 import React, { useState } from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { MainButton } from "styles";
 import LoginIcon from "../icons/login-icon";
@@ -11,7 +12,7 @@ import {
   HeaderContainer,
   MainText,
   PageBox,
-  ShoppingCart,
+  ShoppingCartIcon,
   ItemsCount
 } from "./header-styles";
 
@@ -19,6 +20,11 @@ const Header = () => {
   const auth = getAuth();
   const [isAutheticated, setIsAutheticated] = useState(false);
   const { products } = useSelector(selectShoppingCart);
+  const dispatch = useDispatch();
+
+  const toggleCart = () => {
+    dispatch(toggleShowCart());
+  };
 
   onAuthStateChanged(auth, user => {
     setIsAutheticated(!!user);
@@ -42,9 +48,9 @@ const Header = () => {
           Iniciar sesion
         </MainButton>
       )}
-      <ShoppingCart>
+      <ShoppingCartIcon onClick={toggleCart}>
         <ItemsCount>{products.length}</ItemsCount>
-      </ShoppingCart>
+      </ShoppingCartIcon>
     </HeaderContainer>
   );
 };
