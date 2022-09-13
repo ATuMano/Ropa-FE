@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import { selectShoppingCart } from "features/shopping-cart/shopping-cart-selector";
 import React from "react";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { MainButton } from "styles";
 import {
   ShoppingCardContainer,
   CartTitle,
@@ -9,9 +11,19 @@ import {
   ProductTitle,
   ProductImage
 } from "./shopping-cart-styled";
+import { toggleShowCart } from "features/shopping-cart/shopping-cart-actions";
 
 const ShoppingCart = () => {
   const { products, show } = useSelector(selectShoppingCart);
+
+const navigate = useNavigate();
+
+const dispatch = useDispatch();
+
+const handleOnClick = () => {
+  dispatch(toggleShowCart());
+  navigate("/map");
+};
 
   return show ? (
     <ShoppingCardContainer>
@@ -25,6 +37,8 @@ const ShoppingCart = () => {
           </ProductContainer>
         ))}
       </CartTable>
+
+      <MainButton onClick={handleOnClick}>COMPRAR</MainButton>
     </ShoppingCardContainer>
   ) : (
     <></>
