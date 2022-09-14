@@ -15,7 +15,6 @@ import Payment from "./payment/payment";
 import ReviewOrder from "./review-order/review-order";
 import PurchaseConfirmation from "./purchase-confirmation/purchase-confirmation";
 
-
 // TO DO map route should be removed from application router
 
 export const ApplicationRouter = () => {
@@ -37,7 +36,10 @@ export const ApplicationRouter = () => {
         <Route path="/payment" element={addLayout(<Payment />)} />
         <Route path="/map" element={addLayoutWithSecurity(<StoreMap />)} />
         <Route path="/review" element={addLayout(<ReviewOrder />)} />
-        <Route path="/purchase-confirmation" element={addLayout(<PurchaseConfirmation />)} />
+        <Route
+          path="/purchase-confirmation"
+          element={addLayout(<PurchaseConfirmation />)}
+        />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/forgot" element={<ForgotPassword />} />

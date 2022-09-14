@@ -16,14 +16,14 @@ import { toggleShowCart } from "features/shopping-cart/shopping-cart-actions";
 const ShoppingCart = () => {
   const { products, show } = useSelector(selectShoppingCart);
 
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
-const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-const handleOnClick = () => {
-  dispatch(toggleShowCart());
-  navigate("/map");
-};
+  const handleOnClick = () => {
+    dispatch(toggleShowCart());
+    navigate("/map");
+  };
 
   return show ? (
     <ShoppingCardContainer>

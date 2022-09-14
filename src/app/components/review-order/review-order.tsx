@@ -1,8 +1,13 @@
 import React from "react";
-import { selectFiltersTrip } from 'features/filters/selectors/filter-selector';
-import { selectSelectPaymentData } from 'features/payment/payment-selector';
-import { useSelector } from 'react-redux';
-import { TitleContainer, TopSectionContainer, Text, GoBackButton } from "styles";
+import { selectFiltersTrip } from "features/filters/selectors/filter-selector";
+import { selectSelectPaymentData } from "features/payment/payment-selector";
+import { useSelector } from "react-redux";
+import {
+  TitleContainer,
+  TopSectionContainer,
+  Text,
+  GoBackButton
+} from "styles";
 import { ProductContainer } from "../product-detail/product-detail-styles";
 import {
   Cell,
@@ -18,7 +23,7 @@ import {
   TotalPrice
 } from "./review-order-styles";
 import database from "ropa_ddbb.json";
-import { selectSelectedStore } from 'features/selected-store/selectors/selected-store-selector';
+import { selectSelectedStore } from "features/selected-store/selectors/selected-store-selector";
 import { selectShoppingCart } from "features/shopping-cart/shopping-cart-selector";
 import { Product } from "features/shopping-cart/shopping-cart.types";
 import { ButtonsContainer } from "../store-map/store-map-styles";
@@ -70,7 +75,9 @@ const ReviewOrder = () => {
   const paymentData = useSelector(selectSelectPaymentData);
   const storeId = useSelector(selectSelectedStore);
   const productsShopping = useSelector(selectShoppingCart).products;
-  const storeData = database.Cities.filter(city => city.name === tripData.country)[0].Stores.filter(store => store.__id__ === storeId)[0];
+  const storeData = database.Cities.filter(
+    city => city.name === tripData.country
+  )[0].Stores.filter(store => store.__id__ === storeId)[0];
 
   const handleConfirmClick = () => {
     navigate("/purchase-confirmation");
