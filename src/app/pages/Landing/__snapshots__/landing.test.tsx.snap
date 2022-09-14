@@ -293,7 +293,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     12
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="8"
                     data-value="13"
                     data-year="2022"
@@ -309,7 +309,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     14
                   </td>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="8"
                     data-value="15"
                     data-year="2022"
@@ -725,7 +725,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     12
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="8"
                     data-value="13"
                     data-year="2022"
@@ -741,7 +741,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     14
                   </td>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="8"
                     data-value="15"
                     data-year="2022"

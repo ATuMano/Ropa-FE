@@ -32,16 +32,17 @@ import { useNavigate } from "react-router-dom";
 
 interface ProductProps {
   name: string;
+  size: string;
   detail: string;
   price: string;
 }
 
 const ProductItem = (props: ProductProps) => {
-  const { name, detail, price } = props;
+  const { name, size, detail, price } = props;
   return (
     <>
       <RowTable key={name}>
-        <CellTitle>{name}</CellTitle>
+        <CellTitle>{name} - Talle: {size}</CellTitle>
         <CellRight rowSpan={2}>{price}</CellRight>
       </RowTable>
       <RowTable key={detail}>

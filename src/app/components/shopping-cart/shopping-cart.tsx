@@ -32,6 +32,7 @@ const ShoppingCart = () => {
         {products.map(product => (
           <ProductContainer>
             <ProductTitle>{product.name}</ProductTitle>
+            <span>Talle: {product.size}</span> 
             <span>Precio: €{product.price}</span>
             <ProductImage src={product.photo1} />
           </ProductContainer>
