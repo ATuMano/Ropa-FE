@@ -144,7 +144,7 @@ const ProductDetail = () => {
             <tr>
               <td>Precio:</td>
               <td>
-                {productDetail.price} {productDetail.currency} al día
+                {productDetail.price} {productDetail.currency}
               </td>
             </tr>
           </ProductTable>
