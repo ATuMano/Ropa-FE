@@ -15,5 +15,5 @@ export const MapSection = styled(Box)`
 export const ButtonsContainer = styled(Box)`
   display: flex;
   margin: 40px;
-  align-self: self-end;
+  justify-content: end;
 `;
