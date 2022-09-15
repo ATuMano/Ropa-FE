@@ -100,10 +100,13 @@ const ProductDetail = () => {
   const handleOnClick = () => {
     if (!selectedSize) return;
 
+    const id = productDetail?.id || productId;
+
     const product = {
       ...productDetail,
       size: selectedSize,
-      quantity: 1
+      quantity: 1,
+      id
     };
 
     showNotification("Producto agregado");
