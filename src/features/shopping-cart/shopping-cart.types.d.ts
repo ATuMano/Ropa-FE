@@ -10,6 +10,7 @@ export interface Product {
   photo3: string;
   price: string;
   size: string;
+  quantity: number;
 }
 
 export interface ShoppingCart {
