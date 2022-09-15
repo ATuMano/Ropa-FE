@@ -102,7 +102,8 @@ const ProductDetail = () => {
 
     const product = {
       ...productDetail,
-      size: selectedSize
+      size: selectedSize,
+      quantity: 1
     };
 
     showNotification("Producto agregado");
