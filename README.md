@@ -75,8 +75,8 @@ También podemos escuchar los cambios de estado mientras se carga el archivo, lo
 > firebase deploy
 ```
 
-# Link de vista previa al sitio web (en construcción)
-https://rtmreservation.web.app/
+# Link de vista previa al sitio web
+https://ropa-a-tu-mano.web.app/
 
 # Autor
 Adrián Matías Dominguez
