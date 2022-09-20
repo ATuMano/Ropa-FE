@@ -7,6 +7,7 @@ import styled, {
 import { Theme } from "./types";
 import defaultTheme from "./default-theme";
 import { Box, Typography, Container } from "@material-ui/core";
+import { getCssForMobileView } from "./responsive";
 export const GlobalStyles: GlobalStyleComponent<
   { theme?: Theme },
   {}
@@ -41,7 +42,6 @@ export const MainButton = styled.button<{ disabled?: boolean }>`
   height: 44px;
   font-weight: 500;
   font-size: 0.875rem;
-  line-height: 1.75;
   letter-spacing: 0.02857em;
   text-transform: uppercase;
   margin-left: auto;
@@ -74,8 +74,13 @@ export const GoBackButton = styled.button`
   text-transform: uppercase;
 `;
 
+const titleMobile = css`
+  font-size: 1rem !important;
+`;
+
 export const Title = styled(Typography)`
   color: ${({ theme }) => theme.secondaryColor};
+  ${getCssForMobileView(titleMobile)}
 `;
 
 export const AuthorizationContainer = styled(Container)`
@@ -98,11 +103,17 @@ export const Text = styled.label`
   color: ${({ theme }) => theme.lightColor};
 `;
 
+const topSectionContainerMobile = css`
+  height: auto;
+  padding-bottom: 2rem;
+`;
+
 export const TopSectionContainer = styled.div`
   height: 100px;
   display: flex;
   justify-content: center;
   background-color: ${({ theme }) => theme.primaryColor};
+  ${getCssForMobileView(topSectionContainerMobile)}
 `;
 
 export const TitleContainer = styled.div`
