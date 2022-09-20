@@ -13,6 +13,12 @@ export const HeaderContainer = styled(Box)`
   gap: 20px;
 `;
 
+export const UserInfo = styled(Box)`
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+`;
+
 export const PageBox = styled(Box)`
   display: flex;
 `;
