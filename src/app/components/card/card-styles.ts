@@ -15,8 +15,11 @@ export const TextOverlay = styled.div<{ positionText: AllowedPosition }>`
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+  background-color: white;
+  opacity: 0.75;
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
 `;
 
 const cardItemMobile = css`

@@ -61,6 +61,13 @@ export const GoNextButton = styled.button`
   text-transform: uppercase;
 `;
 
+const goBackButtonMobile = css`
+  width: 150px;
+  margin: 0 auto;
+  align-self: unset;
+  align-content: center;
+`;
+
 export const GoBackButton = styled.button`
   background-color: ${({ theme }) => theme.lightColor};
   color: ${({ theme }) => theme.primaryColor};
@@ -72,6 +79,7 @@ export const GoBackButton = styled.button`
   line-height: 1.75;
   letter-spacing: 0.02857em;
   text-transform: uppercase;
+  ${getCssForMobileView(goBackButtonMobile)}
 `;
 
 const titleMobile = css`
@@ -99,7 +107,6 @@ export const Text = styled.label`
   font-weight: 600;
   font-size: 30px;
   line-height: 38px;
-  white-space: nowrap;
   color: ${({ theme }) => theme.lightColor};
 `;
 
@@ -116,12 +123,17 @@ export const TopSectionContainer = styled.div`
   ${getCssForMobileView(topSectionContainerMobile)}
 `;
 
+const titleContainerMobile = css`
+flex-direction: column;
+`;
+
 export const TitleContainer = styled.div`
   display: flex;
   width: 90%;
   align-items: center;
   padding: 32px;
   justify-content: space-between;
+  ${getCssForMobileView(titleContainerMobile)}
 `;
 
 export const MainSectionContainer = styled(Box)`

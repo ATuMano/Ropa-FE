@@ -1,5 +1,6 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { MainButton } from "styles";
+import { getCssForMobileView } from "styles/responsive";
 
 export const ProductContainer = styled.section`
   width: 80%;
@@ -17,8 +18,14 @@ export const ProductImage = styled.img`
   width: 30%;
 `;
 
+const productInfoContainerMobile = css`
+flex-direction: column;
+margin-bottom: 1rem;
+`;
+
 export const ProductInfoContainer = styled.div`
   display: flex;
+  ${getCssForMobileView(productInfoContainerMobile)}
 `;
 
 export const ProductTitle = styled.h4`
