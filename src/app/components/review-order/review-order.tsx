@@ -29,7 +29,12 @@ import { Product } from "features/shopping-cart/shopping-cart.types";
 import { ButtonsContainer } from "../store-map/store-map-styles";
 import CTAButton from "../shared/cta-button/cta-button";
 import { useNavigate } from "react-router-dom";
-import { collection, addDoc, getFirestore, serverTimestamp } from "firebase/firestore"; 
+import {
+  collection,
+  addDoc,
+  getFirestore,
+  serverTimestamp
+} from "firebase/firestore";
 
 interface ProductProps {
   name: string;
@@ -43,7 +48,9 @@ const ProductItem = (props: ProductProps) => {
   return (
     <>
       <RowTable key={name}>
-        <CellTitle>{name} - Talle: {size}</CellTitle>
+        <CellTitle>
+          {name} - Talle: {size}
+        </CellTitle>
         <CellRight rowSpan={2}>{price}</CellRight>
       </RowTable>
       <RowTable key={detail}>
@@ -86,7 +93,7 @@ const ReviewOrder = () => {
       trip: tripData,
       payment: paymentData,
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      products: productsShopping.map(({photo2, photo3, ...prod}) => prod),
+      products: productsShopping.map(({ photo2, photo3, ...prod }) => prod),
       store: { name: storeData.name, address: storeData.address },
       timeStamp: serverTimestamp()
     });

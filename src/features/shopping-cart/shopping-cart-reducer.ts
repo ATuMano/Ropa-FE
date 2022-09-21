@@ -84,7 +84,7 @@ const shoppingCartHandler: Mapping<Function> = {
       products: newProducts
     };
   },
-  [EMPTY_CART]: (state: ShoppingCart) =>({
+  [EMPTY_CART]: (state: ShoppingCart) => ({
     products: [],
     show: state.show
   })

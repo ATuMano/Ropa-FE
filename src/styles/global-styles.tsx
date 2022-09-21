@@ -124,7 +124,7 @@ export const TopSectionContainer = styled.div`
 `;
 
 const titleContainerMobile = css`
-flex-direction: column;
+  flex-direction: column;
 `;
 
 export const TitleContainer = styled.div`
