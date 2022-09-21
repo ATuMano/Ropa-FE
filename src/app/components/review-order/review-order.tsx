@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import { selectFiltersTrip } from "features/filters/selectors/filter-selector";
 import { selectSelectPaymentData } from "features/payment/payment-selector";
@@ -32,6 +33,7 @@ import { useNavigate } from "react-router-dom";
 import {
   collection,
   addDoc,
+  doc,
   getFirestore,
   serverTimestamp
 } from "firebase/firestore";
@@ -91,8 +93,7 @@ const ReviewOrder = () => {
   const handleConfirmClick = async () => {
     const docRef = await addDoc(collection(getFirestore(), "orders"), {
       trip: tripData,
-      payment: paymentData,
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      payment: (({ cardCVV, ...payment }) => payment)(paymentData),
       products: productsShopping.map(({ photo2, photo3, ...prod }) => prod),
       store: { name: storeData.name, address: storeData.address },
       timeStamp: serverTimestamp()
