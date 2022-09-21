@@ -19,8 +19,8 @@ export const ProductImage = styled.img`
 `;
 
 const productInfoContainerMobile = css`
-flex-direction: column;
-margin-bottom: 1rem;
+  flex-direction: column;
+  margin-bottom: 1rem;
 `;
 
 export const ProductInfoContainer = styled.div`
