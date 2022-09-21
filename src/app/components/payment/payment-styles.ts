@@ -1,6 +1,6 @@
 import { Box } from "@material-ui/core";
 import styled, { css } from "styled-components";
-import { getCssForLargeView } from "styles/responsive";
+import { getCssForMobileView, getCssForLargeView } from "styles/responsive";
 
 export const PaymentTitle = styled.h4`
   color: #0bb3be;
@@ -29,9 +29,19 @@ export const Field = styled.div`
   ${getCssForLargeView(FieldLarge)};
 `;
 
+const buttonsContainerMobile = css`
+  flex-direction: column;
+  gap: 1em;
+  float: none;
+  width: 100%;
+  align-self: unset;
+  align-content: center;
+`;
+
 export const ButtonsContainer = styled(Box)`
   display: flex;
   margin: 70px;
   align-self: self-end;
   float: right;
+  ${getCssForMobileView(buttonsContainerMobile)}
 `;

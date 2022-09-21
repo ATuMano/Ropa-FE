@@ -12,3 +12,21 @@ export const CardContainer = styled(Box)`
   padding: 1em;
   ${getCssForMobileView(cardContainerMobile)}
 `;
+
+const titleContainerMobile = css`
+  flex-direction: column;
+  gap: 10px;
+`;
+
+export const TitleContainer = styled.div`
+  display: flex;
+  width: 90%;
+  align-items: center;
+  gap: 5%;
+  padding: 32px;
+  ${getCssForMobileView(titleContainerMobile)}
+`;
+
+export const SelectContainer = styled.div`
+  display: flex;
+`;
