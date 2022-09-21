@@ -33,12 +33,12 @@ export const ApplicationRouter = () => {
           path="/product/:productId"
           element={addLayout(<ProductDetail />)}
         />
-        <Route path="/payment" element={addLayout(<Payment />)} />
+        <Route path="/payment" element={addLayoutWithSecurity(<Payment />)} />
         <Route path="/map" element={addLayoutWithSecurity(<StoreMap />)} />
-        <Route path="/review" element={addLayout(<ReviewOrder />)} />
+        <Route path="/review" element={addLayoutWithSecurity(<ReviewOrder />)} />
         <Route
-          path="/purchase-confirmation"
-          element={addLayout(<PurchaseConfirmation />)}
+          path="/purchase-confirmation/:orderId"
+          element={addLayoutWithSecurity(<PurchaseConfirmation />)}
         />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />

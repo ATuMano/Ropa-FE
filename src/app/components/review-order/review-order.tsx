@@ -29,6 +29,7 @@ import { Product } from "features/shopping-cart/shopping-cart.types";
 import { ButtonsContainer } from "../store-map/store-map-styles";
 import CTAButton from "../shared/cta-button/cta-button";
 import { useNavigate } from "react-router-dom";
+import { collection, addDoc, getFirestore, serverTimestamp } from "firebase/firestore"; 
 
 interface ProductProps {
   name: string;
@@ -80,8 +81,16 @@ const ReviewOrder = () => {
     city => city.name === tripData.country
   )[0].Stores.filter(store => store.__id__ === storeId)[0];
 
-  const handleConfirmClick = () => {
-    navigate("/purchase-confirmation");
+  const handleConfirmClick = async () => {
+    const docRef = await addDoc(collection(getFirestore(), "orders"), {
+      trip: tripData,
+      payment: paymentData,
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      products: productsShopping.map(({photo2, photo3, ...prod}) => prod),
+      store: { name: storeData.name, address: storeData.address },
+      timeStamp: serverTimestamp()
+    });
+    navigate(`/purchase-confirmation/${docRef.id}`);
   };
 
   const handleGoBackClick = () => {

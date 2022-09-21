@@ -6,7 +6,8 @@ import {
   ADD_PRODUCT,
   TOGGLE_SHOW_CART,
   INCREASE_PRODUCT,
-  DECREASE_PRODUCT
+  DECREASE_PRODUCT,
+  EMPTY_CART
 } from "./shopping-cart-actions";
 
 const shoppingCartHandler: Mapping<Function> = {
@@ -82,7 +83,11 @@ const shoppingCartHandler: Mapping<Function> = {
       ...state,
       products: newProducts
     };
-  }
+  },
+  [EMPTY_CART]: (state: ShoppingCart) =>({
+    products: [],
+    show: state.show
+  })
 };
 
 export const shoppingCartReducer = (
