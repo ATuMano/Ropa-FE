@@ -40,7 +40,6 @@ const buttonsContainerMobile = css`
 
 export const ButtonsContainer = styled(Box)`
   display: flex;
-  margin: 70px;
   align-self: self-end;
   float: right;
   ${getCssForMobileView(buttonsContainerMobile)}
