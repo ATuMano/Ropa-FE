@@ -1,9 +1,16 @@
+import styled, { css } from "styled-components";
 import { Box } from "@material-ui/core";
-import styled from "styled-components";
+import { getCssForMobileView } from "styles/responsive";
 
+const mapStoresContainerMobile = css`
+  flex-direction: column;
+  margin-bottom: 1rem;
+`;
 export const MapStoresContainer = styled(Box)`
   height: 85vh;
   display: flex;
+  flex-direction: row;
+  ${getCssForMobileView(mapStoresContainerMobile)}
 `;
 
 export const MapSection = styled(Box)`
