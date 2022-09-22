@@ -3,7 +3,7 @@
 exports[`Landing tests should match snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-iBkjds xVcYd"
+    class="sc-iBkjds kaGAiB"
   >
     <div
       class="sc-iqcoie fuqkXC"
@@ -359,7 +359,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     20
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="8"
                     data-value="21"
                     data-year="2022"
@@ -375,7 +375,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     22
                   </td>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="8"
                     data-value="23"
                     data-year="2022"
@@ -791,7 +791,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     20
                   </td>
                   <td
-                    class="rdtDay rdtToday"
+                    class="rdtDay"
                     data-month="8"
                     data-value="21"
                     data-year="2022"
@@ -807,7 +807,7 @@ exports[`Landing tests should match snapshot 1`] = `
                     22
                   </td>
                   <td
-                    class="rdtDay"
+                    class="rdtDay rdtToday"
                     data-month="8"
                     data-value="23"
                     data-year="2022"
@@ -960,31 +960,31 @@ exports[`Landing tests should match snapshot 1`] = `
     </div>
   </div>
   <div
-    class="MuiBox-root MuiBox-root-1 sc-evZas cjeIvX"
+    class="MuiBox-root MuiBox-root-1 sc-evZas bykOfr"
     data-testid="landing-imagen-container"
   >
     <div
-      class="MuiBox-root MuiBox-root-2 sc-breuTD ggxdia"
+      class="MuiBox-root MuiBox-root-2 sc-breuTD freoHz"
       data-testid="landing-text-container"
     >
-      <h4
-        class="MuiTypography-root sc-ksZaOG JypUJ MuiTypography-h4"
+      <div
+        class="sc-ksZaOG kHszBf"
         data-testid="landing-title"
       >
-        Disfruta tus vacas
-      </h4>
-      <p
-        class="MuiTypography-root sc-ksZaOG JypUJ MuiTypography-body2 MuiTypography-paragraph"
+        Disfruta tus vacas, nosotros nos ocupamos de la ropa!
+      </div>
+      <div
+        class="sc-hAZoDl eTexml"
         data-testid="landing-paragraph-1"
       >
-        Sabemos el estres de armar la valija. Es por eso que te solucionamos para que puedas enfocarte en disfrutar!
-      </p>
-      <p
-        class="MuiTypography-root sc-ksZaOG JypUJ MuiTypography-body2 MuiTypography-paragraph"
+        Sabemos el estres de armar la valija.
+      </div>
+      <div
+        class="sc-hAZoDl eTexml"
         data-testid="landing-paragraph-2"
       >
-        Preparate el pasaporte y el itinerario del viaje. Nosotros nos ocupamos de la ropa!
-      </p>
+        Por eso te lo solucionamos para que puedas enfocarte en disfrutar!
+      </div>
     </div>
   </div>
 </DocumentFragment>
