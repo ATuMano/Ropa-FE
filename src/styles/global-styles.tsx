@@ -112,7 +112,6 @@ export const Text = styled.label`
 
 const topSectionContainerMobile = css`
   height: auto;
-  padding-bottom: 2rem;
 `;
 
 export const TopSectionContainer = styled.div`

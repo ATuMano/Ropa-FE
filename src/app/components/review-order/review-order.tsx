@@ -21,13 +21,13 @@ import {
   TitleTable,
   TablesContainer,
   TableContainer,
-  TotalPrice
+  TotalPrice,
+  ButtonsContainer
 } from "./review-order-styles";
 import database from "ropa_ddbb.json";
 import { selectSelectedStore } from "features/selected-store/selectors/selected-store-selector";
 import { selectShoppingCart } from "features/shopping-cart/shopping-cart-selector";
 import { Product } from "features/shopping-cart/shopping-cart.types";
-import { ButtonsContainer } from "../store-map/store-map-styles";
 import CTAButton from "../shared/cta-button/cta-button";
 import { useNavigate } from "react-router-dom";
 import {
@@ -132,11 +132,11 @@ const ReviewOrder = () => {
                   <Cell>{storeData.address}</Cell>
                 </tr>
                 <tr>
-                  <Cell>Fecha inicio viaje: </Cell>
+                  <Cell>Fecha retiro: </Cell>
                   <Cell>{tripData.start_trip}</Cell>
                 </tr>
                 <tr>
-                  <Cell>Fecha fin viaje: </Cell>
+                  <Cell>Fecha devolución: </Cell>
                   <Cell>{tripData.end_trip}</Cell>
                 </tr>
               </tbody>
