@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { Box } from "@material-ui/core";
 import { getCssForMobileView } from "styles/responsive";
 
 const tableContainerMobile = css`
@@ -69,4 +70,11 @@ export const TotalPrice = styled.div`
   padding: 0.75rem;
   margin: 1.5rem 0;
   text-align: right;
+`;
+
+export const ButtonsContainer = styled(Box)`
+  display: flex;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  justify-content: end;
 `;
