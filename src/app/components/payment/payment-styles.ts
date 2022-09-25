@@ -30,12 +30,8 @@ export const Field = styled.div`
 `;
 
 const buttonsContainerMobile = css`
-  flex-direction: column;
-  gap: 1em;
-  float: none;
-  width: 100%;
-  align-self: unset;
-  align-content: center;
+  display: flex;
+  padding-left: 10px;
 `;
 
 export const ButtonsContainer = styled(Box)`

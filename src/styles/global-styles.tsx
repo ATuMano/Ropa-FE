@@ -66,6 +66,7 @@ const goBackButtonMobile = css`
   margin: 0 auto;
   align-self: unset;
   align-content: center;
+  line-height: 18px;
 `;
 
 export const GoBackButton = styled.button`
