@@ -10,6 +10,7 @@ export const CardContainer = styled(Box)`
   display: flex;
   flex-wrap: wrap;
   padding: 1em;
+  justify-content: space-evenly;
   ${getCssForMobileView(cardContainerMobile)}
 `;
 
