@@ -72,9 +72,16 @@ export const TotalPrice = styled.div`
   text-align: right;
 `;
 
+const buttonsContainerMobile = css`
+  display: flex;
+  margin: 1em 10px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+`;
 export const ButtonsContainer = styled(Box)`
   display: flex;
   padding-right: 100px;
   padding-bottom: 30px;
   justify-content: end;
+  ${getCssForMobileView(buttonsContainerMobile)}
 `;
